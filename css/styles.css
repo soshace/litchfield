@@ -2,32 +2,32 @@
 
 @font-face {
     font-family: Filmotype-FilmotypeKeynote;
-    src: url('/fonts/Filmotype-FilmotypeKeynote.otf');
+    src: url('/fonts/Filmotype-FilmotypeKeynote.woff');
 }
 
 @font-face {
     font-family: ITCAvantGardePro-Bk;
-    src: url('/fonts/ITCAvantGardePro-Bk.otf');
+    src: url('/fonts/ITCAvantGardePro-Bk.woff');
 }
 
 @font-face {
     font-family: ITCAvantGardePro-BkObl;
-    src: url('/fonts/ITCAvantGardePro-BkObl.otf');
+    src: url('/fonts/ITCAvantGardePro-BkObl.woff');
 }
 
 @font-face {
     font-family: ITCAvantGardePro-Md;
-    src: url('/fonts/ITCAvantGardePro-Md.otf');
+    src: url('/fonts/ITCAvantGardePro-Md.woff');
 }
 
 @font-face {
     font-family: ITCAvantGardePro-MdObl;
-    src: url('/fonts/ITCAvantGardePro-MdObl.otf');
+    src: url('/fonts/ITCAvantGardePro-MdObl.woff');
 }
 
 @font-face {
     font-family: ITCAvantGardeStd-BkCn;
-    src: url('/fonts/ITCAvantGardeStd-BkCn.otf');
+    src: url('/fonts/ITCAvantGardeStd-BkCn.woff');
 }
 
 body {
@@ -76,7 +76,6 @@ h1, h2, h3, h4, h5 {
     text-decoration: none;
     display: inline-block;
     margin: 18px 0 0 33px;
-    line-height: 1.1;
 }
 
 .header__logo a span {
@@ -312,7 +311,7 @@ p.footer__company__copyright {
     font-size: 40px;
     color: #58585B;
     bottom: 0;
-    padding: 10px 0 0 15px;
+    padding: 10px 0 5px 15px;
     box-sizing: border-box;
 }
 
@@ -479,7 +478,7 @@ p.footer__company__copyright {
 }
 
 .news__next {
-    padding-top: 13px;
+    padding-top: 11px;
 }
 
 .news__next__time {
@@ -523,7 +522,7 @@ p.footer__company__copyright {
     background: #fff;
     color: #009344;
     font-size: 35px;
-    line-height: 0.85;
+    line-height: 0.75;
 }
 
 .news__next__more a {
@@ -536,7 +535,7 @@ p.footer__company__copyright {
 
 .news__upcoming {
     font-family: ITCAvantGardePro-Md;
-    padding-top: 22px;
+    padding-top: 20px;
 }
 
 .news__upcoming menu {
@@ -568,7 +567,7 @@ p.footer__company__copyright {
 
 .news__ongoing {
     font-family: ITCAvantGardePro-Md;
-    padding-top: 22px;
+    padding-top: 20px;
 }
 
 .news__ongoing figure {
