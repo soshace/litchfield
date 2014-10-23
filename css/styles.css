@@ -6,34 +6,34 @@
 }
 
 @font-face {
-    font-family: ITC-ITCAvantGardePro-Bk;
-    src: url('/fonts/ITC-ITCAvantGardePro-Bk.otf');
+    font-family: ITCAvantGardePro-Bk;
+    src: url('/fonts/ITCAvantGardePro-Bk.otf');
 }
 
 @font-face {
-    font-family: ITC-ITCAvantGardePro-BkObl;
-    src: url('/fonts/ITC-ITCAvantGardePro-BkObl.otf');
+    font-family: ITCAvantGardePro-BkObl;
+    src: url('/fonts/ITCAvantGardePro-BkObl.otf');
 }
 
 @font-face {
-    font-family: ITC-ITCAvantGardePro-Md;
-    src: url('/fonts/ITC-ITCAvantGardePro-Md.otf');
+    font-family: ITCAvantGardePro-Md;
+    src: url('/fonts/ITCAvantGardePro-Md.otf');
 }
 
 @font-face {
-    font-family: ITC-ITCAvantGardePro-MdObl;
-    src: url('/fonts/ITC-ITCAvantGardePro-MdObl.otf');
+    font-family: ITCAvantGardePro-MdObl;
+    src: url('/fonts/ITCAvantGardePro-MdObl.otf');
 }
 
 @font-face {
-    font-family: ITC-ITCAvantGardeStd-BkCn;
-    src: url('/fonts/ITC-ITCAvantGardeStd-BkCn.otf');
+    font-family: ITCAvantGardeStd-BkCn;
+    src: url('/fonts/ITCAvantGardeStd-BkCn.otf');
 }
 
 body {
     color: #58585B;
     font-size: 17px;
-    font-family: ITC-ITCAvantGardePro-Bk;
+    font-family: ITCAvantGardePro-Bk;
 }
 
 h1, h2, h3, h4, h5 {
@@ -76,6 +76,7 @@ h1, h2, h3, h4, h5 {
     text-decoration: none;
     display: inline-block;
     margin: 18px 0 0 33px;
+    line-height: 1.1;
 }
 
 .header__logo a span {
@@ -84,7 +85,7 @@ h1, h2, h3, h4, h5 {
 
 .header__social {
     float: left;
-    padding: 8px 0 0 227px;
+    padding: 8px 0 0 194px;
 }
 
 .social-icon {
@@ -110,7 +111,7 @@ nav {
 }
 
 nav menu {
-    font-family: ITC-ITCAvantGardePro-Md;
+    font-family: ITCAvantGardePro-Md;
     float: right;
     list-style: none;
 }
@@ -129,7 +130,7 @@ nav menu a {
 }
 
 nav menu a span {
-    font-family: ITC-ITCAvantGardePro-Bk;
+    font-family: ITCAvantGardePro-Bk;
     font-size: 14px;
 }
 
@@ -160,11 +161,11 @@ nav menu a span {
     width: 100%;
     bottom: 22px;
     left: 45px;
-    font-family: ITC-ITCAvantGardePro-Md;
+    font-family: ITCAvantGardePro-Md;
 }
 
 .directors__info {
-    font-family: ITC-ITCAvantGardePro-Md;
+    font-family: ITCAvantGardePro-Md;
     float: left;
     color: #fff;
     text-align: center;
@@ -207,11 +208,11 @@ nav menu a span {
 
 .directors__news article section h2 span {
     font-size: 16px;
-    font-family: ITC-ITCAvantGardePro-BkObl;
+    font-family: ITCAvantGardePro-BkObl;
 }
 
 .directors__meeting-schedule {
-    font-family: ITC-ITCAvantGardePro-Md;
+    font-family: ITCAvantGardePro-Md;
     color: #84BB3B;
     font-size: 21px;
     padding: 60px 0 0 45px;
@@ -296,7 +297,7 @@ p.footer__company__copyright {
 }
 
 .news__top h1 {
-    font-family: ITC-ITCAvantGardePro-Md;
+    font-family: ITCAvantGardePro-Md;
     background: rgba(255, 255, 255, 0.6);
     width: 100%;
     position: absolute;
@@ -308,7 +309,7 @@ p.footer__company__copyright {
 }
 
 .news__common {
-    font-family: ITC-ITCAvantGardePro-Md;
+    font-family: ITCAvantGardePro-Md;
     margin-top: 5px;
 }
 
@@ -372,7 +373,7 @@ p.footer__company__copyright {
 }
 
 .news__join__registration {
-    font-family: ITC-ITCAvantGardePro-Md;
+    font-family: ITCAvantGardePro-Md;
     float: right;
 }
 
@@ -452,7 +453,7 @@ p.footer__company__copyright {
 }
 
 .news__blog figcaption h5 {
-    font-family: ITC-ITCAvantGardePro-Md;
+    font-family: ITCAvantGardePro-Md;
     font-size: 16px;
     margin-bottom: 7px;
 }
@@ -480,12 +481,12 @@ p.footer__company__copyright {
 }
 
 .news__next__time time {
-    font-family: ITC-ITCAvantGardePro-MdObl;
+    font-family: ITCAvantGardePro-MdObl;
     font-size: 16px;
 }
 
 .news__next__time p {
-    font-family: ITC-ITCAvantGardePro-Md;
+    font-family: ITCAvantGardePro-Md;
     font-size: 20px;
     padding-top: 10px;
     line-height: 1.2;
@@ -500,7 +501,7 @@ p.footer__company__copyright {
 }
 
 .news__next__more {
-    font-family: ITC-ITCAvantGardePro-Md;
+    font-family: ITCAvantGardePro-Md;
     padding: 10px 0 10px 16px;
     border-top: #009344 1px solid;
     background: #8CC63E;
@@ -526,7 +527,7 @@ p.footer__company__copyright {
 }
 
 .news__upcoming {
-    font-family: ITC-ITCAvantGardePro-Md;
+    font-family: ITCAvantGardePro-Md;
     padding-top: 22px;
 }
 
@@ -558,7 +559,7 @@ p.footer__company__copyright {
 }
 
 .news__ongoing {
-    font-family: ITC-ITCAvantGardePro-Md;
+    font-family: ITCAvantGardePro-Md;
     padding-top: 22px;
 }
 
@@ -581,7 +582,7 @@ p.footer__company__copyright {
 }
 
 .news__local-resources {
-    font-family: ITC-ITCAvantGardePro-Md;
+    font-family: ITCAvantGardePro-Md;
     padding-top: 6px;
 }
 
@@ -605,7 +606,7 @@ p.footer__company__copyright {
 }
 
 .donate-role menu {
-    font-family: ITC-ITCAvantGardePro-Md;
+    font-family: ITCAvantGardePro-Md;
     float: right;
     list-style: none;
 }
@@ -630,14 +631,129 @@ p.footer__company__copyright {
     background: #84BB3B;
 }
 
-.donate-role__top {
-    height: 5px;
-    background: #84BB3B;
-}
-
 .donate-role__donate {
     position: relative;
     background: #84BB3B;
+    padding: 11px 0 17px 15px;
+}
+
+.donate-role__donate__matter {
+    float: left;
+    background: #D3E1AB;
+    width: 515px;
+    padding: 15px 0 15px 20px;
+    color: #1C1C1B;
+}
+
+.donate-role__donate__matter h2 {
+    font-family: ITCAvantGardePro-BkObl;
+    font-size: 35px;
+}
+
+.donate-role__donate__matter figcaption {
+    font-size: 22px;
+}
+
+.donate-role__donate__matter__part {
+    padding: 8px 0 0 11px;
+}
+
+.donate-role__donate__matter__part span {
+    width: 110px;
+    height: 110px;
+    background: url(/images/percents.svg);
+    background-repeat: no-repeat;
+    float: left;
+}
+
+.donate-role__donate__matter__part figcaption {
+    float: left;
+    padding: 26px 0 0 25px;
+}
+
+.donate-role__donate__matter__people {
+    padding: 25px 0 0 10px;
+}
+
+.donate-role__donate__matter__people figcaption {
+    float: left;
+    padding: 6px 0 0 27px;
+
+}
+
+.donate-role__donate__matter__people span {
+    width: 93px;
+    height: 63px;
+    background: url(/images/people.svg);
+    background-repeat: no-repeat;
+    float: left;
+}
+
+.donate-role__donate__matter__people figcaption {
+    padding: 6px 0 0 27px;
+    float: left;
+}
+
+.donate-role__donate__matter__increase {
+    padding-top: 18px;
+}
+
+.donate-role__donate__matter__increase span {
+    width: 123px;
+    height: 73px;
+    background: url(/images/increase.svg);
+    background-repeat: no-repeat;
+    float: left;
+}
+
+.donate-role__donate__matter__increase figcaption {
+    float: left;
+    padding: 18px 0 0 28px;
+}
+
+.donate-role__donate__now {
+    float: right;
+    width: 305px;
+    padding: 0 30px 0 0;
+}
+
+.donate-role__donate__now h4 {
+    color: #087232;
+    font-size: 21px;
+    font-family: ITCAvantGardePro-BkObl;
+}
+
+.donate-role__donate__now p {
+    padding-top: 10px;
+    font-size: 13px;
+    color: #1C1C1B;
+}
+
+.donate-role__donate__now__thank {
+    padding-top: 28px;
+}
+
+.donate-role__donate__now__estate {
+    padding-top: 38px;
+}
+
+.donate-role__donate__now__btn {
+    margin-top: 53px;
+    display: block;
+    width: 300px;
+    height: 50px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    background: #F39200;
+    font-size: 40px;
+    line-height: 1.5;
+}
+
+p.donate-role__donate__now__time {
+    padding: 10px 0 0 3px;
+    color: #fff;
+    font-size: 16px;
 }
 
 .donate-role__role {
