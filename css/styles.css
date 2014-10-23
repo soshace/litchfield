@@ -289,14 +289,22 @@ p.footer__company__copyright {
 
 .news__top {
     position: relative;
+    width: 670px;
+    height: 378px;
+    overflow: hidden;
 }
 
-.news__top img {
+.news__top li {
+    top: 0;
+    position: absolute;
+}
+
+.news__top li img {
     width: 670px;
     height: 378px;
 }
 
-.news__top h1 {
+.news__top li h1 {
     font-family: ITCAvantGardePro-Md;
     background: rgba(255, 255, 255, 0.6);
     width: 100%;
