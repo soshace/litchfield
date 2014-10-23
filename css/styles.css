@@ -619,6 +619,7 @@ p.footer__company__copyright {
     text-align: center;
     line-height: 1.6;
     display: inline-block;
+    cursor: pointer;
 }
 
 .donate-role__menu__role {
@@ -759,4 +760,73 @@ p.donate-role__donate__now__time {
 .donate-role__role {
     position: relative;
     background: #439C3F;
+    padding: 33px 0 35px 26px;
+}
+
+.donate-role__role__logo {
+
+}
+
+.donate-role__role__logo span {
+    width: 116px;
+    height: 119px;
+    background: url(/images/logo.svg);
+    background-repeat: no-repeat;
+    float: left;
+}
+
+.donate-role__role__logo figcaption {
+    float: left;
+    width: 730px;
+    color: #fff;
+    padding: 23px 0 0 27px;
+    font-size: 22px;
+}
+
+.donate-role__role__articles {
+    padding-top: 23px;
+}
+
+.donate-role__role__articles article {
+    float: left;
+    border: #F6BE00 1px solid;
+    color: #fff;
+    width: 208px;
+    margin-left: 12px;
+}
+
+.donate-role__role__articles article:first-child {
+    margin-left: 0;
+}
+
+.donate-role__role__articles article figure {
+    height: 77px;
+}
+
+.donate-role__role__articles article figure img {
+    width: 101px;
+    height: 77px;
+    float: left;
+}
+
+.donate-role__role__articles article figure figcaption {
+    padding: 22px 0 0 11px;
+    float: left;
+    font-size: 19px;
+}
+
+.donate-role__role__articles article p {
+    font-family: ITCAvantGardePro-Md;
+    padding: 9px 0 0 7px;
+    background: #8EB81D;
+    font-size: 13px;
+    height: 56px;
+    line-height: 1.2;
+}
+
+.donate-role__role__irs {
+    font-family: ITCAvantGardePro-Md;
+    color: #fff;
+    font-size: 15px;
+    padding-top: 26px;
 }
