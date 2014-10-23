@@ -32,7 +32,7 @@ $(function () {
             slidersNumber = $sliderItem.length,
             currentSliderNumber = 0;
 
-
+        $sliderItem.css({'z-index': 1});
         setInterval(function () {
             var $nextSliderItem,
                 $currentSliderItem,
@@ -48,11 +48,11 @@ $(function () {
 
             $nextSliderItem.animate({
                 left: 0
-            });
+            }, speedTime);
 
             $currentSliderItem.animate({
                 left: -sliderWidth
-            }, function () {
+            }, speedTime, function () {
                 $currentSliderItem.css({'z-index': 0});
             });
 
@@ -68,5 +68,5 @@ $(function () {
         switchTopBlock('role');
     });
 
-    slider($('.js-slider'), 2000, 500);
+    slider($('.js-slider'), 3000, 500);
 });
