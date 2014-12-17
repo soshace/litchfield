@@ -62,7 +62,7 @@ h1, h2, h3, h4, h5 {
     position: relative;
 }
 
-.header__bg{
+.header__bg {
     width: 930px;
     height: 106px;
     background: url(/images/header.svg);
@@ -370,40 +370,40 @@ p.footer__company__copyright {
     line-height: 1.5;
 }
 
-.news__join {
+.news__join.join-block {
     padding: 15px 0 15px 10px;
 }
 
-.news__join__follow {
+.join-block__follow {
     font-size: 35px;
     color: #006738;
     float: left;
     width: 270px;
 }
 
-.news__join__follow span {
+.join-block__follow span {
     font-family: Filmotype-FilmotypeKeynote;
     float: left;
     margin-right: 15px;
 }
 
-.news__join__follow__icons {
+.join-block__follow__icons {
     float: left;
 }
 
-.news__join__registration {
+.join-block__registration {
     font-family: ITCAvantGardePro-Md;
     float: right;
 }
 
-.news__join__registration label {
+.join-block__registration label {
     float: left;
     font-size: 20px;
     color: #009344;
     line-height: 1.5;
 }
 
-.news__join__registration input {
+.join-block__registration input {
     float: left;
     border: #009344 1px solid;
     height: 26px;
@@ -411,7 +411,7 @@ p.footer__company__copyright {
     margin-left: 10px;
 }
 
-.news__join__registration button {
+.join-block__registration button {
     float: left;
     background: #009344;
     color: #fff;
@@ -582,18 +582,21 @@ p.footer__company__copyright {
     padding-top: 20px;
 }
 
-.news__ongoing figure {
-    background: #84BB3B;
+.news__ongoing .event-block {
     margin-bottom: 6px;
 }
 
-.news__ongoing figure img {
+.event-block {
+    background: #84BB3B;
+}
+
+.event-block img {
     width: 119px;
     height: 93px;
     float: left;
 }
 
-.news__ongoing figure figcaption {
+.event-block figcaption {
     color: #fff;
     font-size: 20px;
     float: left;
@@ -848,4 +851,68 @@ p.donate-role__donate__now__time {
     color: #fff;
     font-size: 15px;
     padding-top: 26px;
+}
+
+.single-event .join-block {
+    padding-bottom: 25px;
+}
+
+.event-banner-block {
+    border: 1px solid #E5B546;
+}
+
+.event-banner-block figure {
+    background: #e8b746;
+}
+
+.event-banner-block figcaption {
+    box-sizing: border-box;
+    padding: 32px 26px 15px 34px;
+    width: 569px;
+    float: left;
+}
+
+.event-banner-block figcaption time {
+    color: #fff;
+    font-family: ITCAvantGardePro-MdObl;
+    font-size: 27px;
+    padding-bottom: 23px;
+}
+
+.event-banner-block figcaption h2 {
+    color: #fff;
+    font-family: ITCAvantGardePro-Md;
+    font-size: 33px;
+    padding-bottom: 58px;
+}
+
+.event-banner-block figcaption em {
+    color: #589155;
+    font-family: ITCAvantGardePro-Bk;
+    font-size: 25px;
+    display: block;
+    padding-bottom: 22px;
+}
+
+.event-banner-block__register button {
+    font-family: ITCAvantGardePro-Md;
+    font-size: 25px;
+    height: 45px;
+    color: #fff;
+    background: #4A714C;
+    border: none;
+    padding: 0 15px;
+    cursor: pointer;
+}
+
+.event-banner-block img {
+    float: left;
+}
+
+.event-banner-block__description {
+    padding: 20px 30px;
+}
+
+.event-banner-block__description p {
+    padding-bottom: 20px;
 }
