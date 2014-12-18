@@ -853,6 +853,10 @@ p.donate-role__donate__now__time {
     padding-top: 26px;
 }
 
+.single-event {
+    padding-top: 8px;
+}
+
 .single-event .join-block {
     padding-bottom: 25px;
 }
@@ -915,4 +919,98 @@ p.donate-role__donate__now__time {
 
 .event-banner-block__description p {
     padding-bottom: 20px;
+}
+
+.interesting-events {
+    padding: 34px 0 17px 0;
+}
+
+.interesting-events h2 {
+    color: #3B5F41;
+    font-size: 35px;
+    font-family: Filmotype-FilmotypeKeynote;
+}
+
+.interesting-events ul {
+    list-style: none;
+    padding: 0 0 30px 80px;
+}
+
+.interesting-events li {
+    background: #E5B546;
+    color: #fff;
+    margin-right: 14px;
+    float: left;
+    width: 248px;
+    height: 145px;
+    box-sizing: content-box;
+    padding: 14px 0 13px 17px;
+}
+
+.interesting-events a {
+    color: #589155;
+}
+
+.interesting-events li:last-child {
+    margin-right: 0;
+}
+
+.ongoing-program-block {
+    padding-bottom: 32px;
+}
+
+.ongoing-program-block .event-block {
+    float: left;
+    margin-right: 17px;
+}
+
+.ongoing-program-block .event-block:last-child {
+    margin-right: 0;
+}
+
+.ongoing-program-block h3 {
+    font-family: Filmotype-FilmotypeKeynote;
+    color: #006738;
+    font-size: 35px;
+    padding-left: 19px;
+    line-height: 0.7;
+}
+
+.events-list-item {
+    border: 1px solid #E5B546;
+}
+
+.events-list-item figcaption {
+    width: 250px;
+    box-sizing: border-box;
+    background: #E5B546;
+    float: left;
+    color: #fff;
+    padding: 15px 0 12px 8px;
+}
+
+.events-list-item figcaption time {
+    font-family: ITCAvantGardePro-MdObl;
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+
+.events-list-item figcaption h3 {
+    font-family: ITCAvantGardePro-Md;
+    font-size: 20px;
+    padding-bottom: 32px;
+}
+
+.events-list-item figcaption a {
+    color: #589155;
+    font-family: ITCAvantGardePro-Bk;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.events-list-item__content {
+    width: 670px;
+    box-sizing: border-box;
+    float: left;
+    padding: 8px 0 0 10px;
 }
