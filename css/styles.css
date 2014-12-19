@@ -409,8 +409,9 @@ p.footer__company__copyright {
     float: left;
     border: #009344 1px solid;
     height: 26px;
-    width: 203px;
+    width: 189px;
     margin-left: 10px;
+    padding: 1px 7px;
 }
 
 .join-block__registration button {
@@ -979,13 +980,18 @@ p.donate-role__donate__now__time {
 }
 
 .ongoing-program-block {
-    padding-bottom: 32px;
+    padding-bottom: 34px;
 }
 
 .ongoing-program-block .event-block {
     float: left;
-    margin-right: 11px;
-    width: 224px;
+    margin-right: 15px;
+    width: 221px;
+}
+
+.ongoing-program-block .event-block img {
+    width: 106px;
+    height: 82px;
 }
 
 .ongoing-program-block .event-block:last-child {
@@ -993,35 +999,39 @@ p.donate-role__donate__now__time {
 }
 
 .ongoing-program-block .event-block figcaption {
-    font-size: 17px;
+    font-size: 15px;
     padding-left: 11px;
+    padding-top: 22px;
+    line-height: 21px;
 }
 
 .ongoing-program-block h3 {
     font-family: Filmotype-FilmotypeKeynote;
     color: #006738;
     font-size: 35px;
-    padding-left: 19px;
+    padding-bottom: 9px;
     line-height: 0.7;
 }
 
 .events-list {
-    padding: 38px 0 18px 0;
+    padding: 34px 0 18px 0;
+}
+
+.events-list-wrapper {
+    margin-bottom: 37px;
 }
 
 .events-list h1 {
     color: #4A714C;
     font-family: ITCAvantGardePro-Md;
-    font-size: 42px;
-    margin-bottom: 30px;
+    font-size: 37px;
+    margin-bottom: 26px;
+    padding-left: 2px;
+    letter-spacing: 0.4px;
 }
 
 .events-list .events-list-item {
     margin-bottom: 10px;
-}
-
-.events-list .events-list-item:last-child {
-    margin-bottom: 30px;
 }
 
 .events-list-item {
@@ -1034,19 +1044,23 @@ p.donate-role__donate__now__time {
     background: #e8b746;
     float: left;
     color: #fff;
-    padding: 15px 0 12px 8px;
+    padding: 10px 0 12px 8px;
+    height: 144px;
 }
 
 .events-list-item figcaption time {
     font-family: ITCAvantGardePro-MdObl;
-    font-size: 16px;
-    padding-bottom: 10px;
+    font-size: 17px;
+    padding-bottom: 8px;
+    display: block;
 }
 
 .events-list-item figcaption h3 {
     font-family: ITCAvantGardePro-Md;
-    font-size: 20px;
-    padding-bottom: 32px;
+    font-size: 18px;
+    padding-bottom: 29px;
+    line-height: 1.5;
+    letter-spacing: -0.3px;
 }
 
 .events-list-item figcaption a {
@@ -1060,7 +1074,13 @@ p.donate-role__donate__now__time {
     width: 670px;
     box-sizing: border-box;
     float: left;
-    padding: 8px 0 0 10px;
+    padding: 6px 0 0 8px;
+    font-size: 14px;
+}
+
+.events-list-item__content p {
+    padding-bottom: 17px;
+    line-height: 1.2;
 }
 
 .events-calendar {
