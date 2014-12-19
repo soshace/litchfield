@@ -4,7 +4,9 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <link href="/css/styles.css" rel="stylesheet" media="all">
     <title>Litchfield Community Centre</title>
+    <script src="/js/vendors/moment.min.js"></script>
     <script src="/js/vendors/jquery-2.1.1.min.js"></script>
+    <script src="/js/vendors/fullcalendar.min.js"></script>
     <script src="/js/script.js"></script>
 </head>
 <body>
@@ -137,68 +139,21 @@
             </li>
         </menu>
     </nav>
-    <main class="events-list">
-        <h1>MOVIE MONDAYS</h1>
-        <figure class="events-list-item clearfix">
-            <figcaption>
-                <time>1:00pm:<br/>Monday, Sept 8, 2014</time>
-                <h3>Winter’s Tale</h3>
-                <a href="#">LEARN MORE</a>
-            </figcaption>
-
-            <div class="events-list-item__content">
-                <p>Rated PG (100 minutes)</p>
-
-                <p>A romantic drama adapted from the novel by Mark Helprin, centers on the relationship between a thief
-                    and a dying woman. Stars Colin Farrell, Russell Crowe, William Hurt, Jennifer Connelly, and Eva
-                    Marie Saint.</p>
-            </div>
-        </figure>
-        <figure class="events-list-item clearfix">
-            <figcaption>
-                <time>1:00pm:<br/>Monday, Sept 8, 2014</time>
-                <h3>Winter’s Tale</h3>
-                <a href="#">LEARN MORE</a>
-            </figcaption>
-
-            <div class="events-list-item__content">
-                <p>Rated PG (100 minutes)</p>
-
-                <p>A romantic drama adapted from the novel by Mark Helprin, centers on the relationship between a thief
-                    and a dying woman. Stars Colin Farrell, Russell Crowe, William Hurt, Jennifer Connelly, and Eva
-                    Marie Saint.</p>
-            </div>
-        </figure>
-        <figure class="events-list-item clearfix">
-            <figcaption>
-                <time>1:00pm:<br/>Monday, Sept 8, 2014</time>
-                <h3>Winter’s Tale</h3>
-                <a href="#">LEARN MORE</a>
-            </figcaption>
-
-            <div class="events-list-item__content">
-                <p>Rated PG (100 minutes)</p>
-
-                <p>A romantic drama adapted from the novel by Mark Helprin, centers on the relationship between a thief
-                    and a dying woman. Stars Colin Farrell, Russell Crowe, William Hurt, Jennifer Connelly, and Eva
-                    Marie Saint.</p>
-            </div>
-        </figure>
-        <figure class="events-list-item clearfix">
-            <figcaption>
-                <time>1:00pm:<br/>Monday, Sept 8, 2014</time>
-                <h3>Winter’s Tale</h3>
-                <a href="#">LEARN MORE</a>
-            </figcaption>
-
-            <div class="events-list-item__content">
-                <p>Rated PG (100 minutes)</p>
-
-                <p>A romantic drama adapted from the novel by Mark Helprin, centers on the relationship between a thief
-                    and a dying woman. Stars Colin Farrell, Russell Crowe, William Hurt, Jennifer Connelly, and Eva
-                    Marie Saint.</p>
-            </div>
-        </figure>
+    <main class="events-calendar">
+        <section class="choose-category clearfix">
+            <form>
+                <label>Showing:</label>
+                <select>
+                    <option>YOGA</option>
+                    <option>Pilates</option>
+                    <option>Body-flex</option>
+                </select>
+                <span>Choose a category</span>
+                <a href="#">View a complete list of upcoming events</a>
+            </form>
+            <img src="/images/google_share.jpg" width="51" height="21" class="google-share">
+        </section>
+        <section class="js-full-calendar full-calendar"></section>
         <section class="ongoing-program-block">
             <h3>Ongoing Programs:</h3>
 
