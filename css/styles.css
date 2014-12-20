@@ -967,6 +967,7 @@ p.donate-role__donate__now__time {
 
 .interesting-events li h3 {
     line-height: 1.3;
+    padding-bottom: 35px;
 }
 
 .interesting-events a {
@@ -1088,16 +1089,16 @@ p.donate-role__donate__now__time {
 }
 
 .choose-category {
-    padding-top: 20px;
+    padding-left: 15px;
     border-bottom: 2px solid #b2cca8;
+    height: 56px;
 }
 
 .choose-category form {
-    height: 32px;
-    border-right: #6daae1 1px solid;
-    width: 783px;
+    width: 766px;
     float: left;
     position: relative;
+    margin-top: 24px;
 }
 
 .choose-category form label {
@@ -1106,10 +1107,12 @@ p.donate-role__donate__now__time {
     color: #3B5F41;
     vertical-align: top;
     line-height: 10px;
+    margin-right: 10px;
 }
 
 .choose-category form select {
     width: 254px;
+    margin-right: 32px;
 }
 
 .choose-category form span {
@@ -1117,23 +1120,33 @@ p.donate-role__donate__now__time {
     color: #E08C43;
     font-size: 15px;
     position: absolute;
-    top: -19px;
-    left: 195px;
+    top: -22px;
+    left: 170px;
+    letter-spacing: -0.2px;
 }
 
 .choose-category form a {
     font-family: ITCAvantGardePro-Md;
     text-decoration: none;
     color: #659750;
-    font-size: 14px;
+    font-size: 12px;
+    letter-spacing: -0.1px;
 }
 
-.choose-category .google-share {
+.choose-category__share {
+    border-left: #6daae1 1px solid;
+    float: left;
+    margin-top: 14px;
+    height: 26px;
+    padding-top: 4px;
+}
+
+.choose-category__share .google-share {
     margin-left: 44px;
 }
 
 .events-calendar .full-calendar {
-    padding-top: 14px;
+    padding: 14px 0 31px 0;
     font-family: ITCAvantGardePro-Md;
     font-size: 16px;
 }
@@ -1164,10 +1177,28 @@ p.donate-role__donate__now__time {
 }
 
 .events-calendar .full-calendar .fc-day-header {
-    font-size: 15px;
+    font-size: 14px;
+    padding: 2px 0 3px 0;
 }
 
-.events-calendar .fc-center h2 {
+.events-calendar .full-calendar .fc-center {
+    padding-top: 10px;
+}
+
+.events-calendar .full-calendar .fc-center h2 {
     color: #4A714C;
-    font-size: 27px;
+    font-size: 24px;
+}
+
+.events-calendar .full-calendar .fc-toolbar .fc-left {
+    margin-left: 5px;
+}
+
+.events-calendar .full-calendar .fc-prev-button,
+.events-calendar .full-calendar .fc-next-button {
+    padding: 0 7px;
+}
+
+.events-calendar .full-calendar.fc-ltr .fc-basic-view .fc-day-number {
+    padding: 5px 5px 0 0;
 }
