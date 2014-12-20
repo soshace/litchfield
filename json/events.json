@@ -1,0 +1,292 @@
+{
+  "req_start": 1329022800,
+  "req_cat": "Fitness",
+  "req_end": 1423717200,
+  "data": [
+    {
+      "id": "144",
+      "title": "Past Event",
+      "repeattext": "*Special green text here",
+      "reg_online": "0",
+      "info": "text ",
+      "start": "2014-11-20T20:00:00-05:00",
+      "end": "2014-11-20T22:00:00-05:00",
+      "nice_date": {
+        "startd": "Thursday, Nov 20, 2014",
+        "startt": "8:00 pm",
+        "endd": "Thursday, Nov 20, 2014",
+        "endt": "10:00 pm"
+      },
+      "allDay": false,
+      "related1": 122,
+      "related2": 121,
+      "related3": 120,
+      "backgroundColor": "#CCC",
+      "url": "#"
+    },
+    {
+      "id": "134",
+      "title": "Yoga Evening",
+      "repeattext": "*Special green text here",
+      "reg_online": "0",
+      "img": ["media\/images\/medium\/IMGP6249.JPG"],
+      "info": "text This is the event info.",
+      "start": "2014-12-05T16:00:01-05:00",
+      "end": "2014-12-05T17:00:01-05:00",
+      "nice_date": {
+        "startd": "Friday, Dec 5, 2014",
+        "startt": "4:00 pm",
+        "endd": "Friday, Dec 5, 2014",
+        "endt": "5:00 pm"
+      },
+      "allDay": false,
+      "related1": 122,
+      "related2": 121,
+      "related3": 120,
+      "backgroundColor": "#CCC",
+      "url": "#"
+    },
+    {
+      "id": "133",
+      "title": "Yoga Evening",
+      "repeattext": "*Special green text here",
+      "reg_online": "0",
+      "img": ["media\/images\/medium\/IMGP6249.JPG"],
+      "info": "text This is the event info.",
+      "start": "2014-12-05T16:00:01-05:00",
+      "end": "2014-12-05T17:00:01-05:00",
+      "nice_date": {
+        "startd": "Friday, Dec 5, 2014",
+        "startt": "4:00 pm",
+        "endd": "Friday, Dec 5, 2014",
+        "endt": "5:00 pm"
+      },
+      "allDay": false,
+      "related1": 122,
+      "related2": 121,
+      "related3": 120,
+      "backgroundColor": "#CCC",
+      "url": "#"
+    },
+    {
+      "id": "135",
+      "title": "Yoga Evening",
+      "repeattext": "*Special green text here",
+      "reg_online": "0",
+      "img": ["media\/images\/medium\/IMGP6249.JPG"],
+      "info": "text This is the event info.",
+      "start": "2014-12-09T16:00:01-05:00",
+      "end": "2014-12-09T17:00:01-05:00",
+      "nice_date": {
+        "startd": "Tuesday, Dec 9, 2014",
+        "startt": "4:00 pm",
+        "endd": "Tuesday, Dec 9, 2014",
+        "endt": "5:00 pm"
+      },
+      "allDay": false,
+      "related1": 122,
+      "related2": 121,
+      "related3": 120,
+      "backgroundColor": "#CCC",
+      "url": "#"
+    },
+    {
+      "id": "136",
+      "title": "Yoga Evening",
+      "repeattext": "*Special green text here",
+      "reg_online": "0",
+      "img": ["media\/images\/medium\/IMGP6249.JPG"],
+      "info": "text This is the event info.",
+      "start": "2014-12-12T16:00:01-05:00",
+      "end": "2014-12-12T17:00:01-05:00",
+      "nice_date": {
+        "startd": "Friday, Dec 12, 2014",
+        "startt": "4:00 pm",
+        "endd": "Friday, Dec 12, 2014",
+        "endt": "5:00 pm"
+      },
+      "allDay": false,
+      "related1": 122,
+      "related2": 121,
+      "related3": 120,
+      "backgroundColor": "#CCC",
+      "url": "#"
+    },
+    {
+      "id": "137",
+      "title": "Yoga Evening",
+      "repeattext": "*Special green text here",
+      "reg_online": "0",
+      "img": ["media\/images\/medium\/IMGP6249.JPG"],
+      "info": "text This is the event info.",
+      "start": "2014-12-16T16:00:01-05:00",
+      "end": "2014-12-16T17:00:01-05:00",
+      "nice_date": {
+        "startd": "Tuesday, Dec 16, 2014",
+        "startt": "4:00 pm",
+        "endd": "Tuesday, Dec 16, 2014",
+        "endt": "5:00 pm"
+      },
+      "allDay": false,
+      "related1": 122,
+      "related2": 121,
+      "related3": 120,
+      "backgroundColor": "#CCC",
+      "url": "#"
+    },
+    {
+      "id": "12",
+      "title": "My Parttay",
+      "repeattext": "*Special green text here",
+      "reg_online": "0",
+      "info": "text Put your hands in the Ayr!!! Hey Hey",
+      "start": "2014-12-18T13:00:00-05:00",
+      "end": "2014-12-18T14:00:00-05:00",
+      "nice_date": {
+        "startd": "Thursday, Dec 18, 2014",
+        "startt": "1:00 pm",
+        "endd": "Thursday, Dec 18, 2014",
+        "endt": "2:00 pm"
+      },
+      "allDay": false,
+      "related1": 122,
+      "related2": 121,
+      "related3": 120,
+      "backgroundColor": "#CCC",
+      "url": "#"
+    },
+    {
+      "id": "138",
+      "title": "Yoga Evening",
+      "repeattext": "*Special green text here",
+      "reg_online": "0",
+      "img": ["media\/images\/medium\/IMGP6249.JPG"],
+      "info": "text This is the event info.",
+      "start": "2014-12-19T16:00:01-05:00",
+      "end": "2014-12-19T17:00:01-05:00",
+      "nice_date": {
+        "startd": "Friday, Dec 19, 2014",
+        "startt": "4:00 pm",
+        "endd": "Friday, Dec 19, 2014",
+        "endt": "5:00 pm"
+      },
+      "allDay": false,
+      "related1": 122,
+      "related2": 121,
+      "related3": 120,
+      "backgroundColor": "#CCC",
+      "url": "#"
+    },
+    {
+      "id": "139",
+      "title": "Yoga Evening",
+      "repeattext": "*Special green text here",
+      "reg_online": "0",
+      "img": ["media\/images\/medium\/IMGP6249.JPG"],
+      "info": "text This is the event info.",
+      "start": "2014-12-23T16:00:01-05:00",
+      "end": "2014-12-23T17:00:01-05:00",
+      "nice_date": {
+        "startd": "Tuesday, Dec 23, 2014",
+        "startt": "4:00 pm",
+        "endd": "Tuesday, Dec 23, 2014",
+        "endt": "5:00 pm"
+      },
+      "allDay": false,
+      "related1": 122,
+      "related2": 121,
+      "related3": 120,
+      "backgroundColor": "#CCC",
+      "url": "#"
+    },
+    {
+      "id": "140",
+      "title": "Yoga Evening",
+      "repeattext": "*Special green text here",
+      "reg_online": "0",
+      "img": ["media\/images\/medium\/IMGP6249.JPG"],
+      "info": "text This is the event info.",
+      "start": "2014-12-26T16:00:00-05:00",
+      "end": "2014-12-26T17:00:00-05:00",
+      "nice_date": {
+        "startd": "Friday, Dec 26, 2014",
+        "startt": "4:00 pm",
+        "endd": "Friday, Dec 26, 2014",
+        "endt": "5:00 pm"
+      },
+      "allDay": false,
+      "related1": 122,
+      "related2": 121,
+      "related3": 120,
+      "backgroundColor": "#CCC",
+      "url": "#"
+    },
+    {
+      "id": "142",
+      "title": "My Small Event",
+      "repeattext": "*Special green text here",
+      "reg_online": "0",
+      "info": "text ",
+      "start": "2014-12-27T17:00:00-05:00",
+      "end": "2014-12-27T19:00:00-05:00",
+      "nice_date": {
+        "startd": "Saturday, Dec 27, 2014",
+        "startt": "5:00 pm",
+        "endd": "Saturday, Dec 27, 2014",
+        "endt": "7:00 pm"
+      },
+      "allDay": false,
+      "related1": 122,
+      "related2": 121,
+      "related3": 120,
+      "backgroundColor": "#CCC",
+      "url": "#"
+    },
+    {
+      "id": "143",
+      "title": "My Small Event",
+      "repeattext": "*Special green text here",
+      "reg_online": "0",
+      "img": ["media\/images\/medium\/20141102163405-1.jpg"],
+      "info": "text ",
+      "start": "2014-12-27T20:00:00-05:00",
+      "end": "2014-12-27T22:00:00-05:00",
+      "nice_date": {
+        "startd": "Saturday, Dec 27, 2014",
+        "startt": "8:00 pm",
+        "endd": "Saturday, Dec 27, 2014",
+        "endt": "10:00 pm"
+      },
+      "allDay": false,
+      "related1": 122,
+      "related2": 121,
+      "related3": 120,
+      "backgroundColor": "#CCC",
+      "url": "#"
+    },
+    {
+      "id": "141",
+      "title": "Yoga Evening",
+      "repeattext": "*Special green text here",
+      "reg_online": "0",
+      "img": ["media\/images\/medium\/IMGP6249.JPG"],
+      "info": "text This is the event info.",
+      "start": "2014-12-30T16:00:01-05:00",
+      "end": "2014-12-30T17:00:01-05:00",
+      "nice_date": {
+        "startd": "Tuesday, Dec 30, 2014",
+        "startt": "4:00 pm",
+        "endd": "Tuesday, Dec 30, 2014",
+        "endt": "5:00 pm"
+      },
+      "allDay": false,
+      "related1": 122,
+      "related2": 121,
+      "related3": 120,
+      "backgroundColor": "#CCC",
+      "url": "#"
+    }
+  ],
+  "msg": "Found 13 events.",
+  "code": "1"
+}
