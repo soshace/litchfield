@@ -3,9 +3,11 @@
 <head lang="en">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <link href="/css/styles.css" rel="stylesheet" media="all">
+    <link href="/css/carousel.css" rel="stylesheet" media="all">
     <title>Litchfield Community Centre</title>
     <script src="/js/vendors/moment.min.js"></script>
     <script src="/js/vendors/jquery-2.1.1.min.js"></script>
+    <script src="/js/vendors/carousel.js"></script>
     <script src="/js/vendors/fullcalendar.min.js"></script>
     <script src="/js/script.js"></script>
 </head>
@@ -15,10 +17,10 @@
         <section class="donate-role__role hide js-role-block">
             <figure class="donate-role__role__logo clearfix">
                 <span></span>
-                <figcaption>The Litchfield Community Center is a non-profit organization serving<br/> the community of
-                    Litchfield, CT since 2000, offering daily creative,<br/> intellectual and recreational programs for
-                    all
-                    ages.
+                <figcaption>The Litchfield Community Center is a non-profit organization serving Litchfield
+                    and the surrounding communities of Connecticut since 2000, offering
+                    daily creative, intellectual and recreational programs for all ages. Residents
+                    and non-residents are welcome to join us.
                 </figcaption>
             </figure>
             <section class="donate-role__role__articles clearfix">
@@ -66,20 +68,41 @@
             <p class="donate-role__role__irs">Governing Documents, Budget and IRS 990 Form</p>
         </section>
         <section class="donate-role__donate clearfix hide js-donate-block">
-            <section class="donate-role__donate__matter">
-                <h2>your donations matter:</h2>
-                <figure class="donate-role__donate__matter__part clearfix">
-                    <span></span>
-                    <figcaption>of your money goes directly<br/> to programs</figcaption>
-                </figure>
-                <figure class="donate-role__donate__matter__people clearfix">
-                    <span></span>
-                    <figcaption>over 2,000 people attended more<br/> than 1,500 free programs last year</figcaption>
-                </figure>
-                <figure class="donate-role__donate__matter__increase clearfix">
-                    <span></span>
-                    <figcaption>15% increase over last year<br/> in overall usage</figcaption>
-                </figure>
+            <section class="carousel slide donate-role__donate__slider">
+                <ul class="carousel-inner">
+                    <li class="donate-role__donate__matter item active">
+                        <h2>your donations matter:</h2>
+                        <figure class="donate-role__donate__matter__part clearfix">
+                            <span></span>
+                            <figcaption>of your money goes directly<br/> to programs</figcaption>
+                        </figure>
+                        <figure class="donate-role__donate__matter__people clearfix">
+                            <span></span>
+                            <figcaption>over 2,000 people attended more<br/> than 1,500 free programs last year
+                            </figcaption>
+                        </figure>
+                        <figure class="donate-role__donate__matter__increase clearfix">
+                            <span></span>
+                            <figcaption>15% increase over last year<br/> in overall usage</figcaption>
+                        </figure>
+                    </li>
+                    <li class="donate-role__donate__matter item">
+                        <h2>your donations matter:</h2>
+                        <figure class="donate-role__donate__matter__part clearfix">
+                            <span></span>
+                            <figcaption>of your money goes directly<br/> to programs</figcaption>
+                        </figure>
+                        <figure class="donate-role__donate__matter__people clearfix">
+                            <span></span>
+                            <figcaption>over 2,000 people attended more<br/> than 1,500 free programs last year
+                            </figcaption>
+                        </figure>
+                        <figure class="donate-role__donate__matter__increase clearfix">
+                            <span></span>
+                            <figcaption>15% increase over last year<br/> in overall usage</figcaption>
+                        </figure>
+                    </li>
+                </ul>
             </section>
             <section class="donate-role__donate__now">
                 <h4 class="donate-role__donate__now__thank">THANK YOU to our community<br/> of donors.</h4>
@@ -95,7 +118,7 @@
         </section>
         <div class="clearfix">
             <menu>
-                <li class="donate-role__menu__role js-role-tab">Our Role</li>
+                <li class="donate-role__menu__role js-role-tab">About Us</li>
                 <li class="donate-role__menu__donate js-donate-tab">Donate</li>
             </menu>
         </div>
@@ -113,6 +136,14 @@
             <a href="" class="social-icon social__inst"></a>
             <a href="" class="social-icon social__u-tube"></a>
         </section>
+        <menu class="header__menu">
+            <li>
+                <a href="#">LOG IN</a>
+            </li>
+            <li>
+                <a href="#">MY ACCOUNT</a>
+            </li>
+        </menu>
         <div class="header__bg"></div>
     </header>
     <nav class="clearfix">
@@ -205,32 +236,44 @@
             </form>
         </section>
     </main>
-    <footer class="clearfix">
-        <section class="footer__company">
-            <h1>
-                Litchfield<br/>
-                Community<br/>
-                Center
-            </h1>
+    <footer>
+        <div class="footer__content clearfix">
+            <section class="footer__company">
+                <h1>
+                    Litchfield<br/>
+                    Community<br/>
+                    Center
+                </h1>
 
-            <p>A PRIVATE NON-PROFIT<br/>
-                ORGANIZATION</p>
+                <p>A PRIVATE NON-PROFIT<br/>
+                    ORGANIZATION</p>
+            </section>
+            <section class="footer__contacts">
+                <p>421 Bantam Rd. Litchfield, CT 06759</p>
 
-            <p class="footer__company__copyright">&copy; 2014 Litchfield Community Center Inc</p>
-        </section>
-        <section class="footer__contacts">
-            <p>421 Bantam Rd. Litchfield, CT 06759</p>
+                <p class="footer__contacts__phones">
+                    Phone 860-567-8302<br/>
+                    Fax 860-567-0328</p>
 
-            <p class="footer__contacts__phones">
-                Phone 860-567-8302<br/>
-                Fax 860-567-0328</p>
+                <p>
+                    <a href="mailto:info@thecommunitycenter.org">info@thecommunitycenter.org</a>
+                </p>
 
-            <p>
-                <a href="mailto:info@thecommunitycenter.org">info@thecommunitycenter.org</a>
-            </p>
-
-            <p class="footer__contacts__serving-since">Serving the Litchfield, Connecticut community since 2000</p>
-        </section>
+                <p class="footer__contacts__serving-since">Serving Litchfield & the surrounding communities of<br/>
+                    Connecticut since 2000. Residents & non-residents welcome</p>
+            </section>
+        </div>
+        <ul class="footer__copyright clearfix">
+            <li>
+                &copy; 2014 Litchfield Community Center Inc
+            </li>
+            <li>
+                <a href="#">Terms of Service</a>
+            </li>
+            <li>
+                <a href="#">Privacy</a>
+            </li>
+        </ul>
     </footer>
 </div>
 </body>

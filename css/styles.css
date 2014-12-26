@@ -75,6 +75,27 @@ h1, h2, h3, h4, h5 {
     z-index: -1;
 }
 
+.header__menu {
+    font-family: 'ITCAvantGardePro-Md';
+    position: absolute;
+    list-style: none;
+    right: 0;
+    bottom: 10px;
+    font-size: 12px;
+    padding-right: 8px;
+}
+
+.header__menu li {
+    float: left;
+    padding-right: 20px;
+}
+
+.header__menu li a {
+    color: #fff;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
 .header__logo {
     float: left;
     font-size: 40px;
@@ -232,8 +253,29 @@ nav menu a span {
 }
 
 footer {
+
+}
+
+.footer__content {
     border-top: 14px solid #0B763B;
-    padding: 16px 0 0 25px;
+    border-bottom: 14px solid #0B763B;
+    padding: 16px 0 16px 25px;
+}
+
+.footer__copyright {
+    padding: 10px 0 15px 15px;
+    font-size: 10px;
+    list-style: none;
+}
+
+.footer__copyright a {
+    text-decoration: none;
+    color: #58585B;;
+}
+
+.footer__copyright li {
+    float: left;
+    padding-right: 15px;
 }
 
 .footer__company {
@@ -249,11 +291,6 @@ footer {
 
 .footer__company p {
     padding-top: 7px;
-}
-
-p.footer__company__copyright {
-    font-size: 10px;
-    padding-top: 16px;
 }
 
 .footer__contacts {
@@ -273,7 +310,7 @@ p.footer__company__copyright {
 }
 
 .footer__contacts__serving-since {
-    font-size: 16px;
+    font-size: 14px;
     color: #58585B;
     padding-top: 29px;
 }
@@ -301,15 +338,12 @@ p.footer__company__copyright {
 }
 
 .news__top {
-    position: relative;
     width: 670px;
     height: 378px;
     overflow: hidden;
 }
 
 .news__top li {
-    top: 0;
-    position: absolute;
 }
 
 .news__top li img {
@@ -365,7 +399,7 @@ p.footer__company__copyright {
 }
 
 .news__common__item__description {
-    background: #84BB3B;
+    background: #f5bc17;
     color: #fff;
     padding: 10px;
     font-size: 15px;
@@ -502,6 +536,13 @@ p.footer__company__copyright {
     padding: 12px 0 12px 15px;
 }
 
+.news__next__time h5 {
+    font-family: ITCAvantGardePro-Md;
+    font-size: 20px;
+    color: #0b763b;
+    line-height: 1.5;
+}
+
 .news__next__time time {
     font-family: ITCAvantGardePro-MdObl;
     font-size: 16px;
@@ -510,12 +551,11 @@ p.footer__company__copyright {
 .news__next__time p {
     font-family: ITCAvantGardePro-Md;
     font-size: 20px;
-    padding-top: 10px;
-    line-height: 1.2;
+    line-height: 1.5;
 }
 
 .news__next__time a {
-    padding-top: 30px;
+    padding-top: 10px;
     font-size: 15px;
     color: #009344;
     text-decoration: none;
@@ -627,7 +667,9 @@ p.footer__company__copyright {
 }
 
 .donate-role {
-
+    margin-bottom: -30px;
+    position: relative;
+    z-index: 2;
 }
 
 .donate-role menu {
@@ -654,17 +696,24 @@ p.footer__company__copyright {
 
 .donate-role__menu__donate {
     margin-right: 100px;
-    background: #84BB3B;
+    background: #f5bc17;
 }
 
 .donate-role__donate {
     position: relative;
-    background: #84BB3B;
+    background: #f5bc17;
     padding: 11px 0 17px 15px;
 }
 
-.donate-role__donate__matter {
+.donate-role__donate__slider {
     float: left;
+}
+
+.donate-role__donate__slider ul {
+    list-style: none;
+}
+
+.donate-role__donate__matter {
     background: #D3E1AB;
     width: 515px;
     padding: 15px 0 15px 20px;
@@ -771,7 +820,7 @@ p.footer__company__copyright {
     color: #fff;
     text-align: center;
     text-decoration: none;
-    background: #F39200;
+    background: #0b763b;
     font-size: 40px;
     line-height: 1.3;
 }
@@ -865,16 +914,16 @@ p.donate-role__donate__now__time {
 }
 
 .event-banner-block {
-    border: 1px solid #e8b746;
+    border: 1px solid #F5BC17;
 }
 
 .event-banner-block figure {
-    background: #e8b746;
+    background: #F5BC17;
 }
 
 .event-banner-block figcaption {
     box-sizing: border-box;
-    padding: 32px 26px 0 34px;
+    padding: 16px 26px 0 34px;
     width: 569px;
     float: left;
 }
@@ -883,17 +932,34 @@ p.donate-role__donate__now__time {
     color: #fff;
     font-family: ITCAvantGardePro-MdObl;
     font-size: 27px;
-    padding-bottom: 19px;
     letter-spacing: 0.7px;
     display: block;
 }
 
-.event-banner-block figcaption h2 {
+.event-banner-block figcaption h1 {
+    color: #0b763b;
+    font-family: ITCAvantGardePro-Md;
+    font-size: 30px;
+    line-height: 1.2;
+    padding-bottom: 20px;
+}
+
+.event-banner-block figcaption h2,
+.event-banner-block figcaption em {
     color: #fff;
     font-family: ITCAvantGardePro-Md;
     font-size: 30px;
-    padding-bottom: 48px;
     line-height: 1.3;
+}
+
+.event-banner-block figcaption h2 {
+    padding-bottom: 13px;
+}
+
+.event-banner-block figcaption em {
+    font-style: normal;
+    padding-bottom: 15px;
+    display: block;
 }
 
 .event-banner-block figcaption span {
@@ -950,7 +1016,7 @@ p.donate-role__donate__now__time {
 }
 
 .interesting-events li {
-    background: #e8b746;
+    background: #F5BC17;
     color: #fff;
     margin-right: 12px;
     float: left;
@@ -1036,32 +1102,51 @@ p.donate-role__donate__now__time {
 }
 
 .events-list-item {
-    border: 1px solid #e8b746;
+    border: 1px solid #f5bc17;
 }
 
 .events-list-item figcaption {
-    width: 250px;
+    width: 465px;
     box-sizing: border-box;
-    background: #e8b746;
+    background: #f5bc17;
     float: left;
     color: #fff;
-    padding: 10px 0 12px 8px;
     height: 144px;
+}
+
+.events-list-item figcaption img,
+.events-list-item figcaption div {
+    float: left;
+}
+
+.events-list-item figcaption div {
+    padding: 7px 0 12px 8px;
+}
+
+.events-list-item figcaption h2 {
+    font-family: ITCAvantGardePro-Md;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #0b763b;
 }
 
 .events-list-item figcaption time {
     font-family: ITCAvantGardePro-MdObl;
     font-size: 17px;
-    padding-bottom: 8px;
     display: block;
+    line-height: 1.8;
 }
 
 .events-list-item figcaption h3 {
     font-family: ITCAvantGardePro-Md;
     font-size: 18px;
-    padding-bottom: 29px;
     line-height: 1.5;
     letter-spacing: -0.3px;
+}
+
+.events-list-item figcaption em {
+    display: block;
+    line-height: 1.5;
 }
 
 .events-list-item figcaption a {
@@ -1072,10 +1157,10 @@ p.donate-role__donate__now__time {
 }
 
 .events-list-item__content {
-    width: 670px;
+    width: 455px;
     box-sizing: border-box;
     float: left;
-    padding: 6px 0 0 8px;
+    padding: 6px 15px 0 25px;
     font-size: 14px;
 }
 

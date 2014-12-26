@@ -1,5 +1,6 @@
 $(function () {
-    var $donateBlock = $('.js-donate-block'),
+    var $carousel = $('.carousel'),
+        $donateBlock = $('.js-donate-block'),
         $roleBlock = $('.js-role-block'),
         $donateTab = $('.js-donate-tab'),
         $roleTab = $('.js-role-tab'),
@@ -37,50 +38,6 @@ $(function () {
         }
 
         $roleBlock.addClass('hide');
-    }
-
-    /**
-     * Function shows slides
-     *
-     * @function
-     * @name slider
-     * @param {jQuery} $slider Parent element of slider
-     * @param {number} interval Time interval between showing of slides
-     * @param {number} speedTime Speed of slide showing
-     * @returns {undefined}
-     */
-    function slider($slider, interval, speedTime) {
-        var $sliderItem = $('li', $slider),
-            sliderWidth = $sliderItem.outerWidth(),
-            slidersNumber = $sliderItem.length,
-            currentSliderNumber = 0;
-
-        $sliderItem.css({'z-index': 1});
-        setInterval(function () {
-            var $nextSliderItem,
-                $currentSliderItem,
-                nextItemNumber = currentSliderNumber + 1;
-
-            if (nextItemNumber === slidersNumber) {
-                nextItemNumber = 0;
-            }
-
-            $currentSliderItem = $($sliderItem[currentSliderNumber]);
-            $nextSliderItem = $($sliderItem[nextItemNumber]);
-            $nextSliderItem.css({'z-index': 1, left: sliderWidth});
-
-            $nextSliderItem.animate({
-                left: 0
-            }, speedTime);
-
-            $currentSliderItem.animate({
-                left: -sliderWidth
-            }, speedTime, function () {
-                $currentSliderItem.css({'z-index': 0});
-            });
-
-            currentSliderNumber = nextItemNumber;
-        }, interval);
     }
 
     /**
@@ -168,10 +125,12 @@ $(function () {
         switchTopBlock('role');
     });
 
-    slider($('.js-slider'), 3000, 500);
-
     fillCategoryList($categories, categoriesApi);
     $categories.on('change', function () {
         $fullCalendar.fullCalendar('refetchEvents');
     });
+
+    if ($carousel.length) {
+        $carousel.carousel()
+    }
 });
