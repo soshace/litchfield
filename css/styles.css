@@ -324,6 +324,20 @@ footer {
     width: 670px;
 }
 
+.news main .carousel-control {
+    text-decoration: none;
+    position: absolute;
+    top: 45px;
+}
+
+.news main .left.carousel-control {
+    left: 5px;
+}
+
+.news main .right.carousel-control {
+    right: 5px;
+}
+
 .news aside {
     width: 248px;
     float: right;
@@ -1026,18 +1040,37 @@ p.donate-role__donate__now__time {
     padding: 14px 0 13px 17px;
 }
 
+.interesting-events li h2 {
+    font-family: ITCAvantGardePro-Md;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #0b763b;
+    padding-left: 0;
+    letter-spacing: 0;
+}
+
 .interesting-events li time {
+    font-family: ITCAvantGardePro-MdObl;
+    font-size: 17px;
     display: block;
-    padding-bottom: 10px;
+    line-height: 1.8;
 }
 
 .interesting-events li h3 {
-    line-height: 1.3;
-    padding-bottom: 35px;
+    font-family: ITCAvantGardePro-Md;
+    font-size: 18px;
+    line-height: 1.5;
+    letter-spacing: -0.3px;
 }
 
-.interesting-events a {
+.interesting-events li em {
+    display: block;
+    line-height: 1.5;
+}
+
+.interesting-events li a {
     color: #589155;
+    font-family: ITCAvantGardePro-Bk;
     font-size: 15px;
     text-decoration: none;
 }
@@ -1239,9 +1272,9 @@ p.donate-role__donate__now__time {
 
 .full-calendar__register-online {
     position: absolute;
-    top: 21px;
+    top: 19px;
     left: 193px;
-    color: #6CA9E0;
+    color: #74bbf3;
     font-size: 10px;
     line-height: 1.2;
 }
