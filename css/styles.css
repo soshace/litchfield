@@ -327,15 +327,15 @@ footer {
 .news main .carousel-control {
     text-decoration: none;
     position: absolute;
-    top: 45px;
+    top: 150px;
 }
 
 .news main .left.carousel-control {
-    left: 5px;
+    left: 20px;
 }
 
 .news main .right.carousel-control {
-    right: 5px;
+    right: 20px;
 }
 
 .news aside {

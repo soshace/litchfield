@@ -19,25 +19,29 @@ $(function () {
      */
     function switchTopBlock(blockName) {
         if (blockName === 'donate') {
-            $roleBlock.addClass('hide');
+            $roleBlock.hide(300, 'linear');
 
-            if ($donateBlock.hasClass('hide')) {
-                $donateBlock.removeClass('hide');
+            if (switchTopBlock.previousBlock !== 'donate') {
+                switchTopBlock.previousBlock = 'donate';
+                $donateBlock.show(300, 'linear');
                 return;
             }
 
-            $donateBlock.addClass('hide');
+            switchTopBlock.previousBlock = null;
+            $donateBlock.hide(300, 'linear');
             return;
         }
 
-        $donateBlock.addClass('hide');
+        $donateBlock.hide(300, 'linear');
 
-        if ($roleBlock.hasClass('hide')) {
-            $roleBlock.removeClass('hide');
+        if (switchTopBlock.previousBlock !== 'role') {
+            switchTopBlock.previousBlock = 'role';
+            $roleBlock.show(300, 'linear');
             return;
         }
 
-        $roleBlock.addClass('hide');
+        switchTopBlock.previousBlock = null;
+        $roleBlock.hide(300, 'linear');
     }
 
     /**
