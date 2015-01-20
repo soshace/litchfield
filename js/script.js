@@ -19,29 +19,29 @@ $(function () {
      */
     function switchTopBlock(blockName) {
         if (blockName === 'donate') {
-            $roleBlock.hide(300, 'linear');
+            $roleBlock.slideUp(300);
 
             if (switchTopBlock.previousBlock !== 'donate') {
                 switchTopBlock.previousBlock = 'donate';
-                $donateBlock.show(300, 'linear');
+                $donateBlock.slideDown(300);
                 return;
             }
 
             switchTopBlock.previousBlock = null;
-            $donateBlock.hide(300, 'linear');
+            $donateBlock.slideUp(300);
             return;
         }
 
-        $donateBlock.hide(300, 'linear');
+        $donateBlock.slideUp(300);
 
         if (switchTopBlock.previousBlock !== 'role') {
             switchTopBlock.previousBlock = 'role';
-            $roleBlock.show(300, 'linear');
+            $roleBlock.slideDown(300);
             return;
         }
 
         switchTopBlock.previousBlock = null;
-        $roleBlock.hide(300, 'linear');
+        $roleBlock.slideUp(300);
     }
 
     /**

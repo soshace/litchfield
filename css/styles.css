@@ -324,10 +324,15 @@ footer {
     width: 670px;
 }
 
+.news main .carousel.slide:hover .carousel-control {
+    display: block;
+}
+
 .news main .carousel-control {
     text-decoration: none;
     position: absolute;
     top: 150px;
+    display: none;
 }
 
 .news main .left.carousel-control {
