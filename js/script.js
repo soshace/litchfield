@@ -5,9 +5,11 @@ $(function () {
         $donateTab = $('.js-donate-tab'),
         $roleTab = $('.js-role-tab'),
         $categories = $('.js-categories'),
+        $closeBanner = $('.js-banner-close'),
         $fullCalendar = $('.js-full-calendar'),
         categoriesApi = 'http://50.118.20.207/json_cats.php',
-        eventsApi = 'http://50.118.20.207/json_events.php';
+        eventsApi = 'http://50.118.20.207/json_events.php',
+        closeApi = 'http://50.118.20.207/hidebanner.php';
 
     /**
      * Function switches between top menu blocks
@@ -127,6 +129,14 @@ $(function () {
 
     $roleTab.on('click', function () {
         switchTopBlock('role');
+    });
+
+    $closeBanner.on('click', function (event) {
+        var $this = $(this);
+
+        event.preventDefault();
+        $this.parent().hide();
+        $.post(closeApi, {close: true});
     });
 
     fillCategoryList($categories, categoriesApi);

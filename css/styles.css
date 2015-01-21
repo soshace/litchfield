@@ -1335,3 +1335,30 @@ p.donate-role__donate__now__time {
 .events-calendar .full-calendar .fc-basic-view .fc-day-number {
     padding: 5px 5px 0 0;
 }
+
+.banner {
+    color: #fff;
+    font-size: 23px;
+    font-family: ITCAvantGardePro-Md;
+    background: #A04844;
+    position: relative;
+    height: 82px;
+    box-sizing: border-box;
+    padding: 13px 32px 0 18px;
+    line-height: 27px;
+    margin-top: 8px;
+}
+
+.banner__close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 16px;
+    width: 22px;
+    height: 20px;
+    border: 1px solid #fff;
+    text-align: center;
+    line-height: 20px;
+    text-decoration: none;
+    color: #fff;
+}
