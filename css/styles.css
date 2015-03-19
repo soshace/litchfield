@@ -1362,3 +1362,170 @@ p.donate-role__donate__now__time {
     text-decoration: none;
     color: #fff;
 }
+
+.facilityForm {
+    display: block;
+    border: 1px solid #E5B546;
+    background-color: #C9DAA2;
+}
+
+.facilityForm header {
+    display: block;
+    background-color: #E5B546;
+    height: 56px;
+    margin-top: 7px;
+}
+
+.facilityForm header h1{
+    font-family: ITCAvantGardePro-Md;
+    font-size: 23px;
+    color: #ffffff;
+    padding: 17px 0 0 35px;
+}
+
+.facilityForm__subheader{
+    padding: 25px 35px 0 35px;
+}
+
+.facilityForm__subheader p{
+     font-family: ITCAvantGardePro-Bk;
+     font-size: 15px;
+     color: #4A714C;
+     line-height: 17px;
+ }
+
+.facilityForm__subheader p i{
+    font-family: ITCAvantGardePro-BkObl;
+    color: #4A714C;
+}
+
+.facilityForm__renterInformation{
+
+}
+
+.facilityForm__renterInformation b{
+    font-family: ITCAvantGardePro-Bk;
+    font-size: 17px;
+    color: #4A714C;
+    margin-left: 42px;
+}
+
+.facilityForm__renterInformation hr{
+    border: none;
+    color: #ffffff;
+    background-color: #ffffff;
+    width: 688px;
+    height: 2px;
+    position: absolute;
+    margin: -8px 0 0 196px;
+}
+
+.facilityForm h3{
+    font-family: ITCAvantGardePro-Bk;
+    font-size: 17px;
+    color: #589155;
+}
+
+.facilityForm input{
+    height: 24px;
+    border: 1px solid #589155;
+}
+
+.facilityForm__renterInformation .organization h3{
+    margin: 17px 0 0 41px;
+}
+
+.facilityForm__renterInformation .organization input{
+    margin: 6px 0 0 41px;
+    width: 847px;
+}
+.facilityForm__renterInformation .firstName{
+    display: inline-block;
+}
+
+.facilityForm__renterInformation .firstName h3{
+    margin: 12px 0 0 41px;
+}
+
+.facilityForm__renterInformation .firstName input{
+    margin: 6px 0 0 41px;
+    width: 271px;
+}
+
+.facilityForm__renterInformation .lastName{
+    display: inline-block;
+}
+
+.facilityForm__renterInformation .lastName h3{
+    margin: 12px 0 0 11px;
+}
+
+.facilityForm__renterInformation .lastName input{
+    margin: 6px 0 0 11px;
+    width: 271px;
+}
+
+.facilityForm__renterInformation .email{
+    display: inline-block;
+}
+
+.facilityForm__renterInformation .email h3{
+    margin: 12px 0 0 9px;
+}
+
+.facilityForm__renterInformation .email input{
+    margin: 6px 0 0 9px;
+    width: 271px;
+}
+
+.facilityForm__renterInformation .mailingAddress{
+    display: inline-block;
+}
+
+.facilityForm__renterInformation .mailingAddress h3{
+    margin: 15px 0 0 41px;
+}
+
+.facilityForm__renterInformation .mailingAddress input{
+    margin: 6px 0 0 41px;
+    width: 354px;
+}
+
+.facilityForm__renterInformation .city{
+    display: inline-block;
+}
+
+.facilityForm__renterInformation .city h3{
+    margin: 12px 0 0 11px;
+}
+
+.facilityForm__renterInformation .city input{
+    margin: 6px 0 0 11px;
+    width: 240px;
+}
+
+.facilityForm__renterInformation .state{
+    display: inline-block;
+}
+
+.facilityForm__renterInformation .state h3{
+    margin: 12px 0 0 7px;
+}
+
+.facilityForm__renterInformation .state input{
+    margin: 6px 0 0 7px;
+    width: 45px;
+}
+
+.facilityForm__renterInformation .zip{
+    display: inline-block;
+}
+
+.facilityForm__renterInformation .zip h3{
+    margin: 12px 0 0 8px;
+}
+
+.facilityForm__renterInformation .zip input{
+    margin: 6px 0 0 8px;
+    width: 161px;
+}
