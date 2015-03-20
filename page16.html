@@ -186,41 +186,160 @@
             </p>
             <br>
         </div>
-        <div class="facilityForm__renterInformation">
-            <b>Renter Information</b><hr>
-            <div class="organization">
-                <h3>Organization</h3>
-                <input type="text" name="organization">
+        <form class="facilityForm__form">
+            <div class="facilityForm__form__renterInformation">
+                <b>Renter Information</b><hr>
+                <div class="organization inputForm">
+                    <label for="organization">Organization</label>
+                    <input type="text" name="organization" id="organization">
+                </div>
+                <div class="firstName inputForm">
+                    <label for="firstName">First Name</label>
+                    <input type="text" name="firstName" id="firstName">
+                </div>
+                <div class="lastName inputForm">
+                    <label for="lastName">Last Name</label>
+                    <input type="text" name="lastName" id="lastName">
+                </div>
+                <div class="renterEmail inputForm">
+                    <label for="renterEmail">Email</label>
+                    <input type="text" name="renterEmail" id="renterEmail">
+                </div>
+                <div class="mailingAddress inputForm">
+                    <label for="mailingAddress">Mailing Address</label>
+                    <input type="text" name="mailingAddress" id="mailingAddress">
+                </div>
+                <div class="city inputForm">
+                    <label for="city">City</label>
+                    <input type="text" name="city" id="city">
+                </div>
+                <div class="state inputForm">
+                    <label for="state">State</label>
+                    <input type="text" name="state" id="state">
+                </div>
+                <div class="zip inputForm">
+                    <label for="zip">Zip</label>
+                    <input type="text" name="zip" id="zip">
+                </div>
+                <div class="cellhomephone inputForm">
+                    <label for="cellhomephone">Cell/Home Phone</label>
+                    <input type="text" name="cellhomephone" id="cellhomephone">
+                </div>
+                <div class="businessphone inputForm">
+                    <label for="businessphone">Business Phone</label>
+                    <input type="text" name="businessphone" id="businessphone">
+                </div>
+                <div class="fax inputForm">
+                    <label for="fax">Fax</label>
+                    <input type="text" name="fax" id="fax">
+                </div>
             </div>
-            <div class="firstName">
-                <h3>First Name</h3>
-                <input type="text" name="firstName">
+            <div class="facilityForm__form__eventInformation">
+                <b>Event Information</b><hr>
+                <div class="dayanddaterequested inputForm">
+                    <label for="dayanddaterequested">Day & Date Requested</label>
+                    <input type="text" name="dayanddaterequested" id="dayanddaterequested">
+                </div>
+                <div class="secondchoice inputForm">
+                    <label for="secondchoice">Second Choice</label>
+                    <input type="text" name="secondchoice" id="secondchoice">
+                </div>
+                <div class="starttime inputForm">
+                    <label for="starttime">Start Time (*including set-up*)</label>
+                    <input type="text" name="starttime" id="starttime">
+                </div>
+                <div class="endtime inputForm">
+                    <label for="endtime">End Time (*including clean-up*)</label>
+                    <input type="text" name="endtime" id="endtime">
+                </div>
+                <div class="totalhours inputForm">
+                    <label for="totalhours">Total Hours</label>
+                    <input type="text"  name="totalhours" id="totalhours">
+                </div>
+                <div class="typeofevent inputForm">
+                    <label for="typeofevent">Type of Event</label>
+                    <input type="text" name="typeofevent" id="typeofevent">
+                </div>
+                <div class="totalexpectedattendance inputForm">
+                    <label>Total Expected Attendance</label>
+                    <input type="text" name="totalexpectedattendance" id="totalexpectedattendance">
+                </div>
+                <div class="requestForRentalOf">
+                    <h3>Request For Rental Of:</h3>
+                    <div class="lounge checkboxForm">
+                        <input type="checkbox" name="lounge" id="lounge"><label for="lounge">Lounge</label>
+                    </div>
+                    <div class="atrium checkboxForm">
+                        <input type="checkbox" name="atrium" id="atrium"><label for="atrium">Atrium</label>
+                    </div>
+                    <div class="recreationArea checkboxForm">
+                        <input type="checkbox" name="recreationArea" id="recreationArea"><label for="recreationArea">Recreation Area</label>
+                    </div>
+                    <div class="kitchen checkboxForm">
+                        <input type="checkbox" name="kitchen" id="kitchen"><label for="kitchen">Kitchen</label>
+                    </div>
+                    <div class="learningCtr checkboxForm">
+                        <input type="checkbox" name="learningCtr" id="learningCtr"><label for="learningCtr">Learning Ctr</label>
+                    </div>
+                    <div class="communityRoom checkboxForm">
+                        <input type="checkbox" name="communityRoom" id="communityRoom"><label for="communityRoom">Community Room</label>
+                    </div>
+                    <div class="entireFacility checkboxForm">
+                        <input type="checkbox" name="entireFacility" id="entireFacility"><label for="entireFacility">Entire Facility</label>
+                    </div>
+                    <div class="feesQuestion questionYesNo">
+                        <label>Are you charging fees for any aspect of your activity?</label> <input type="checkbox" name="yes" id="feesQuestionYes"><label for="feesQuestionYes">Yes</label><input type="checkbox" name="no" id="feesQuestionNo"><label for="feesQuestionNo">No</label>
+                    </div>
+                    <div class="ifYesExplain inputForm">
+                        <label>If Yes, please explain</label>
+                        <input type="text" name="ifYesExplain inputForm" id="ifYesExplain inputForm">
+                    </div>
+                </div>
             </div>
-            <div class="lastName">
-                <h3>Last Name</h3>
-                <input type="text" name="lastName">
+            <div class="facilityForm__form__food">
+                <b>Food</b><hr>
+                <div class="intendToServeFood questionYesNo">
+                    <label>Do you intend to serve food?</label> <input type="checkbox" name="yes" id="intendToServeFoodYes"><label for="intendToServeFoodYes">Yes</label><input type="checkbox" name="no" id="intendToServeFoodNo"><label for="intendToServeFoodNo">No</label>
+                </div>
+                <div class="typeOfFood">
+                    <label for="typeOfFood">Type of food</label>
+                    <input type="text" name="typeOfFood" id="typeOfFood">
+                </div>
+                <div class="intendQuestion questionYesNo">
+                    <label>Do you intend to prepare food on premises?</label> <input type="checkbox" name="yes" id="intendQuestionYes"><label for="intendQuestionYes">Yes</label><input type="checkbox" name="no" id="intendQuestionNo"><label for="intendQuestionNo">No</label>
+                </div>
+                <div class="nameOfFood inputForm">
+                    <label for="nameOfFood">Name of food provider/carter</label>
+                    <input type="text" name="nameOfFood" id="nameOfFood">
+                </div>
+                <div class="foodPhone inputForm">
+                    <label for="foodPhone">Phone</label>
+                    <input type="text" name="foodPhone" id="foodPhone">
+                </div>
+                <div class="foodExplain">
+                    <h3>(*Caterer will be required to provide copy of License to Cater and/or Food Handler Certificate*)</h3>
+                </div>
+                <div class="startTimeFood inputForm">
+                    <label for="startTimeFood">Start Time (includeing set-up)</label>
+                    <input type="text" name="startTimeFood" id="startTimeFood">
+                </div>
+                <div class="endTimeFood inputForm">
+                    <label for="endTimeFood">End Time (includeing clean-up)</label>
+                    <input type="text" name="endTimeFood" id="endTimeFood">
+                </div>
+                <div class="totalHoursFood inputForm">
+                    <label for="totalHoursFood">Total Hours</label>
+                    <input type="text" name="totalHoursFood" id="totalHoursFood">
+                </div>
             </div>
-            <div class="email">
-                <h3>Email</h3>
-                <input type="text" name="email">
+            <div class="facilityForm__form__alcohol">
+                <b>Alcoholic Beverage Use</b><hr>
+                <h3>*Temporary CT State Liquor Permit required if alcoholic beverages are sold or included in admission price*</h3>
+                <div class="alcoholRequest questionYesNo">
+                    <label>Do you intend to prepare food on premises?</label> <input type="checkbox" name="yes" id="alcoholRequestYes"><label for="alcoholRequestYes">Yes</label><input type="checkbox" name="no" id="alcoholRequestNo"><label for="alcoholRequestNo">No</label>
+                </div>
             </div>
-            <div class="mailingAddress">
-                <h3>Mailing Address</h3>
-                <input type="text" name="mailingAddress">
-            </div>
-            <div class="city">
-                <h3>City</h3>
-                <input type="text" name="city">
-            </div>
-            <div class="state">
-                <h3>State</h3>
-                <input type="text" name="state">
-            </div>
-            <div class="zip">
-                <h3>Zip</h3>
-                <input type="text" name="zip">
-            </div>
-        </div>
+        </form>
     </main>
     <footer>
         <section class="join-block clearfix">

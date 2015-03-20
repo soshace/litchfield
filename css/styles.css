@@ -1367,13 +1367,13 @@ p.donate-role__donate__now__time {
     display: block;
     border: 1px solid #E5B546;
     background-color: #C9DAA2;
+    margin-top: 10px;
 }
 
 .facilityForm header {
     display: block;
     background-color: #E5B546;
     height: 56px;
-    margin-top: 7px;
 }
 
 .facilityForm header h1{
@@ -1399,18 +1399,17 @@ p.donate-role__donate__now__time {
     color: #4A714C;
 }
 
-.facilityForm__renterInformation{
+.facilityForm__form__renterInformation{
 
 }
 
-.facilityForm__renterInformation b{
+.facilityForm__form b{
     font-family: ITCAvantGardePro-Bk;
     font-size: 17px;
     color: #4A714C;
-    margin-left: 42px;
 }
 
-.facilityForm__renterInformation hr{
+.facilityForm__form hr{
     border: none;
     color: #ffffff;
     background-color: #ffffff;
@@ -1418,6 +1417,21 @@ p.donate-role__donate__now__time {
     height: 2px;
     position: absolute;
     margin: -8px 0 0 196px;
+}
+
+.facilityForm__form__renterInformation b{
+    margin-left: 42px;
+}
+
+.facilityForm__form__renterInformation hr{
+    width: 688px;
+    position: absolute;
+}
+
+.facilityForm label{
+    font-family: ITCAvantGardePro-Bk;
+    font-size: 17px;
+    color: #589155;
 }
 
 .facilityForm h3{
@@ -1431,101 +1445,296 @@ p.donate-role__donate__now__time {
     border: 1px solid #589155;
 }
 
-.facilityForm__renterInformation .organization h3{
+.inputForm label{
+    font-family: ITCAvantGardePro-Bk;
+    font-size: 17px;
+    color: #589155;
+    display: block;
+    margin-bottom: 3px;
+}
+
+.inputForm input{
+    height: 24px;
+    border: 1px solid #589155;
+    width: 100%;
+}
+.facilityForm__form__renterInformation .organization{
+    width: 845px;
     margin: 17px 0 0 41px;
 }
 
-.facilityForm__renterInformation .organization input{
-    margin: 6px 0 0 41px;
-    width: 847px;
-}
-.facilityForm__renterInformation .firstName{
+.facilityForm__form__renterInformation .firstName{
     display: inline-block;
-}
-
-.facilityForm__renterInformation .firstName h3{
-    margin: 12px 0 0 41px;
-}
-
-.facilityForm__renterInformation .firstName input{
-    margin: 6px 0 0 41px;
+    margin: 16px 0 0 41px;
     width: 271px;
 }
 
-.facilityForm__renterInformation .lastName{
+.facilityForm__form__renterInformation .lastName{
     display: inline-block;
-}
-
-.facilityForm__renterInformation .lastName h3{
-    margin: 12px 0 0 11px;
-}
-
-.facilityForm__renterInformation .lastName input{
-    margin: 6px 0 0 11px;
+    margin: 16px 0 0 11px;
     width: 271px;
 }
 
-.facilityForm__renterInformation .email{
+.facilityForm__form__renterInformation .renterEmail{
     display: inline-block;
-}
-
-.facilityForm__renterInformation .email h3{
-    margin: 12px 0 0 9px;
-}
-
-.facilityForm__renterInformation .email input{
-    margin: 6px 0 0 9px;
+    margin: 16px 0 0 9px;
     width: 271px;
 }
 
-.facilityForm__renterInformation .mailingAddress{
+.facilityForm__form__renterInformation .mailingAddress{
     display: inline-block;
-}
-
-.facilityForm__renterInformation .mailingAddress h3{
-    margin: 15px 0 0 41px;
-}
-
-.facilityForm__renterInformation .mailingAddress input{
-    margin: 6px 0 0 41px;
+    margin: 17px 0 0 41px;
     width: 354px;
 }
 
-.facilityForm__renterInformation .city{
+.facilityForm__form__renterInformation .city{
     display: inline-block;
-}
-
-.facilityForm__renterInformation .city h3{
-    margin: 12px 0 0 11px;
-}
-
-.facilityForm__renterInformation .city input{
-    margin: 6px 0 0 11px;
+    margin: 17px 0 0 11px;
     width: 240px;
 }
 
-.facilityForm__renterInformation .state{
+.facilityForm__form__renterInformation .state{
     display: inline-block;
-}
-
-.facilityForm__renterInformation .state h3{
-    margin: 12px 0 0 7px;
-}
-
-.facilityForm__renterInformation .state input{
-    margin: 6px 0 0 7px;
+    margin: 17px 0 0 7px;
     width: 45px;
 }
 
-.facilityForm__renterInformation .zip{
+.facilityForm__form__renterInformation .zip{
+    display: inline-block;
+    margin: 17px 0 0 8px;
+    width: 161px;
+}
+
+.facilityForm__form__renterInformation .cellhomephone{
+    display: inline-block;
+    margin: 17px 0 0 40px;
+    width: 272px;
+}
+
+.facilityForm__form__renterInformation .businessphone{
+    display: inline-block;
+    margin: 17px 0 0 10px;
+    width: 272px;
+}
+
+.facilityForm__form__renterInformation .fax{
+    display: inline-block;
+    margin: 17px 0 0 9px;
+    width: 272px;
+}
+
+.facilityForm__form__eventInformation b{
+    display: block;
+    margin: 25px 0 0 42px;
+}
+
+.facilityForm__form__eventInformation hr{
+    width: 696px;
+    position: absolute;
+    margin: -8px 0 0 191px;
+}
+
+.facilityForm__form__eventInformation .dayanddaterequested{
+    display: inline-block;
+    margin: 16px 0 0 41px;
+    width: 415px;
+}
+
+.facilityForm__form__eventInformation .secondchoice{
+    display: inline-block;
+    margin: 16px 0 0 14px;
+    width: 414px;
+}
+
+.facilityForm__form__eventInformation .starttime{
+    display: inline-block;
+    margin: 17px 0 0 41px;
+    width: 272px;
+}
+
+.facilityForm__form__eventInformation .endtime{
+    display: inline-block;
+    margin: 17px 0 0 12px;
+    width: 272px;
+}
+
+.facilityForm__form__eventInformation .totalhours{
+    display: inline-block;
+    margin: 17px 0 0 9px;
+    width: 272px;
+}
+
+.facilityForm__form__eventInformation .typeofevent{
+    display: inline-block;
+    margin: 17px 0 0 42px;
+    width: 622px;
+}
+
+.facilityForm__form__eventInformation .totalexpectedattendance{
+    display: inline-block;
+    margin: 17px 0 0 9px;
+    width: 211px;
+    letter-spacing: -1px;
+}
+
+.facilityForm__form__eventInformation .requestForRentalOf{
+    margin: 19px 0 0 42px;
+}
+
+.checkboxForm label{
+    font-family: ITCAvantGardePro-Bk;
+    font-size: 17px;
+    color: #589155;
     display: inline-block;
 }
 
-.facilityForm__renterInformation .zip h3{
-    margin: 12px 0 0 8px;
+.checkboxForm input[type="checkbox"]{
+    height: 19px;
+    width: 19px;
+    display:inline-block;
+    margin: 0;
 }
 
-.facilityForm__renterInformation .zip input{
-    margin: 6px 0 0 8px;
-    width: 161px;
+.facilityForm__form__eventInformation .lounge{
+    margin: 15px 0 0 0px;
+    display: inline-block;
+}
+
+.facilityForm__form__eventInformation .atrium{
+    margin: 15px 0 0 4px;
+    display: inline-block;
+}
+
+.facilityForm__form__eventInformation .recreationArea{
+    margin: 15px 0 0 6px;
+    display: inline-block;
+}
+
+.facilityForm__form__eventInformation .kitchen{
+    margin: 15px 0 0 0px;
+    display: inline-block;
+}
+
+.facilityForm__form__eventInformation .learningCtr{
+    margin: 15px 0 0 8px;
+    display: inline-block;
+}
+
+.facilityForm__form__eventInformation .communityRoom{
+    margin: 15px 0 0 9px;
+    display: inline-block;
+}
+
+.facilityForm__form__eventInformation .entireFacility{
+    margin: 15px 0 0 0px;
+    display: inline-block;
+}
+
+.facilityForm__form__eventInformation .feesQuestion{
+    margin-top: 25px;
+}
+
+.questionYesNo label{
+    font-family: ITCAvantGardePro-Bk;
+    font-size: 17px;
+    color: #589155;
+    display: inline-block;
+}
+
+.questionYesNo input[type="checkbox"]{
+    height: 19px;
+    width: 19px;
+    display:inline-block;
+    margin: 0;
+}
+
+.questionYesNo input[type="checkbox"][name="yes"]{
+    margin: 0 0 0 10px;
+}
+
+.questionYesNo input[type="checkbox"][name="no"]{
+    margin: 0 0 0 10px;
+}
+
+.facilityForm__form__eventInformation .ifYesExplain {
+    margin: 10px 0 0 0;
+    width: 846px;
+}
+
+.facilityForm__form__food{
+    margin: 25px 0 0 44px;
+}
+
+.facilityForm__form__food hr{
+    margin-left: 46px;
+    width: 797px;
+}
+
+.facilityForm__form__food b{
+    margin-right: 700px;
+}
+
+.facilityForm__form__food .intendToServeFood{
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.facilityForm__form__food .typeOfFood{
+    display: inline-block;
+    margin-left: 19px;
+}
+
+.facilityForm__form__food .typeOfFood input{
+    width: 359px;
+}
+
+.facilityForm__form__food .intendQuestion{
+    margin: 20px 0 0 0;
+}
+
+.facilityForm__form__food .nameOfFood{
+    width: 553px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.facilityForm__form__food .foodPhone{
+    width: 272px;
+    display: inline-block;
+    margin: 20px 0 0 12px;
+}
+
+.facilityForm__form__food .foodExplain{
+    margin-top: 8px;
+}
+
+.facilityForm__form__food .startTimeFood{
+    margin: 34px 0 0 0;
+    width: 269px;
+    display: inline-block;
+}
+
+.facilityForm__form__food .endTimeFood{
+    margin: 34px 0 0 12px;
+    width: 272px;
+    display: inline-block;
+}
+
+.facilityForm__form__food .totalHoursFood{
+    margin: 34px 0 0 10px;
+    width: 271px;
+    display: inline-block;
+}
+
+.facilityForm__form__alcohol{
+    margin: 25px 0 0 44px;
+}
+
+.facilityForm__form__alcohol hr{
+    margin-left: 46px;
+    width: 797px;
+}
+
+.facilityForm__form__alcohol h3{
+    margin-right: 700px;
 }
