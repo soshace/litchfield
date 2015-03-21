@@ -13,6 +13,11 @@
 }
 
 @font-face {
+    font-family: ITCAvantGardePro-Bold;
+    src: url('/fonts/ITCAvantGardePro-Bold.woff');
+}
+
+@font-face {
     font-family: ITCAvantGardePro-BkObl;
     src: url('/fonts/ITCAvantGardePro-BkObl.woff');
 }
@@ -1384,7 +1389,11 @@ p.donate-role__donate__now__time {
 }
 
 .facilityForm__subheader{
-    padding: 25px 35px 0 35px;
+    margin: 28px 35px 0 39px;
+}
+
+.facilityForm__subheader br{
+    line-height: 21px;
 }
 
 .facilityForm__subheader p{
@@ -1404,8 +1413,8 @@ p.donate-role__donate__now__time {
 }
 
 .facilityForm__form b{
-    font-family: ITCAvantGardePro-Bk;
-    font-size: 17px;
+    font-family: ITCAvantGardePro-Bold;
+    font-size: 16px;
     color: #4A714C;
 }
 
@@ -1436,7 +1445,7 @@ p.donate-role__donate__now__time {
 
 .facilityForm h3{
     font-family: ITCAvantGardePro-Bk;
-    font-size: 17px;
+    font-size: 16px;
     color: #589155;
 }
 
@@ -1636,7 +1645,7 @@ p.donate-role__donate__now__time {
 
 .questionYesNo label{
     font-family: ITCAvantGardePro-Bk;
-    font-size: 17px;
+    font-size: 16px;
     color: #589155;
     display: inline-block;
 }
@@ -1649,11 +1658,11 @@ p.donate-role__donate__now__time {
 }
 
 .questionYesNo input[type="checkbox"][name="yes"]{
-    margin: 0 0 0 10px;
+    margin: 0 0 0 6px;
 }
 
 .questionYesNo input[type="checkbox"][name="no"]{
-    margin: 0 0 0 10px;
+    margin: 0 0 0 11px;
 }
 
 .facilityForm__form__eventInformation .ifYesExplain {
@@ -1681,7 +1690,7 @@ p.donate-role__donate__now__time {
 
 .facilityForm__form__food .typeOfFood{
     display: inline-block;
-    margin-left: 19px;
+    margin-left: 36px;
 }
 
 .facilityForm__form__food .typeOfFood input{
@@ -1727,14 +1736,66 @@ p.donate-role__donate__now__time {
 }
 
 .facilityForm__form__alcohol{
-    margin: 25px 0 0 44px;
+    margin: 22px 0 0 43px;
 }
 
 .facilityForm__form__alcohol hr{
-    margin-left: 46px;
-    width: 797px;
+    margin-left: 199px;
+    width: 646px;
 }
 
 .facilityForm__form__alcohol h3{
-    margin-right: 700px;
+    margin-top: 21px;
+}
+
+.facilityForm__form__alcohol .alcoholRequest{
+    margin-top: 20px;
+}
+
+.facilityForm__form__alcohol .typeOfAlcohol{
+    display: inline-block;
+    margin: 17px 0 0 0;
+}
+
+.facilityForm__form__alcohol .typeOfAlcohol h3{
+    position: absolute;
+    margin: 7px 0 0 0;
+}
+
+.facilityForm__form__alcohol .howDispensed{
+    display: inline-block;
+    margin-left: 108px;
+}
+
+.facilityForm__form__alcoholCondition{
+    margin: 51px 0 0 43px;
+}
+
+.facilityForm__form__alcoholCondition hr{
+    margin-left: 320px;
+    width: 525px;
+}
+
+.facilityForm__form__alcoholCondition ol{
+    margin: 11px 24px 0 22px;
+}
+
+.facilityForm__form ol>li{
+    font-family: ITCAvantGardePro-Bk;
+    font-size: 16px;
+    color: #4A714C;
+    line-height: 19px;
+}
+
+.facilityForm__form__generalCondition{
+    margin: 32px 0 0 41px;
+}
+
+.facilityForm__form__generalCondition hr{
+    margin-left: 588px;
+    width: 258px;
+}
+
+.facilityForm__form__generalCondition ol{
+    margin: 15px 34px 0 23px;
 }
