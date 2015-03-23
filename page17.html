@@ -168,31 +168,27 @@
             </li>
         </menu>
     </nav>
-    <main class="facilityForm">
+    <main class="facilityFormC">
         <header class="clearfix">
-            <section class="facilityForm__header">
-                <h1>Facility Use Form</h1>
+            <section class="facilityFormC__header">
+                <h1>Facility Use Form for Child’s Party</h1>
             </section>
         </header>
-        <div class="facilityForm__subheader">
+        <div class="facilityFormC__subheader">
             <p>GRANTING OF PERMISSION TO USE THE COMMUNITY CENTER FACILITIES DOES NOT IN ANY WAY CONSTITUTE AN
-            ENDORSEMENT OF AN INDIVIDUAL’S OR GROUP’S PARTICULAR BELIEFS OR PURPOSES BY THE LITCHFIELD COMMUNITY
-            CENTER, INC. BOARD OF DIRECTORS, STAFF OR ANY AFFILIATE OF THE ORGANIZATION.</p>
+                ENDORSEMENT OF AN INDIVIDUAL'S OR GROUP'S PARTICULAR BELIEFS OR PURPOSES BY THE LITCHFIELD COMMUNITY
+                CENTER, INC. BOARD OF DIRECTORS, STAFF OR ANY AFFILIATE OF THE ORGANIZATION.</p>
             <br>
             <p>For consideration of requests for use of the Center, this form must be completed in its entirety and returned to the
-                Director as soon as possible. An invoice for payment will be presented to the host with an approved use form. All
-                payments shall be received at least 10 business days before the event unless otherwise noted in invoice. All checks
-                are payable to <i>The Litchfield Community Center, Inc.</i>
+                Director as soon as possible. An invoice for payment will be presented to the host with an approved use form. Request
+                must be submitted a minimum of 4 weeks prior to requested date. All payments shall be received at least 10 business
+                days before the event unless otherwise noted in invoice. All checks are payable to <i>The Litchfield Community Center, Inc.</i>
             </p>
             <br>
         </div>
-        <form class="facilityForm__form">
-            <div class="facilityForm__form__renterInformation">
+        <form class="facilityFormC__form">
+            <div class="facilityFormC__form__renterInformation">
                 <b>Renter Information</b><hr>
-                <div class="organization inputForm">
-                    <label for="organization">Organization</label>
-                    <input type="text" name="organization" id="organization">
-                </div>
                 <div class="firstName inputForm">
                     <label for="firstName">First Name</label>
                     <input type="text" name="firstName" id="firstName">
@@ -234,7 +230,7 @@
                     <input type="text" name="fax" id="fax">
                 </div>
             </div>
-            <div class="facilityForm__form__eventInformation">
+            <div class="facilityFormC__form__eventInformation">
                 <b>Event Information</b><hr>
                 <div class="dayanddaterequested inputForm">
                     <label for="dayanddaterequested">Day & Date Requested</label>
@@ -256,113 +252,46 @@
                     <label for="totalhours">Total Hours</label>
                     <input type="text"  name="totalhours" id="totalhours">
                 </div>
-                <div class="typeofevent inputForm">
-                    <label for="typeofevent">Type of Event</label>
-                    <input type="text" name="typeofevent" id="typeofevent">
-                </div>
-                <div class="totalexpectedattendance inputForm">
-                    <label>Total Expected Attendance</label>
-                    <input type="text" name="totalexpectedattendance" id="totalexpectedattendance">
-                </div>
-                <div class="requestForRentalOf">
-                    <h3>Request For Rental Of:</h3>
-                    <div class="lounge checkboxForm">
-                        <input type="checkbox" name="lounge" id="lounge"><label for="lounge">Lounge</label>
+                <div class="selectPartyPackage">
+                    <label>Select Party Package:</label>
+                    <div class="partyPackage one checkboxForm">
+                        <input type="checkbox" name="partyPackage1" id="partyPackage1"><label for="partyPackage1">Party Package I:<br>
+                        Up to 8 guests<br>
+                        $150.00<br>
+                        Includes a decorated<br>
+                        8” round marble cake &<br>
+                        1 large cheese pizza.</label>
                     </div>
-                    <div class="atrium checkboxForm">
-                        <input type="checkbox" name="atrium" id="atrium"><label for="atrium">Atrium</label>
+                    <div class="partyPackage two checkboxForm">
+                        <input type="checkbox" name="partyPackage2" id="partyPackage2"><label for="partyPackage2">Party Package II:<br>
+                        Up to 12 guests<br>
+                        $200.00<br>
+                        Includes a decorated<br>
+                        ¼ sheet marble cake &<br>
+                        2 large cheese pizzas.</label>
                     </div>
-                    <div class="recreationArea checkboxForm">
-                        <input type="checkbox" name="recreationArea" id="recreationArea"><label for="recreationArea">Recreation Area</label>
-                    </div>
-                    <div class="kitchen checkboxForm">
-                        <input type="checkbox" name="kitchen" id="kitchen"><label for="kitchen">Kitchen</label>
-                    </div>
-                    <div class="learningCtr checkboxForm">
-                        <input type="checkbox" name="learningCtr" id="learningCtr"><label for="learningCtr">Learning Ctr</label>
-                    </div>
-                    <div class="communityRoom checkboxForm">
-                        <input type="checkbox" name="communityRoom" id="communityRoom"><label for="communityRoom">Community Room</label>
-                    </div>
-                    <div class="entireFacility checkboxForm">
-                        <input type="checkbox" name="entireFacility" id="entireFacility"><label for="entireFacility">Entire Facility</label>
-                    </div>
-                    <div class="feesQuestion questionYesNo">
-                        <label>Are you charging fees for any aspect of your activity?</label> <input type="checkbox" name="yes" id="feesQuestionYes"><label for="feesQuestionYes">Yes</label><input type="checkbox" name="no" id="feesQuestionNo"><label for="feesQuestionNo">No</label>
-                    </div>
-                    <div class="ifYesExplain inputForm">
-                        <label>If Yes, please explain</label>
-                        <input type="text" name="ifYesExplain inputForm" id="ifYesExplain inputForm">
+                    <div class="partyPackage three checkboxForm">
+                        <input type="checkbox" name="partyPackage3" id="partyPackage3"><label for="partyPackage3">Party Package III:<br>
+                        Up to 20 guests<br>
+                        $250.00<br>
+                        Includes a decorated<br>
+                        1/2 sheet marble cake &<br>
+                        3 large cheese pizzas.</label>
                     </div>
                 </div>
             </div>
-            <div class="facilityForm__form__food">
-                <b>Food</b><hr>
-                <div class="intendToServeFood questionYesNo">
-                    <label>Do you intend to serve food?</label> <input type="checkbox" name="yes" id="intendToServeFoodYes"><label for="intendToServeFoodYes">Yes</label><input type="checkbox" name="no" id="intendToServeFoodNo"><label for="intendToServeFoodNo">No</label>
-                </div>
-                <div class="typeOfFood">
-                    <label for="typeOfFood">Type of food</label>
-                    <input type="text" name="typeOfFood" id="typeOfFood">
-                </div>
-                <div class="intendQuestion questionYesNo">
-                    <label>Do you intend to prepare food on premises?</label> <input type="checkbox" name="yes" id="intendQuestionYes"><label for="intendQuestionYes">Yes</label><input type="checkbox" name="no" id="intendQuestionNo"><label for="intendQuestionNo">No</label>
-                </div>
-                <div class="nameOfFood inputForm">
-                    <label for="nameOfFood">Name of food provider/carter</label>
-                    <input type="text" name="nameOfFood" id="nameOfFood">
-                </div>
-                <div class="foodPhone inputForm">
-                    <label for="foodPhone">Phone</label>
-                    <input type="text" name="foodPhone" id="foodPhone">
-                </div>
-                <div class="foodExplain">
-                    <h3>(*Caterer will be required to provide copy of License to Cater and/or Food Handler Certificate*)</h3>
-                </div>
-                <div class="startTimeFood inputForm">
-                    <label for="startTimeFood">Start Time (includeing set-up)</label>
-                    <input type="text" name="startTimeFood" id="startTimeFood">
-                </div>
-                <div class="endTimeFood inputForm">
-                    <label for="endTimeFood">End Time (includeing clean-up)</label>
-                    <input type="text" name="endTimeFood" id="endTimeFood">
-                </div>
-                <div class="totalHoursFood inputForm">
-                    <label for="totalHoursFood">Total Hours</label>
-                    <input type="text" name="totalHoursFood" id="totalHoursFood">
+            <div class="facilityFormC__form__birthdatParty">
+                <b>Birthday Party Guidelines</b><hr>
+                <div class="guidelines">
+                    <p>*Max of 20 children*</p>
+                    <p>*Max of 2 hours*</p>
+                    <p>*3 adult chaperones required*</p>
+                    <p>*Request must be submitted a maximum of 4 weeks prior to required date*</p>
+                    <p>*Please note these are non-alcoholic events. Serving or consumption of alcohol by any member of the party,
+                        including chaperones, will result in early termination of rental and loss of any payment.*</p>
                 </div>
             </div>
-            <div class="facilityForm__form__alcohol">
-                <b>Alcoholic Beverage Use</b><hr>
-                <h3>*Temporary CT State Liquor Permit required if alcoholic beverages are sold or included in admission price*</h3>
-                <div class="alcoholRequest questionYesNo">
-                    <label>Are you requesting permission for alcoholic beverage use?</label> <input type="checkbox" name="yes" id="alcoholRequestYes"><label for="alcoholRequestYes">Yes</label><input type="checkbox" name="no" id="alcoholRequestNo"><label for="alcoholRequestNo">No</label>
-                </div>
-                <div class="typeOfAlcohol checkboxForm">
-                    <label>Type of Alcohol:</label>
-                    <input type="checkbox" name="beer" id="beer"><label for="beer">Beer</label>
-                    <input type="checkbox" name="wine" id="wine"><label for="wine">Wine</label>
-                    <input type="checkbox" name="liquor" id="liquor"><label for="liquor">Liquor</label>
-                    <h3>(*NO RED WINE IN LOUNGE*)</h3>
-                </div>
-                <div class="howDispensed checkboxForm">
-                    <label>How Dispensed:</label>
-                    <input type="checkbox" name="openBar" id="openBar"><label for="openBar">Open Bar</label>
-                    <input type="checkbox" name="byob" id="byob"><label for="byob">BYOB</label>
-                    <input type="checkbox" name="cashBar" id="cashBar"><label for="cashBar">Cash Bar</label>
-                </div>
-            </div>
-            <div class="facilityForm__form__alcoholCondition">
-                <b>Conditions of Alcoholic Beverage Use:</b><hr>
-                <ol>
-                    <li>The use of Alcoholic beverages is prohibited in or on the premises unless expressly authorized by the Board of Directors. Alcoholic beverages may be offered for sale during an event only upon prior approval and receipt of a valid State Liquor Permit.</li>
-                    <li>The individual or organization in whose name the facility is rented shall be responsible for securing a temporary liquor permit from the State Liquor Control Commission if required, and shall provide a copy of said permit to the Director at least one day prior to the event. (State guidelines for obtaining permit available upon request)</li>
-                    <li>If alcoholic beverages are permitted, use shall be confined to the main dining area (including dining patio) and Lessee acknowledges and agrees to uphold state law in prohibiting the dispensing or serving of alcohol to any person under the age of 21 years.</li>
-                    <li>Lessee is responsible for the removal of all alcohol beverage containers from Community Center’s property at completion of event including empty bottles and cans.</li>
-                    <li>Liquor Liability Insurance Coverage (dram shop) must be provided by the renter.</li>
-                </ol>
-            </div>
-            <div class="facilityForm__form__generalCondition">
+            <div class="facilityFormC__form__generalCondition">
                 <b>General Terms and Conditions: PLEASE READ BEFORE SUBMITTING FORM</b><hr>
                 <ol>
                     <li>Smoking is prohibited in all areas of the facility.</li>
@@ -383,15 +312,7 @@
                 </ol>
                 <p>In requesting the use of The Litchfield Community Center, I hereby acknowledge that I have read and understand the above terms and conditions, that the information provided by myself is true and accurate, and that I accept full and complete responsibility for the conduct and safety of the group and any and all damages that may result as a consequence of the rental.</p>
             </div>
-            <div class="facilityForm__form__facilityRentalRate">
-                <b>FACILITY RENTAL RATE INFORMATION: BASE HOURLY RATE: $125.00 PER HOUR</b><hr>
-                <p>AT THE DISCRETION OF THE EXECUTIVE DIRECTOR AN INCREASE OR REDUCTION IN HOURLY RATE MAY APPLY IN CONSIDERATION F SERVICES RENDERED, USE OF FACILITY EQUIPMENT AND RESOURCES OR IN CONSIDERATION OF THE PURPOSE OF THE EVENT/FUNCTION FOR WHICH FACILITY USE IS BEING REQUESTED (i.e. RENTAL OF ENTIRE FACILITY FOR SPECIAL EVENT, CENTER STAFF SET-UP AND BREAKDOWN, PROMOTIONAL SERVICES FOR PUBLIC EVENT)</p>
-                <p>RENTAL RATE WILL BE DETERMINED UPON SUBMISSION OF A COMPLETED FACILITY RENTAL REQUEST FORM AND INDIVIDUAL LISTED AS CONTACT PERSON WILL BE NOTIFIED OF RENTAL FEE WITHIN 48 HOURS.</p>
-                <p>FOR EVENT EXCEEDING TWO HOURS A $100.00 NON-REFUNDABLE. DEPOSIT IS REQUIRED</p>
-                <p>USE OF THE KITCHEN FOR FULL FOOD SERVICE REQUIRES AN ADDITIONAL RATE OF $150.00 PER EVENT</p>
-                <p>A COMMUNITY CENTER STAFF MEMBER WILL BE ON SITE AND AVAILABLE TO ASSIST YOU, OR YOUR DESIGNATED REPRESENTATIVE THROUGHOUT YOUR RENTAL TIME UNLESS OTHER ARRANGEMENTS HAVE BEEN MADE WITH THE EXECUTIVE DIRECTOR PRIOR TO THE SCHEDULED EVENT.</p>
-            </div>
-            <div class="facilityForm__form__agree checkboxForm">
+            <div class="facilityFormC__form__agree checkboxForm">
                 <label for="agree">Yes, I Agree</label><input type="checkbox" name="agree" id="agree">
             </div>
             <button type="submit">SUBMIT</button>

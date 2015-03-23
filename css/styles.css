@@ -123,10 +123,16 @@ h1, h2, h3, h4, h5 {
     padding: 8px 0 0 194px;
 }
 
-.social-icon {
+.header__social .social-icon{
     width: 28px;
     height: 28px;
     background-size: 28px 28px;
+}
+
+.social-icon {
+    width: 36px;
+    height: 36px;
+    background-size: 36px 36px;
     background-repeat: no-repeat;
     display: inline-block;
 }
@@ -268,7 +274,7 @@ footer {
 }
 
 .footer__copyright {
-    padding: 10px 0 15px 15px;
+    padding: 7px 0 15px 25px;
     font-size: 10px;
     list-style: none;
 }
@@ -295,14 +301,15 @@ footer {
 }
 
 .footer__company p {
-    padding-top: 7px;
+    padding-top: 13px;
 }
 
 .footer__contacts {
     float: right;
-    width: 420px;
+    width: 415px;
     font-size: 18px;
     color: #006738;
+    margin-top: 5px;
 }
 
 .footer__contacts__phones {
@@ -315,9 +322,10 @@ footer {
 }
 
 .footer__contacts__serving-since {
-    font-size: 14px;
+    font-size: 17px;
     color: #58585B;
     padding-top: 29px;
+    font-family: ITCAvantGardeStd-BkCn;
 }
 
 .news {
@@ -1372,7 +1380,14 @@ p.donate-role__donate__now__time {
     display: block;
     border: 1px solid #E5B546;
     background-color: #C9DAA2;
-    margin-top: 10px;
+    margin: 7px 0 35px 0;
+}
+
+.facilityForm p{
+    font-family: ITCAvantGardePro-Bk;
+    font-size: 15px;
+    color: #4A714C;
+    line-height: 17px;
 }
 
 .facilityForm header {
@@ -1395,13 +1410,6 @@ p.donate-role__donate__now__time {
 .facilityForm__subheader br{
     line-height: 21px;
 }
-
-.facilityForm__subheader p{
-     font-family: ITCAvantGardePro-Bk;
-     font-size: 15px;
-     color: #4A714C;
-     line-height: 17px;
- }
 
 .facilityForm__subheader p i{
     font-family: ITCAvantGardePro-BkObl;
@@ -1592,7 +1600,7 @@ p.donate-role__donate__now__time {
 
 .checkboxForm label{
     font-family: ITCAvantGardePro-Bk;
-    font-size: 17px;
+    font-size: 16px;
     color: #589155;
     display: inline-block;
 }
@@ -1605,37 +1613,37 @@ p.donate-role__donate__now__time {
 }
 
 .facilityForm__form__eventInformation .lounge{
-    margin: 15px 0 0 0px;
+    margin: 18px 0 0 0px;
     display: inline-block;
 }
 
 .facilityForm__form__eventInformation .atrium{
-    margin: 15px 0 0 4px;
+    margin: 18px 0 0 6px;
     display: inline-block;
 }
 
 .facilityForm__form__eventInformation .recreationArea{
-    margin: 15px 0 0 6px;
+    margin: 18px 0 0 9px;
     display: inline-block;
 }
 
 .facilityForm__form__eventInformation .kitchen{
-    margin: 15px 0 0 0px;
+    margin: 18px 0 0 7px;
     display: inline-block;
 }
 
 .facilityForm__form__eventInformation .learningCtr{
-    margin: 15px 0 0 8px;
+    margin: 18px 0 0 13px;
     display: inline-block;
 }
 
 .facilityForm__form__eventInformation .communityRoom{
-    margin: 15px 0 0 9px;
+    margin: 18px 0 0 14px;
     display: inline-block;
 }
 
 .facilityForm__form__eventInformation .entireFacility{
-    margin: 15px 0 0 0px;
+    margin: 18px 0 0 8px;
     display: inline-block;
 }
 
@@ -1670,8 +1678,12 @@ p.donate-role__donate__now__time {
     width: 846px;
 }
 
+.facilityForm__form__eventInformation .ifYesExplain input{
+    margin: 3px 0 0 0;
+}
+
 .facilityForm__form__food{
-    margin: 25px 0 0 44px;
+    margin: 25px 0 0 41px;
 }
 
 .facilityForm__form__food hr{
@@ -1736,7 +1748,7 @@ p.donate-role__donate__now__time {
 }
 
 .facilityForm__form__alcohol{
-    margin: 22px 0 0 43px;
+    margin: 21px 0 0 41px;
 }
 
 .facilityForm__form__alcohol hr{
@@ -1798,4 +1810,549 @@ p.donate-role__donate__now__time {
 
 .facilityForm__form__generalCondition ol{
     margin: 15px 34px 0 23px;
+}
+
+.facilityForm__form__generalCondition ol li:nth-child(n+10){
+    margin-left: 10px;
+}
+
+.facilityForm__form__generalCondition p{
+    line-height: 19px;
+    font-size: 16px;
+    margin: 25px 34px 0 1px;
+    font-family: ITCAvantGardePro-Md;
+    color: #589155;
+}
+
+.facilityForm__form__facilityRentalRate{
+    margin: 29px 0 0 41px;
+}
+
+.facilityForm__form__facilityRentalRate hr{
+    margin-left: 629px;
+    width: 217px;
+    margin-top: -11px;
+}
+
+.facilityForm__form__facilityRentalRate b{
+    letter-spacing: -0.1px;
+}
+
+.facilityForm__form__facilityRentalRate p{
+    line-height: 19px;
+    font-size: 16px;
+    margin: 18px 34px 0 1px;
+}
+
+.facilityForm__form__agree{
+    margin: 26px 0 20px 654px;
+    display: inline-block;
+}
+
+.facilityForm__form__agree input[type="checkbox"]{
+    margin: 0 0 0 4px;
+}
+
+.facilityForm__form button[type="submit"]{
+    position: absolute;
+    margin: 6px 0 0 18px;
+    font-family: ITCAvantGardePro-Bk;
+    font-size: 23px;
+    background-color: #589155;
+    color: #ffffff;
+    width: 101px;
+    height: 38px;
+}
+/***************************************************/
+.facilityFormC {
+    display: block;
+    border: 1px solid #E5B546;
+    background-color: #C9DAA2;
+    margin: 7px 0 35px 0;
+}
+
+.facilityFormC p{
+    font-family: ITCAvantGardePro-Bk;
+    font-size: 15px;
+    color: #4A714C;
+    line-height: 17px;
+}
+
+.facilityFormC header {
+    display: block;
+    background-color: #E5B546;
+    height: 56px;
+}
+
+.facilityFormC header h1{
+    font-family: ITCAvantGardePro-Md;
+    font-size: 23px;
+    color: #ffffff;
+    padding: 17px 0 0 35px;
+}
+
+.facilityFormC__subheader{
+    margin: 28px 35px 0 39px;
+}
+
+.facilityFormC__subheader br{
+    line-height: 21px;
+}
+
+.facilityFormC__subheader p i{
+    font-family: ITCAvantGardePro-BkObl;
+    color: #4A714C;
+}
+
+.facilityFormC__form__renterInformation{
+
+}
+
+.facilityFormC__form b{
+    font-family: ITCAvantGardePro-Bold;
+    font-size: 16px;
+    color: #4A714C;
+}
+
+.facilityFormC__form hr{
+    border: none;
+    color: #ffffff;
+    background-color: #ffffff;
+    width: 688px;
+    height: 2px;
+    position: absolute;
+    margin: -8px 0 0 196px;
+}
+
+.facilityFormC__form__renterInformation b{
+    margin: 0 690px 0 42px;
+}
+
+.facilityFormC__form__renterInformation hr{
+    width: 688px;
+    position: absolute;
+}
+
+.facilityFormC label{
+    font-family: ITCAvantGardePro-Bk;
+    font-size: 17px;
+    color: #589155;
+}
+
+.facilityFormC h3{
+    font-family: ITCAvantGardePro-Bk;
+    font-size: 16px;
+    color: #589155;
+}
+
+.facilityFormC input{
+    height: 24px;
+    border: 1px solid #589155;
+}
+
+.facilityFormC__form__renterInformation .firstName{
+    display: inline-block;
+    margin: 20px 0 0 41px;
+    width: 271px;
+}
+
+.facilityFormC__form__renterInformation .lastName{
+    display: inline-block;
+    margin: 20px 0 0 11px;
+    width: 271px;
+}
+
+.facilityFormC__form__renterInformation .renterEmail{
+    display: inline-block;
+    margin: 20px 0 0 9px;
+    width: 271px;
+}
+
+.facilityFormC__form__renterInformation .mailingAddress{
+    display: inline-block;
+    margin: 17px 0 0 41px;
+    width: 354px;
+}
+
+.facilityFormC__form__renterInformation .city{
+    display: inline-block;
+    margin: 17px 0 0 11px;
+    width: 240px;
+}
+
+.facilityFormC__form__renterInformation .state{
+    display: inline-block;
+    margin: 17px 0 0 7px;
+    width: 45px;
+}
+
+.facilityFormC__form__renterInformation .zip{
+    display: inline-block;
+    margin: 17px 0 0 8px;
+    width: 161px;
+}
+
+.facilityFormC__form__renterInformation .cellhomephone{
+    display: inline-block;
+    margin: 17px 0 0 40px;
+    width: 272px;
+}
+
+.facilityFormC__form__renterInformation .businessphone{
+    display: inline-block;
+    margin: 17px 0 0 10px;
+    width: 272px;
+}
+
+.facilityFormC__form__renterInformation .fax{
+    display: inline-block;
+    margin: 17px 0 0 9px;
+    width: 272px;
+}
+
+.facilityFormC__form__eventInformation b{
+    display: block;
+    margin: 25px 0 0 42px;
+}
+
+.facilityFormC__form__eventInformation hr{
+    width: 696px;
+    position: absolute;
+    margin: -8px 0 0 191px;
+}
+
+.facilityFormC__form__eventInformation .dayanddaterequested{
+    display: inline-block;
+    margin: 16px 0 0 41px;
+    width: 415px;
+}
+
+.facilityFormC__form__eventInformation .secondchoice{
+    display: inline-block;
+    margin: 16px 0 0 14px;
+    width: 414px;
+}
+
+.facilityFormC__form__eventInformation .starttime{
+    display: inline-block;
+    margin: 17px 0 0 41px;
+    width: 272px;
+}
+
+.facilityFormC__form__eventInformation .endtime{
+    display: inline-block;
+    margin: 17px 0 0 12px;
+    width: 272px;
+}
+
+.facilityFormC__form__eventInformation .totalhours{
+    display: inline-block;
+    margin: 17px 0 0 9px;
+    width: 272px;
+}
+
+.facilityFormC__form__eventInformation .selectPartyPackage{
+    margin: 20px 0 0 40px;
+    letter-spacing: -0.4px;
+}
+
+.facilityFormC__form__eventInformation .selectPartyPackage label{
+    margin-right: 690px;
+}
+
+.facilityFormC__form__eventInformation .selectPartyPackage .partyPackage{
+    width: 240px;
+    display: inline-block;
+}
+
+.facilityFormC__form__eventInformation .selectPartyPackage .one{
+    margin: 20px 0 0 0;
+}
+
+.facilityFormC__form__eventInformation .selectPartyPackage .two{
+    margin: 20px 0 0 68px;
+}
+
+.facilityFormC__form__eventInformation .selectPartyPackage .three{
+    margin: 20px 0 0 68px;
+}
+.facilityFormC__form__eventInformation .selectPartyPackage .partyPackage input{
+    display: inline-block;
+    position: absolute;
+}
+
+.facilityFormC__form__eventInformation .selectPartyPackage .partyPackage br{
+    height: 10px;
+}
+
+.facilityFormC__form__eventInformation .selectPartyPackage .partyPackage label{
+    display: inline-block;
+    margin: 1px 0px 0 21px;
+    line-height: 19px;
+}
+
+.facilityFormC__form__birthdatParty{
+    margin: 32px 0 0 41px;
+}
+
+.facilityFormC__form__birthdatParty hr{
+    margin-left: 213px;
+    width: 632px;
+}
+
+.facilityFormC__form__birthdatParty .guidelines{
+    margin: 20px 27px 0 0;
+}
+
+.facilityFormC__form ol>li{
+    font-family: ITCAvantGardePro-Bk;
+    font-size: 16px;
+    color: #4A714C;
+    line-height: 19px;
+}
+
+.facilityFormC__form__generalCondition{
+    margin: 32px 0 0 41px;
+}
+
+.facilityFormC__form__generalCondition hr{
+    margin-left: 588px;
+    width: 258px;
+}
+
+.facilityFormC__form__generalCondition ol{
+    margin: 15px 34px 0 23px;
+}
+
+.facilityFormC__form__generalCondition ol li:nth-child(n+10){
+    margin-left: 10px;
+}
+
+.facilityFormC__form__generalCondition p{
+    line-height: 19px;
+    font-size: 16px;
+    margin: 25px 34px 0 1px;
+    font-family: ITCAvantGardePro-Md;
+    color: #589155;
+}
+
+.facilityFormC__form__agree{
+    margin: 26px 0 20px 654px;
+    display: inline-block;
+}
+
+.facilityFormC__form__agree input[type="checkbox"]{
+    margin: 0 0 0 4px;
+}
+
+.facilityFormC__form button[type="submit"]{
+    position: absolute;
+    margin: 6px 0 0 18px;
+    font-family: ITCAvantGardePro-Bk;
+    font-size: 23px;
+    background-color: #589155;
+    color: #ffffff;
+    width: 101px;
+    height: 38px;
+}
+
+.contactUs {
+    display: block;
+    border: 1px solid #E5B546;
+    background-color: white;
+    margin: 7px 0 35px 0;
+}
+
+.contactUs p{
+    font-family: ITCAvantGardePro-Bk;
+    font-size: 15px;
+    color: #4A714C;
+    line-height: 17px;
+}
+
+.contactUs header {
+    display: block;
+    background-color: #E5B546;
+    height: 313px;
+}
+
+.contactUs header h1{
+    font-family: ITCAvantGardePro-Md;
+    color: #ffffff;
+}
+
+.contactUs header{
+    font-family: ITCAvantGardePro-Md;
+    color: #ffffff;
+}
+
+.contactUs__img{
+    float: left;
+}
+
+.contactUs__img img{
+    width: 536px;
+    height: 313px;
+}
+
+.contactUs__img h1{
+    position: absolute;
+    margin: 255px 0 0 46px;
+    font-size: 43px;
+}
+
+.contactUs__info{
+    float: left;
+    margin: 68px 0 0 21px;
+    text-align: center;
+}
+
+.contactUs__info h1{
+    font-size: 33px;
+}
+
+.contactUs__info h2{
+    font-family: ITCAvantGardePro-Md;
+    color: #ffffff;
+    font-size: 24px;
+}
+
+.contactUs__info .one{
+    margin: 32px 0 0 0;
+}
+
+.contactUs__info .two{
+    margin: 33px 0 0 0;
+}
+
+.contactUs__form {
+    background-color: #C9DAA2;
+    margin-top: 10px;
+}
+
+.contactUs label{
+    font-family: ITCAvantGardePro-Bk;
+    font-size: 17px;
+    color: #589155;
+}
+
+.contactUs h3{
+    font-family: ITCAvantGardePro-Bk;
+    font-size: 16px;
+    color: #589155;
+}
+
+.contactUs input{
+    height: 24px;
+    border: 1px solid #589155;
+}
+
+.contactUs__form h1{
+    font-family: ITCAvantGardePro-Bk;
+    font-size: 25px;
+    color: #589155;
+    padding: 17px 0 0 38px;
+}
+
+.contactUs__form .firstName{
+    display: inline-block;
+    margin: 23px 0 0 40px;
+    width: 247px;
+}
+
+.contactUs__form .lastName{
+    display: inline-block;
+    margin: 23px 0 0 11px;
+    width: 283px;
+}
+
+.contactUs__form .renterEmail{
+    display: inline-block;
+    margin: 23px 0 0 9px;
+    width: 284px;
+}
+
+.contactUs__form .mailingAddress{
+    display: inline-block;
+    margin: 14px 0 0 41px;
+    width: 354px;
+}
+
+.contactUs__form .city{
+    display: inline-block;
+    margin: 14px 0 0 11px;
+    width: 240px;
+}
+
+.contactUs__form .state{
+    display: inline-block;
+    margin: 14px 0 0 7px;
+    width: 45px;
+}
+
+.contactUs__form .zip{
+    display: inline-block;
+    margin: 14px 0 0 8px;
+    width: 161px;
+}
+
+.contactUs__form .feedback{
+    display: inline-block;
+    margin: 15px 0 38px 39px;
+    width: 741px;
+}
+
+.contactUs__form .feedback input[type=text]{
+    height: 58px;
+}
+
+.contactUs__form .addMeToMail{
+    position: absolute;
+    margin: 21px 0 0 659px;
+}
+
+.contactUs__form button[type="send"]{
+    position: absolute;
+    margin: 58px 0 0 15px;
+    font-family: ITCAvantGardePro-Bk;
+    font-size: 23px;
+    background-color: #589155;
+    color: #ffffff;
+    width: 92px;
+    height: 38px;
+}
+
+.contactUs__point{
+    position: absolute;
+    margin: 0 0 0 0;
+}
+
+.contactUs__map{
+     width: 930px;
+     height: 436px;
+     margin: 10px 0 0 0;
+}
+
+.contactUs__map button[type="getDrivingDirections"]{
+    position: absolute;
+    margin: 34px 0 0 38px;
+    font-family: ITCAvantGardePro-Bk;
+    font-size: 23px;
+    background-color: #589155;
+    color: #ffffff;
+    width: 276px;
+    height: 38px;
+}
+
+.contactUs__map img{
+    width: 100%;
+}
+
+.contactUs__point{
+    width: 44px;
+    margin: 155px 0 0 437px;
+}
+
+.contactUs__point img{
+    width: 100%;
 }
