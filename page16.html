@@ -288,7 +288,7 @@
                         <input type="checkbox" name="entireFacility" id="entireFacility"><label for="entireFacility">Entire Facility</label>
                     </div>
                     <div class="feesQuestion questionYesNo">
-                        <label>Are you charging fees for any aspect of your activity?</label> <input type="checkbox" name="yes" id="feesQuestionYes"><label for="feesQuestionYes">Yes</label><input type="checkbox" name="no" id="feesQuestionNo"><label for="feesQuestionNo">No</label>
+                        <label>Are you charging fees for any aspect of your activity?</label> <input type="radio" name="feesQuestion" id="feesQuestionYes" value="yes"><label for="feesQuestionYes">Yes</label><input type="radio" name="feesQuestion" id="feesQuestionNo" value="no"><label for="feesQuestionNo">No</label>
                     </div>
                     <div class="ifYesExplain inputForm">
                         <label>If Yes, please explain</label>
@@ -299,14 +299,14 @@
             <div class="facilityForm__form__food">
                 <b>Food</b><hr>
                 <div class="intendToServeFood questionYesNo">
-                    <label>Do you intend to serve food?</label> <input type="checkbox" name="yes" id="intendToServeFoodYes"><label for="intendToServeFoodYes">Yes</label><input type="checkbox" name="no" id="intendToServeFoodNo"><label for="intendToServeFoodNo">No</label>
+                    <label>Do you intend to serve food?</label> <input type="radio" name="intendToServeFood" id="intendToServeFoodYes" value="yes"><label for="intendToServeFoodYes">Yes</label><input type="radio" name="intendToServeFood" id="intendToServeFoodNo" value="no"><label for="intendToServeFoodNo">No</label>
                 </div>
                 <div class="typeOfFood">
                     <label for="typeOfFood">Type of food</label>
                     <input type="text" name="typeOfFood" id="typeOfFood">
                 </div>
                 <div class="intendQuestion questionYesNo">
-                    <label>Do you intend to prepare food on premises?</label> <input type="checkbox" name="yes" id="intendQuestionYes"><label for="intendQuestionYes">Yes</label><input type="checkbox" name="no" id="intendQuestionNo"><label for="intendQuestionNo">No</label>
+                    <label>Do you intend to prepare food on premises?</label> <input type="radio" name="intendQuestion" id="intendQuestionYes" value="yes"><label for="intendQuestionYes">Yes</label><input type="radio" name="intendQuestion" id="intendQuestionNo" value="no"><label for="intendQuestionNo">No</label>
                 </div>
                 <div class="nameOfFood inputForm">
                     <label for="nameOfFood">Name of food provider/carter</label>
@@ -336,7 +336,7 @@
                 <b>Alcoholic Beverage Use</b><hr>
                 <h3>*Temporary CT State Liquor Permit required if alcoholic beverages are sold or included in admission price*</h3>
                 <div class="alcoholRequest questionYesNo">
-                    <label>Are you requesting permission for alcoholic beverage use?</label> <input type="checkbox" name="yes" id="alcoholRequestYes"><label for="alcoholRequestYes">Yes</label><input type="checkbox" name="no" id="alcoholRequestNo"><label for="alcoholRequestNo">No</label>
+                    <label>Are you requesting permission for alcoholic beverage use?</label> <input type="radio" name="alcoholRequest" id="alcoholRequestYes" value="yes"><label for="alcoholRequestYes">Yes</label><input type="radio" name="alcoholRequest" id="alcoholRequestNo" value="no"><label for="alcoholRequestNo">No</label>
                 </div>
                 <div class="typeOfAlcohol checkboxForm">
                     <label>Type of Alcohol:</label>
@@ -345,11 +345,11 @@
                     <input type="checkbox" name="liquor" id="liquor"><label for="liquor">Liquor</label>
                     <h3>(*NO RED WINE IN LOUNGE*)</h3>
                 </div>
-                <div class="howDispensed checkboxForm">
+                <div class="howDispensed radioForm">
                     <label>How Dispensed:</label>
-                    <input type="checkbox" name="openBar" id="openBar"><label for="openBar">Open Bar</label>
-                    <input type="checkbox" name="byob" id="byob"><label for="byob">BYOB</label>
-                    <input type="checkbox" name="cashBar" id="cashBar"><label for="cashBar">Cash Bar</label>
+                    <input type="radio" name="howDispensed" id="openBar" value="openBar"><label for="openBar">Open Bar</label>
+                    <input type="radio" name="howDispensed" id="byob" value="byob"><label for="byob">BYOB</label>
+                    <input type="radio" name="howDispensed" id="cashBar" value="cashBar"><label for="cashBar">Cash Bar</label>
                 </div>
             </div>
             <div class="facilityForm__form__alcoholCondition">
