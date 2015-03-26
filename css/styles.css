@@ -734,7 +734,7 @@ footer {
 .donate-role__donate {
     position: relative;
     background: #f5bc17;
-    padding: 11px 0 17px 15px;
+    padding: 11px 0 17px 12px;
 }
 
 .donate-role__donate__slider {
@@ -743,13 +743,129 @@ footer {
 
 .donate-role__donate__slider ul {
     list-style: none;
+    height: 372px;
 }
 
 .donate-role__donate__matter {
     background: #D3E1AB;
-    width: 515px;
-    padding: 15px 0 15px 20px;
+    width: 576px;
     color: #1C1C1B;
+}
+
+.donate-role__donate__matter__backgrounImg{
+    position: absolute;
+    width: 586px;
+    margin: 0 0 0 0;
+    z-index: -1;
+}
+
+.donate-role__donate__matter__header{
+    font-family: ITCAvantGardePro-Bk;
+    font-size: 14.5px;
+    color: #659750;
+    padding: 18px 0 0 20px;
+    line-height: 18px;
+}
+
+.donate-role__donate__matter__header b{
+    font-family: ITCAvantGardePro-Md;
+    color: #4A714C;
+}
+
+
+.donate-role__donate__matter__quiestion1{
+    font-family: ITCAvantGardePro-Bk;
+    font-size: 16px;
+    color: #4A714C;
+    padding: 37px 0 0 34px;
+    line-height: 18px;
+    width: 211px;
+}
+
+.donate-role__donate__matter__quiestion2{
+    font-family: ITCAvantGardePro-Bk;
+    font-size: 13px;
+    color: #4A714C;
+    padding: 40px 0 0 182px;
+    line-height: 18px;
+    width: 250px;
+}
+
+.donate-role__donate__matter__quiestion3{
+    font-family: ITCAvantGardePro-Bk;
+    font-size: 16px;
+    color: #4A714C;
+    padding: 39px 0 0 35px;
+    line-height: 18px;
+    width: 230px;
+}
+
+.donate-role__donate__matter__year{
+    position: absolute;
+    margin: 27px 0 0 350px;
+    color: white;
+    font-family: ITCAvantGardePro-Md;
+    font-size: 17px;
+}
+
+.donate-role__donate__matter__green3{
+    position: absolute;
+    margin: 59px 0 0 429px;
+    color: #4A714C;
+    font-family: ITCAvantGardePro-Bk;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.donate-role__donate__matter__orange6
+{
+    position: absolute;
+    margin: 129px 0 0 435px;
+    color: #4A714C;
+    font-family: ITCAvantGardePro-Bk;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.donate-role__donate__matter__different4{
+    position: absolute;
+    margin: 217px 0 0 410px;
+    color: #4A714C;
+    font-family: ITCAvantGardePro-Bk;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.donate-role__donate__matter__bracket1
+{
+    position: absolute;
+    margin: 63px 0 0 410px;
+    color: #4A714C;
+    font-family: ITCAvantGardePro-Bk;
+    font-size: 26px;
+    letter-spacing: -4px;
+    font-weight: 100;
+}
+
+.donate-role__donate__matter__bracket2
+{
+    position: absolute;
+    margin: 139px 0 0 410px;
+    color: #4A714C;
+    font-family: ITCAvantGardePro-Bk;
+    font-size: 26px;
+    letter-spacing: -4px;
+    font-weight: 100;
+}
+.donate-role__donate__matter__bracket3
+{
+    position: absolute;
+    margin: 230px 0 0 391px;
+    color: #4A714C;
+    font-family: ITCAvantGardePro-Bk;
+    font-size: 26px;
+    letter-spacing: -4px;
+    font-weight: 100;
 }
 
 .donate-role__donate__matter h2 {
@@ -821,31 +937,48 @@ footer {
 .donate-role__donate__now {
     float: right;
     width: 305px;
-    padding: 0 30px 0 0;
+    padding: 7px 16px 0 0;
 }
 
 .donate-role__donate__now h4 {
     color: #087232;
     font-size: 21px;
     font-family: ITCAvantGardePro-BkObl;
+    line-height: 23px;
 }
 
-.donate-role__donate__now p {
-    padding-top: 10px;
+.donate-role__donate__now h1 {
+    position: absolute;
+    font-family: ITCAvantGardePro-Md;
+    font-size: 27px;
+    color: #312A20;
+    margin: 22px 0 0 2px;
+}
+
+.donate-role__donate__now__learnMore{
+    position: absolute;
     font-size: 13px;
     color: #1C1C1B;
+    margin: 58px 0 0 155px;
+}
+
+.donate-role__donate__now__view{
+    position: absolute;
+    font-size: 13px;
+    color: #1C1C1B;
+    margin: 121px 0 0 107px;
 }
 
 .donate-role__donate__now__thank {
-    padding-top: 28px;
+    padding-top: 91px;
 }
 
 .donate-role__donate__now__estate {
-    padding-top: 38px;
+    padding-top: 27px;
 }
 
 .donate-role__donate__now__btn {
-    margin-top: 53px;
+    margin-top: 38px;
     display: block;
     width: 300px;
     height: 50px;
@@ -934,7 +1067,16 @@ p.donate-role__donate__now__time {
     font-family: ITCAvantGardePro-Md;
     color: #fff;
     font-size: 15px;
-    padding-top: 26px;
+    margin-top: 26px;
+    display: inline-block;
+}
+
+.donate-role__role__2014Newsletter {
+    font-family: ITCAvantGardePro-Md;
+    color: #fff;
+    font-size: 15px;
+    margin: 26px 0 0 293px;
+    display: inline-block;
 }
 
 .single-event {
@@ -1420,10 +1562,15 @@ p.donate-role__donate__now__time {
 
 }
 
+.facilityForm__form input[type="text"]{
+    padding: 1px 7px;
+}
+
 .facilityForm__form b{
     font-family: ITCAvantGardePro-Bold;
     font-size: 16px;
     color: #4A714C;
+    font-weight: 100;
 }
 
 .facilityForm__form hr{
@@ -1476,68 +1623,68 @@ p.donate-role__donate__now__time {
     width: 100%;
 }
 .facilityForm__form__renterInformation .organization{
-    width: 845px;
+    width: 832px;
     margin: 17px 0 0 41px;
 }
 
 .facilityForm__form__renterInformation .firstName{
     display: inline-block;
     margin: 16px 0 0 41px;
-    width: 271px;
+    width: 257px;
 }
 
 .facilityForm__form__renterInformation .lastName{
     display: inline-block;
-    margin: 16px 0 0 11px;
-    width: 271px;
+    margin: 16px 0 0 27px;
+    width: 258px;
 }
 
 .facilityForm__form__renterInformation .renterEmail{
     display: inline-block;
-    margin: 16px 0 0 9px;
-    width: 271px;
+    margin: 16px 0 0 23px;
+    width: 258px;
 }
 
 .facilityForm__form__renterInformation .mailingAddress{
     display: inline-block;
     margin: 17px 0 0 41px;
-    width: 354px;
+    width: 340px;
 }
 
 .facilityForm__form__renterInformation .city{
     display: inline-block;
-    margin: 17px 0 0 11px;
-    width: 240px;
+    margin: 17px 0 0 25px;
+    width: 227px;
 }
 
 .facilityForm__form__renterInformation .state{
     display: inline-block;
-    margin: 17px 0 0 7px;
-    width: 45px;
+    margin: 17px 0 0 24px;
+    width: 31px;
 }
 
 .facilityForm__form__renterInformation .zip{
     display: inline-block;
-    margin: 17px 0 0 8px;
-    width: 161px;
+    margin: 17px 0 0 24px;
+    width: 147px;
 }
 
 .facilityForm__form__renterInformation .cellhomephone{
     display: inline-block;
     margin: 17px 0 0 40px;
-    width: 272px;
+    width: 259px;
 }
 
 .facilityForm__form__renterInformation .businessphone{
     display: inline-block;
-    margin: 17px 0 0 10px;
-    width: 272px;
+    margin: 17px 0 0 25px;
+    width: 259px;
 }
 
 .facilityForm__form__renterInformation .fax{
     display: inline-block;
-    margin: 17px 0 0 9px;
-    width: 272px;
+    margin: 17px 0 0 23px;
+    width: 259px;
 }
 
 .facilityForm__form__eventInformation b{
@@ -1554,43 +1701,43 @@ p.donate-role__donate__now__time {
 .facilityForm__form__eventInformation .dayanddaterequested{
     display: inline-block;
     margin: 16px 0 0 41px;
-    width: 415px;
+    width: 401px;
 }
 
 .facilityForm__form__eventInformation .secondchoice{
     display: inline-block;
-    margin: 16px 0 0 14px;
-    width: 414px;
+    margin: 16px 0 0 26px;
+    width: 400px;
 }
 
 .facilityForm__form__eventInformation .starttime{
     display: inline-block;
     margin: 17px 0 0 41px;
-    width: 272px;
+    width: 256px;
 }
 
 .facilityForm__form__eventInformation .endtime{
     display: inline-block;
-    margin: 17px 0 0 12px;
-    width: 272px;
+    margin: 17px 0 0 27px;
+    width: 261px;
 }
 
 .facilityForm__form__eventInformation .totalhours{
     display: inline-block;
-    margin: 17px 0 0 9px;
-    width: 272px;
+    margin: 17px 0 0 24px;
+    width: 255px;
 }
 
 .facilityForm__form__eventInformation .typeofevent{
     display: inline-block;
     margin: 17px 0 0 42px;
-    width: 622px;
+    width: 592px;
 }
 
 .facilityForm__form__eventInformation .totalexpectedattendance{
     display: inline-block;
-    margin: 17px 0 0 9px;
-    width: 211px;
+    margin: 17px 0 0 23px;
+    width: 213px;
     letter-spacing: -1px;
 }
 
@@ -1605,13 +1752,70 @@ p.donate-role__donate__now__time {
     display: inline-block;
 }
 
-.checkboxForm input[type="checkbox"]{
-    height: 19px;
-    width: 19px;
-    display:inline-block;
-    margin: 0;
+/***************************************************************/
+/* Base for label styling */
+.checkboxForm [type="checkbox"]:not(:checked),
+.checkboxForm [type="checkbox"]:checked {
+    position: absolute;
+    left: -9999px;
+}
+.checkboxForm [type="checkbox"]:not(:checked) + label,
+.checkboxForm [type="checkbox"]:checked + label {
+    position: relative;
+    padding-left: 22px;
+    cursor: pointer;
 }
 
+/* checkbox aspect */
+.checkboxForm [type="checkbox"]:not(:checked) + label:before,
+.checkboxForm [type="checkbox"]:checked + label:before {
+    content: '';
+    position: absolute;
+    left:0; top: -2px;
+    width: 16px; height: 16px;
+    border: 1px solid #589155;
+    background: #f8f8f8;
+}
+/* checked mark aspect */
+.checkboxForm [type="checkbox"]:not(:checked) + label:after,
+.checkboxForm [type="checkbox"]:checked + label:after {
+    content: '';
+    position: absolute;
+    font-size: 14px;
+    color: #09ad7e;
+    left:1px; top: -1px;
+    width: 16px; height: 16px;
+    background-color: #f39519;
+    transition: all .2s;
+}
+/* checked mark aspect changes */
+.checkboxForm [type="checkbox"]:not(:checked) + label:after {
+    opacity: 0;
+    transform: scale(0);
+}
+.checkboxForm [type="checkbox"]:checked + label:after {
+    opacity: 1;
+    transform: scale(1);
+}
+/* disabled checkbox */
+.checkboxForm [type="checkbox"]:disabled:not(:checked) + label:before,
+.checkboxForm [type="checkbox"]:disabled:checked + label:before {
+    box-shadow: none;
+    border-color: #bbb;
+    background-color: #ddd;
+}
+.checkboxForm [type="checkbox"]:disabled:checked + label:after {
+    color: #999;
+}
+.checkboxForm [type="checkbox"]:disabled + label {
+    color: #aaa;
+}
+
+/* hover style just for information */
+.checkboxForm label:hover:before {
+    border: 1px solid #4778d9!important;
+}
+/***********************************************************************************************/
 .radioForm label{
     font-family: ITCAvantGardePro-Bk;
     font-size: 16px;
@@ -1619,12 +1823,75 @@ p.donate-role__donate__now__time {
     display: inline-block;
 }
 
-.radioForm input[type="radio"]{
-    height: 19px;
-    width: 19px;
-    display:inline-block;
-    margin: 0;
+/***************************************************************/
+/* Base for label styling */
+.radioForm [type="radio"]:not(:checked),
+.radioForm [type="radio"]:checked {
+    position: absolute;
+    left: -9999px;
 }
+.radioForm [type="radio"]:not(:checked) + label,
+.radioForm [type="radio"]:checked + label {
+    position: relative;
+    padding-left: 22px;
+    cursor: pointer;
+}
+
+/* checkbox aspect */
+.radioForm [type="radio"]:not(:checked) + label:before,
+.radioForm [type="radio"]:checked + label:before {
+    content: '';
+    position: absolute;
+    left:0; top: -2px;
+    width: 16px; height: 16px;
+    border: 1px solid #589155;
+    background: #f8f8f8;
+}
+/* checked mark aspect */
+.radioForm [type="radio"]:not(:checked) + label:after,
+.radioForm [type="radio"]:checked + label:after {
+    content: '';
+    position: absolute;
+    font-size: 14px;
+    color: #09ad7e;
+    left:1px; top: -1px;
+    width: 16px; height: 16px;
+    background-color: #f39519;
+    transition: all .2s;
+}
+/* checked mark aspect changes */
+.radioForm [type="radio"]:not(:checked) + label:after {
+    opacity: 0;
+    transform: scale(0);
+}
+.radioForm [type="radio"]:checked + label:after {
+    opacity: 1;
+    transform: scale(1);
+}
+/* disabled checkbox */
+.radioForm [type="radio"]:disabled:not(:checked) + label:before,
+.radioForm [type="radio"]:disabled:checked + label:before {
+    box-shadow: none;
+    border-color: #bbb;
+    background-color: #ddd;
+}
+.radioForm [type="radio"]:disabled:checked + label:after {
+    color: #999;
+}
+.radioForm [type="radio"]:disabled + label {
+    color: #aaa;
+}
+/* accessibility */
+.radioForm [type="radio"]:checked:focus + label:before,
+.radioForm [type="radio"]:not(:checked):focus + label:before {
+    border: 1px dotted blue;
+}
+
+/* hover style just for information */
+.radioForm label:hover:before {
+    border: 1px solid #4778d9!important;
+}
+/***********************************************************************************************/
 
 .facilityForm__form__eventInformation .lounge{
     margin: 18px 0 0 0px;
@@ -1637,27 +1904,27 @@ p.donate-role__donate__now__time {
 }
 
 .facilityForm__form__eventInformation .recreationArea{
-    margin: 18px 0 0 9px;
+    margin: 18px 0 0 5px;
     display: inline-block;
 }
 
 .facilityForm__form__eventInformation .kitchen{
-    margin: 18px 0 0 7px;
+    margin: 18px 0 0 5px;
     display: inline-block;
 }
 
 .facilityForm__form__eventInformation .learningCtr{
-    margin: 18px 0 0 13px;
+    margin: 18px 0 0 10px;
     display: inline-block;
 }
 
 .facilityForm__form__eventInformation .communityRoom{
-    margin: 18px 0 0 14px;
+    margin: 18px 0 0 10px;
     display: inline-block;
 }
 
 .facilityForm__form__eventInformation .entireFacility{
-    margin: 18px 0 0 8px;
+    margin: 18px 0 0 5px;
     display: inline-block;
 }
 
@@ -1670,6 +1937,7 @@ p.donate-role__donate__now__time {
     font-size: 16px;
     color: #589155;
     display: inline-block;
+    padding-right: 6px;
 }
 
 .questionYesNo input[type="radio"]{
@@ -1689,7 +1957,7 @@ p.donate-role__donate__now__time {
 
 .facilityForm__form__eventInformation .ifYesExplain {
     margin: 10px 0 0 0;
-    width: 846px;
+    width: 831px;
 }
 
 .facilityForm__form__eventInformation .ifYesExplain input{
@@ -1720,7 +1988,7 @@ p.donate-role__donate__now__time {
 }
 
 .facilityForm__form__food .typeOfFood input{
-    width: 359px;
+    width: 342px;
 }
 
 .facilityForm__form__food .intendQuestion{
@@ -1728,15 +1996,15 @@ p.donate-role__donate__now__time {
 }
 
 .facilityForm__form__food .nameOfFood{
-    width: 553px;
+    width: 541px;
     display: inline-block;
     margin-top: 20px;
 }
 
 .facilityForm__form__food .foodPhone{
-    width: 272px;
+    width: 258px;
     display: inline-block;
-    margin: 20px 0 0 12px;
+    margin: 20px 0 0 26px;
 }
 
 .facilityForm__form__food .foodExplain{
@@ -1745,19 +2013,19 @@ p.donate-role__donate__now__time {
 
 .facilityForm__form__food .startTimeFood{
     margin: 34px 0 0 0;
-    width: 269px;
+    width: 257px;
     display: inline-block;
 }
 
 .facilityForm__form__food .endTimeFood{
-    margin: 34px 0 0 12px;
-    width: 272px;
+    margin: 34px 0 0 26px;
+    width: 258px;
     display: inline-block;
 }
 
 .facilityForm__form__food .totalHoursFood{
-    margin: 34px 0 0 10px;
-    width: 271px;
+    margin: 34px 0 0 24px;
+    width: 258px;
     display: inline-block;
 }
 
@@ -1878,12 +2146,16 @@ p.donate-role__donate__now__time {
     height: 38px;
     border: none;
 }
-/***************************************************/
+
 .facilityFormC {
     display: block;
     border: 1px solid #E5B546;
     background-color: #C9DAA2;
     margin: 7px 0 35px 0;
+}
+
+.facilityFormC__form input[type="text"]{
+    padding: 1px 7px;
 }
 
 .facilityFormC p{
@@ -1960,7 +2232,7 @@ p.donate-role__donate__now__time {
     color: #589155;
 }
 
-.facilityFormC input{
+.facilityFormC__form input{
     height: 24px;
     border: 1px solid #589155;
 }
@@ -1968,61 +2240,61 @@ p.donate-role__donate__now__time {
 .facilityFormC__form__renterInformation .firstName{
     display: inline-block;
     margin: 20px 0 0 41px;
-    width: 271px;
+    width: 255px;
 }
 
 .facilityFormC__form__renterInformation .lastName{
     display: inline-block;
-    margin: 20px 0 0 11px;
-    width: 271px;
+    margin: 20px 0 0 26px;
+    width: 259px;
 }
 
 .facilityFormC__form__renterInformation .renterEmail{
     display: inline-block;
-    margin: 20px 0 0 9px;
-    width: 271px;
+    margin: 20px 0 0 23px;
+    width: 258px;
 }
 
 .facilityFormC__form__renterInformation .mailingAddress{
     display: inline-block;
     margin: 17px 0 0 41px;
-    width: 354px;
+    width: 338px;
 }
 
 .facilityFormC__form__renterInformation .city{
     display: inline-block;
-    margin: 17px 0 0 11px;
-    width: 240px;
+    margin: 17px 0 0 25px;
+    width: 227px;
 }
 
 .facilityFormC__form__renterInformation .state{
     display: inline-block;
-    margin: 17px 0 0 7px;
-    width: 45px;
+    margin: 17px 0 0 24px;
+    width: 31px;
 }
 
 .facilityFormC__form__renterInformation .zip{
     display: inline-block;
-    margin: 17px 0 0 8px;
-    width: 161px;
+    margin: 17px 0 0 24px;
+    width: 147px;
 }
 
 .facilityFormC__form__renterInformation .cellhomephone{
     display: inline-block;
     margin: 17px 0 0 40px;
-    width: 272px;
+    width: 257px;
 }
 
 .facilityFormC__form__renterInformation .businessphone{
     display: inline-block;
-    margin: 17px 0 0 10px;
-    width: 272px;
+    margin: 17px 0 0 25px;
+    width: 259px;
 }
 
 .facilityFormC__form__renterInformation .fax{
     display: inline-block;
-    margin: 17px 0 0 9px;
-    width: 272px;
+    margin: 17px 0 0 23px;
+    width: 258px;
 }
 
 .facilityFormC__form__eventInformation b{
@@ -2039,40 +2311,41 @@ p.donate-role__donate__now__time {
 .facilityFormC__form__eventInformation .dayanddaterequested{
     display: inline-block;
     margin: 16px 0 0 41px;
-    width: 415px;
+    width: 399px;
 }
 
 .facilityFormC__form__eventInformation .secondchoice{
     display: inline-block;
-    margin: 16px 0 0 14px;
-    width: 414px;
+    margin: 16px 0 0 27px;
+    width: 401px;
 }
 
 .facilityFormC__form__eventInformation .starttime{
     display: inline-block;
     margin: 17px 0 0 41px;
-    width: 272px;
+    width: 254px;
 }
 
 .facilityFormC__form__eventInformation .endtime{
     display: inline-block;
-    margin: 17px 0 0 12px;
-    width: 272px;
+    margin: 17px 0 0 28px;
+    width: 261px;
 }
 
 .facilityFormC__form__eventInformation .totalhours{
     display: inline-block;
-    margin: 17px 0 0 9px;
-    width: 272px;
+    margin: 17px 0 0 24px;
+    width: 254px;
 }
 
 .facilityFormC__form__eventInformation .selectPartyPackage{
-    margin: 20px 0 0 40px;
+    margin: 20px 0 0 19px;
     letter-spacing: -0.4px;
 }
 
 .facilityFormC__form__eventInformation .selectPartyPackage label{
     margin-right: 690px;
+    padding-left: 23px;
 }
 
 .facilityFormC__form__eventInformation .selectPartyPackage .partyPackage{
@@ -2263,6 +2536,11 @@ p.donate-role__donate__now__time {
     border: 1px solid #589155;
 }
 
+.contactUs__form input
+{
+    padding: 1px 7px;
+}
+
 .contactUs__form h1{
     font-family: ITCAvantGardePro-Bk;
     font-size: 25px;
@@ -2273,49 +2551,49 @@ p.donate-role__donate__now__time {
 .contactUs__form .firstName{
     display: inline-block;
     margin: 23px 0 0 40px;
-    width: 247px;
+    width: 233px;
 }
 
 .contactUs__form .lastName{
     display: inline-block;
-    margin: 23px 0 0 11px;
-    width: 283px;
+    margin: 23px 0 0 25px;
+    width: 270px;
 }
 
 .contactUs__form .renterEmail{
     display: inline-block;
-    margin: 23px 0 0 9px;
-    width: 284px;
+    margin: 23px 0 0 22px;
+    width: 271px;
 }
 
 .contactUs__form .mailingAddress{
     display: inline-block;
     margin: 14px 0 0 41px;
-    width: 354px;
+    width: 339px;
 }
 
 .contactUs__form .city{
     display: inline-block;
-    margin: 14px 0 0 11px;
-    width: 240px;
+    margin: 14px 0 0 25px;
+    width: 227px;
 }
 
 .contactUs__form .state{
     display: inline-block;
-    margin: 14px 0 0 7px;
-    width: 45px;
+    margin: 14px 0 0 24px;
+    width: 32px;
 }
 
 .contactUs__form .zip{
     display: inline-block;
-    margin: 14px 0 0 8px;
-    width: 161px;
+    margin: 14px 0 0 23px;
+    width: 145px;
 }
 
 .contactUs__form .feedback{
     display: inline-block;
     margin: 15px 0 38px 39px;
-    width: 741px;
+    width: 728px;
 }
 
 .contactUs__form .feedback input[type=text]{
@@ -2329,7 +2607,7 @@ p.donate-role__donate__now__time {
 
 .contactUs__form button[type="send"]{
     position: absolute;
-    margin: 58px 0 0 15px;
+    margin: 58px 0 0 30px;
     font-family: ITCAvantGardePro-Bk;
     font-size: 23px;
     background-color: #589155;
@@ -2793,4 +3071,759 @@ p.donate-role__donate__now__time {
     font-family: ITCAvantGardePro-BkObl;
     font-size: 17px;
     color: #48433D;
+}
+
+.privacyPolicy {
+    display: block;
+    border: 1px solid #E5B546;
+    background-color: #C9DAA2;
+    margin: 7px 0 35px 0;
+}
+
+.privacyPolicy__main .text{
+    font-family: ITCAvantGardePro-Bk;
+    font-size: 17px;
+    color: #48433D;
+    line-height: 20px;
+}
+
+.privacyPolicy header {
+    display: block;
+    background-color: #E5B546;
+    height: 56px;
+}
+
+.privacyPolicy header h1{
+    font-family: ITCAvantGardePro-Md;
+    font-size: 23px;
+    color: #ffffff;
+    padding: 20px 0 0 36px;
+}
+
+.privacyPolicy__main{
+    background-color: white;
+    position: relative;
+    padding: 27px 37px 35px 37px;
+}
+
+.privacyPolicy__main .text br{
+    line-height: 41px;
+}
+
+.meetingSchedule {
+    display: block;
+    border: 1px solid #E5B546;
+    background-color: #C9DAA2;
+    margin: 7px 0 35px 0;
+}
+
+.meetingSchedule__main .table{
+    font-family: ITCAvantGardePro-Bk;
+    font-size: 17px;
+    color: #201600;
+    line-height: 19px;
+    font-weight: 600;
+}
+
+.meetingSchedule header {
+    display: block;
+    background-color: #E5B546;
+    height: 56px;
+}
+
+.meetingSchedule header h1{
+    font-family: ITCAvantGardePro-Md;
+    font-size: 23px;
+    color: #ffffff;
+    padding: 20px 0 0 36px;
+}
+
+.meetingSchedule__main{
+    background-color: white;
+    position: relative;
+    padding: 3px 0 0 0;
+}
+
+.meetingSchedule__main .mainTable tr:nth-child(odd){
+    background-color: #8DB553;
+}
+
+.meetingSchedule__main .mainTable tr{
+    background-color: #C9DAA2;
+}
+
+.meetingSchedule__main .mainTable .insideTable tr{
+    background-color: transparent;
+}
+
+.meetingSchedule__main table.mainTable{
+    width: 100%;
+}
+
+.meetingSchedule__main .mainTable td{
+    padding: 15px 0 9px 33px;
+}
+
+.meetingSchedule__main .mainTable .insideTable td{
+    padding: 0;
+}
+
+.meetingSchedule__main .mainTable td{
+    width: 19%;
+}
+
+.meetingSchedule__main .mainTable td + td{
+    width: 60%;
+}
+
+.meetingSchedule__main .mainTable .insideTable td{
+    width: 155px;
+}
+
+.meetingSchedule__main .mainTable .insideTable td + td{
+    width: 450px;
+    padding-left: 18px;
+}
+
+.meetingSchedule__main .mainTable td.widePost {
+    width: 100%;
+    padding: 26px 0 30px 35px;
+}
+
+.meetingSchedule__main .mainTable td.widePost br{
+    line-height: 41px;
+}
+
+.thanksTo {
+    display: block;
+    border: 1px solid #E5B546;
+    background-color: white;
+    margin: 7px 0 35px 0;
+}
+
+.thanksTo header {
+    display: block;
+    background-color: #E5B546;
+    height: 316px;
+}
+
+.thanksTo header h1{
+    font-family: ITCAvantGardePro-Md;
+    color: #ffffff;
+}
+
+.thanksTo header{
+    font-family: ITCAvantGardePro-Md;
+    color: #ffffff;
+}
+
+.thanksTo__img{
+    float: left;
+}
+
+.thanksTo__img img{
+    width: 678px;
+    height: 316px;
+}
+
+.thanksTo__img h1{
+    position: absolute;
+    margin: 255px 0 0 46px;
+    font-size: 43px;
+}
+
+.thanksTo__info{
+    float: left;
+    margin: 91px 0 0 59px;
+    text-align: center;
+}
+
+.thanksTo__info h1{
+    font-size: 33px;
+}
+
+.thanksTo__info h2{
+    font-family: ITCAvantGardePro-Md;
+    color: #ffffff;
+    font-size: 23px;
+    line-height: 27px;
+}
+
+.thanksTo__main{
+    background-color: white;
+    position: relative;
+    padding: 29px 0 0 35px;
+}
+
+.thanksTo__main img{
+    width: 210px;
+    float: left;
+}
+
+.thanksTo__main .text br{
+    line-height: 41px;
+}
+
+.thanksTo__main .text img{
+    float:none;
+    width: 184px;
+}
+
+.thanksTo__main .text{
+    padding: 0 33px 7px 236px;
+    line-height: 20px;
+    color: #48433D;
+    font-family: ITCAvantGardePro-Bk;
+    font-size: 17px;
+}
+
+.missionValues {
+    display: block;
+    border: 1px solid #E5B546;
+    background-color: white;
+    margin: 7px 0 35px 0;
+}
+
+.missionValues header {
+    display: block;
+    background-color: #E5B546;
+    height: 316px;
+}
+
+.missionValues header h1{
+    font-family: ITCAvantGardePro-Md;
+    color: #ffffff;
+}
+
+.missionValues header{
+    font-family: ITCAvantGardePro-Md;
+    color: #ffffff;
+}
+
+.missionValues__img{
+    float: left;
+}
+
+.missionValues__img img{
+    width: 678px;
+    height: 316px;
+}
+
+.missionValues__img h1{
+    position: absolute;
+    margin: 248px 0 0 44px;
+    font-size: 43px;
+    letter-spacing: -0.9px;
+}
+
+.missionValues__info{
+    float: left;
+    margin: 92px 0 0 59px;
+    text-align: center;
+}
+
+.missionValues__info h2{
+    font-family: ITCAvantGardePro-Md;
+    color: #ffffff;
+    font-size: 23px;
+    line-height: 27px;
+}
+
+.missionValues__main{
+    background-color: white;
+    position: relative;
+    padding: 10px 0 0 35px;
+}
+
+.missionValues__main .text br{
+    line-height: 41px;
+}
+
+.missionValues__main .text{
+    padding: 0 40px 7px 0px;
+    line-height: 20px;
+    color: #48433D;
+    font-family: ITCAvantGardePro-Bk;
+    font-size: 17px;
+}
+
+.missionValues__main .text h1{
+    color: #589155;
+    font-family: ITCAvantGardePro-Bk;
+    font-size: 25px;
+    margin: 20px 0 14px 0;
+}
+
+.estatePlannings {
+    display: block;
+    border: 1px solid #E5B546;
+    background-color: white;
+    margin: 7px 0 35px 0;
+}
+
+.estatePlannings header {
+    display: block;
+    background-color: #E5B546;
+    height: 316px;
+}
+
+.estatePlannings header h1{
+    font-family: ITCAvantGardePro-Md;
+    color: #ffffff;
+}
+
+.estatePlannings header{
+    font-family: ITCAvantGardePro-Md;
+    color: #ffffff;
+}
+
+.estatePlannings__img{
+    float: left;
+}
+
+.estatePlannings__img img{
+    width: 678px;
+    height: 316px;
+}
+
+.estatePlannings__img h1{
+    position: absolute;
+    margin: 248px 0 0 44px;
+    font-size: 43px;
+    letter-spacing: -0.9px;
+}
+
+.estatePlannings__info{
+    float: left;
+    margin: 90px 0 0 17px;
+    text-align: center;
+}
+
+.estatePlannings__info h2{
+    font-family: ITCAvantGardePro-Md;
+    color: #ffffff;
+    font-size: 23px;
+    line-height: 27px;
+}
+
+.estatePlannings__main{
+    background-color: white;
+    position: relative;
+    padding: 28px 0 26px 35px;
+}
+
+.estatePlannings__main .text br{
+    line-height: 41px;
+}
+
+.estatePlannings__main .text{
+    padding: 0 40px 7px 0px;
+    line-height: 20px;
+    color: #48433D;
+    font-family: ITCAvantGardePro-Bk;
+    font-size: 17px;
+}
+
+.planAnEvent {
+    display: block;
+    border: 1px solid #E5B546;
+    background-color: white;
+    margin: 7px 0 35px 0;
+}
+
+.planAnEvent header {
+    display: block;
+    background-color: #E5B546;
+    height: 316px;
+}
+
+.planAnEvent header h1{
+    font-family: ITCAvantGardePro-Md;
+    color: #ffffff;
+}
+
+.planAnEvent header{
+    font-family: ITCAvantGardePro-Md;
+    color: #ffffff;
+}
+
+.planAnEvent__img{
+    float: left;
+}
+
+.planAnEvent__img img{
+    width: 678px;
+    height: 316px;
+}
+
+.planAnEvent__img .arrowLeft{
+    position: absolute;
+    width: 28px;
+    height: inherit;
+    margin: 128px 0 0 12px;
+}
+
+.planAnEvent__img .arrowRight{
+    width: 28px;
+    height: inherit;
+    position: absolute;
+    margin: 128px 0 0 646px;
+}
+
+.planAnEvent__img h1{
+    position: absolute;
+    margin: 253px 0 0 49px;
+    font-size: 43px;
+    letter-spacing: -0.9px;
+}
+
+.planAnEvent__info{
+    float: left;
+    margin: 70px 0 0 46px;
+    text-align: center;
+}
+
+.planAnEvent__info h2{
+    font-family: ITCAvantGardePro-Md;
+    color: #ffffff;
+    font-size: 23px;
+    line-height: 27px;
+}
+
+.planAnEvent__main{
+    background-color: white;
+    position: relative;
+    padding: 22px 0 26px 0px;
+}
+
+.planAnEvent__main .text br{
+    line-height: 41px;
+}
+
+.planAnEvent__main .text{
+    padding: 0 40px 7px 37px;
+    line-height: 20px;
+    color: #48433D;
+    font-family: ITCAvantGardePro-Bk;
+    font-size: 17px;
+}
+
+.planAnEvent__main .text h1{
+    color: #589155;
+    font-family: ITCAvantGardePro-Bk;
+    font-size: 25px;
+}
+
+.planAnEvent__main .text ul{
+    list-style-type: square;
+    margin: 18px 0 0 17px;
+    line-height: 24px;
+    font-family: ITCAvantGardePro-Bk;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.planAnEvent__main .subheader{
+    width: 100%;
+    height: 97px;
+    color: white;
+    background-color: #98C359;
+    margin: 9px 0 0 0;
+}
+
+.planAnEvent__main .subheader h1{
+    font-family: ITCAvantGardePro-Bk;
+    font-size: 25px;
+    padding: 15px 0 0 37px;
+}
+
+.planAnEvent__main .subheader p{
+    padding: 5px 0 0 37px;
+    line-height: 20px;
+}
+
+.planAnEvent__main .packages{
+    margin: 6px 0 0 0;
+}
+
+.planAnEvent__main .packages h1{
+    position: absolute;
+    font-family: ITCAvantGardePro-Md;
+    font-size: 22px;
+    color: white;
+    padding: 17px 0 0 36px;
+    line-height: 26px;
+}
+
+.planAnEvent__main .packages p{
+    position: absolute;
+    font-family: ITCAvantGardePro-Bk;
+    font-size: 19px;
+    color: #C9DAA2;
+    padding: 93px 0 0 34px;
+    line-height: 23px;
+}
+
+.planAnEvent__main .packages img{
+    width: 100%;
+}
+
+.planAnEvent__main .packages__p1{
+    margin: 0;
+    width: 306px;
+    float: left;
+}
+
+.planAnEvent__main .packages__p2{
+    margin: 0 0 0 5px;
+    width: 306px;
+    display: inline-block;
+}
+
+.planAnEvent__main .packages__p3{
+    margin: 0;
+    width: 306px;
+    float: right;
+}
+
+.planAnEvent__main .textAfterPackages{
+    margin: 21px 0 0 31px;
+    line-height: 20px;
+    font-family: ITCAvantGardePro-Bk;
+    font-size: 17px;
+    color: #4A714C;
+}
+
+.planAnEvent__main .textAfterPackages i{
+    font-family: ITCAvantGardePro-BkObl;
+}
+
+.planAnEvent__main .textAfterPackages p>br{
+    line-height: 20px;
+}
+
+.planAnEvent__main .buttons{
+    margin: 27px 0 59px 0px;
+}
+
+.planAnEvent__main .buttons a{
+    text-decoration: none;
+    background-color: #E5B546;
+    color: white;
+    width: 461px;
+    height: 58px;
+    text-align: center;
+    font-family: ITCAvantGardePro-Md;
+    font-size: 25px;
+}
+
+.planAnEvent__main .buttons a>p{
+    padding-top: 14px;
+}
+
+.planAnEvent__main .buttons__facility{
+    float: left;
+}
+
+.planAnEvent__main .buttons__child{
+    float: right;
+}
+
+.donors {
+    display: block;
+    border: 1px solid #E5B546;
+    background-color: #C9DAA2;
+    margin: 7px 0 35px 0;
+}
+
+.donors header {
+    display: block;
+    background-color: #E5B546;
+    height: 56px;
+}
+
+.donors header h1{
+    font-family: ITCAvantGardePro-Md;
+    font-size: 23px;
+    color: #ffffff;
+    padding: 20px 0 0 36px;
+}
+
+.donors__main{
+    background-color: white;
+    position: relative;
+}
+
+.donors__main .firstTable{
+    width: 100%;
+    color: white;
+    font-family: ITCAvantGardePro-Bk;
+    font-size: 17px;
+    line-height: 20px;
+}
+
+.donors__main .firstTable h1 {
+    font-family: ITCAvantGardePro-Bk;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.donors__main .firstTable table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.donors__main .firstTable tr{
+    padding: 3px;
+    text-align: left;
+    background-color: #30784b;
+    border-left-style: none;
+    border-right-style: none;
+    width: 100%;
+}
+
+.donors__main .firstTable td{
+    border: 3px solid white;
+    width: 50%;
+}
+
+.donors__main .firstTable td:nth-child(1){
+    border-left-style: none;
+}
+
+.donors__main .firstTable td:nth-child(2){
+    border-right-style: none;
+}
+.donors__main .firstTable tr:nth-child(2){
+    background-color: #45a24e;
+}
+
+.donors ul{
+    list-style: none;
+    margin-top: 8px;
+}
+
+.donors__main .firstTable .tableText{
+    margin: 24px 40px 30px 37px;
+}
+
+.donors__main .firstTable tr:nth-child(2) h1{
+    margin-top: 32px;
+}
+
+.donors__main .communityCenterSupporter{
+    width: 100%;
+    color: white;
+    background-color: #7cc24f;
+    font-family: ITCAvantGardePro-Bk;
+    font-size: 17px;
+    line-height: 20px;
+    margin-bottom: 3px;
+}
+
+.donors__main .communityCenterSupporter h1 {
+    font-family: ITCAvantGardePro-Bk;
+    font-size: 25px;
+    line-height: 30px;
+    padding: 25px 0 0 37px;
+}
+
+.donors__main .communityCenterSupporter ul{
+    margin: 21px 7px 0 36px;
+    padding-bottom: 8px;
+}
+
+
+.donors__main .communityCenterPatron{
+    width: 100%;
+    color: white;
+    background-color: #30784b;
+    font-family: ITCAvantGardePro-Bk;
+    font-size: 17px;
+    line-height: 20px;
+    margin-bottom: 3px;
+}
+
+.donors__main .communityCenterPatron h1 {
+    font-family: ITCAvantGardePro-Bk;
+    font-size: 25px;
+    line-height: 30px;
+    padding: 25px 0 0 37px;
+}
+
+.donors__main .communityCenterPatron ul{
+    margin: 21px 7px 0 36px;
+    padding-bottom: 8px;
+}
+
+
+
+.donors__main .communityCenterContributor{
+    width: 100%;
+    color: white;
+    background-color: #45a24e;
+    font-family: ITCAvantGardePro-Bk;
+    font-size: 17px;
+    line-height: 20px;
+    margin-bottom: 3px;
+}
+
+.donors__main .communityCenterContributor h1 {
+    font-family: ITCAvantGardePro-Bk;
+    font-size: 25px;
+    line-height: 30px;
+    padding: 25px 0 0 37px;
+}
+
+.donors__main .communityCenterContributor ul{
+    margin: 21px 7px 0 36px;
+    padding-bottom: 8px;
+}
+
+
+
+
+.donors__main .honorariumMemorialContributions{
+    width: 100%;
+    color: white;
+    background-color: #7cc24f;
+    font-family: ITCAvantGardePro-Bk;
+    font-size: 17px;
+    line-height: 20px;
+    margin-bottom: 3px;
+}
+
+.donors__main .honorariumMemorialContributions h1 {
+    font-family: ITCAvantGardePro-Bk;
+    font-size: 25px;
+    line-height: 30px;
+    padding: 25px 0 0 37px;
+}
+
+.donors__main .honorariumMemorialContributions ul{
+    margin: 21px 7px 0 36px;
+}
+
+.donors__main .honorariumMemorialContributions li{
+    padding-bottom: 21px;
+}
+
+.donors__main .honorariumMemorialContributions h2 {
+    font-family: ITCAvantGardePro-BkObl;
+    font-size: 17px;
+    line-height: 20px;
+}
+
+.donors__main .anonymouse{
+    width: 100%;
+    color: white;
+    background-color: #30784b;
+    font-family: ITCAvantGardePro-Bk;
+    font-size: 17px;
+    line-height: 20px;
+    height: 73px;
+}
+
+.donors__main .anonymouse p{
+    padding: 27px 0 0 40px;
 }
