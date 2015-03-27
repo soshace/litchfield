@@ -1881,11 +1881,6 @@ p.donate-role__donate__now__time {
 .radioForm [type="radio"]:disabled + label {
     color: #aaa;
 }
-/* accessibility */
-.radioForm [type="radio"]:checked:focus + label:before,
-.radioForm [type="radio"]:not(:checked):focus + label:before {
-    border: 1px dotted blue;
-}
 
 /* hover style just for information */
 .radioForm label:hover:before {
@@ -2126,8 +2121,16 @@ p.donate-role__donate__now__time {
     margin: 18px 34px 0 1px;
 }
 
+.facilityForm__form__agree span{
+    margin: 12px 0 20px -96px;
+    position: absolute;
+    font-family: ITCAvantGardePro-Bk;
+    font-size: 16px;
+    color: #589155;
+}
+
 .facilityForm__form__agree{
-    margin: 26px 0 20px 654px;
+    margin: 18px 0 33px 748px;
     display: inline-block;
 }
 
@@ -2137,7 +2140,7 @@ p.donate-role__donate__now__time {
 
 .facilityForm__form button[type="submit"]{
     position: absolute;
-    margin: 6px 0 0 18px;
+    margin: 11px 0 0 18px;
     font-family: ITCAvantGardePro-Bk;
     font-size: 23px;
     background-color: #589155;
@@ -2425,8 +2428,16 @@ p.donate-role__donate__now__time {
 }
 
 .facilityFormC__form__agree{
-    margin: 26px 0 20px 654px;
+    margin: 18px 0 43px 734px;
     display: inline-block;
+}
+
+.facilityFormC__form__agree span{
+    margin: 12px 0 20px -96px;
+    position: absolute;
+    font-family: ITCAvantGardePro-Bk;
+    font-size: 16px;
+    color: #589155;
 }
 
 .facilityFormC__form__agree input[type="checkbox"]{
@@ -2435,7 +2446,7 @@ p.donate-role__donate__now__time {
 
 .facilityFormC__form button[type="submit"]{
     position: absolute;
-    margin: 6px 0 0 18px;
+    margin: 10px 0 0 18px;
     font-family: ITCAvantGardePro-Bk;
     font-size: 23px;
     background-color: #589155;
@@ -2596,8 +2607,10 @@ p.donate-role__donate__now__time {
     width: 728px;
 }
 
-.contactUs__form .feedback input[type=text]{
+.contactUs__form .feedback textarea[id=feedback]{
     height: 58px;
+    width: 100%;
+    border: 1px solid #589155;
 }
 
 .contactUs__form .addMeToMail{
@@ -3017,6 +3030,10 @@ p.donate-role__donate__now__time {
 
 .termsOfService__main br{
     line-height: 41px;
+}
+
+.termsOfService__main br.halfBr{
+    line-height: 20px;
 }
 
 .messageFrom {
