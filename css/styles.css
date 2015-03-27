@@ -2130,7 +2130,7 @@ p.donate-role__donate__now__time {
 }
 
 .facilityForm__form__agree{
-    margin: 18px 0 33px 748px;
+    margin: 0px 0 16px 748px;
     display: inline-block;
 }
 
@@ -2139,8 +2139,7 @@ p.donate-role__donate__now__time {
 }
 
 .facilityForm__form button[type="submit"]{
-    position: absolute;
-    margin: 11px 0 0 18px;
+    margin: 6px 0 0 18px;
     font-family: ITCAvantGardePro-Bk;
     font-size: 23px;
     background-color: #589155;
@@ -2148,6 +2147,12 @@ p.donate-role__donate__now__time {
     width: 101px;
     height: 38px;
     border: none;
+    float: left;
+}
+
+.facilityForm__form__agree .yesAgree{
+    float: left;
+    margin: 13px 0 0 1px;
 }
 
 .facilityFormC {
@@ -2428,7 +2433,7 @@ p.donate-role__donate__now__time {
 }
 
 .facilityFormC__form__agree{
-    margin: 18px 0 43px 734px;
+    margin: 0 0 26px 734px;
     display: inline-block;
 }
 
@@ -2445,8 +2450,7 @@ p.donate-role__donate__now__time {
 }
 
 .facilityFormC__form button[type="submit"]{
-    position: absolute;
-    margin: 10px 0 0 18px;
+    margin: 10px 0 0 17px;
     font-family: ITCAvantGardePro-Bk;
     font-size: 23px;
     background-color: #589155;
@@ -2454,6 +2458,12 @@ p.donate-role__donate__now__time {
     width: 101px;
     height: 38px;
     border: none;
+    float: left;
+}
+
+.facilityFormC__form__agree .yesAgree{
+    float: left;
+    margin: 17px 0 0 1px;
 }
 
 .contactUs {
