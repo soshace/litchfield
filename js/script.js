@@ -148,7 +148,3 @@ $(function () {
         $carousel.carousel()
     }
 });
-
-$(document).ready(function() {
-    $("ul.myList").css("column-count",3);
-});

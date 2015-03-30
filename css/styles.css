@@ -149,6 +149,12 @@ h1, h2, h3, h4, h5 {
     background: url(/images/icon_u-tube.svg);
 }
 
+ul.myList{
+    -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+}
+
 nav {
     margin-top: 2px;
     background: #84BB3B;
@@ -734,7 +740,7 @@ footer {
 .donate-role__donate {
     position: relative;
     background: #f5bc17;
-    padding: 11px 0 17px 12px;
+    padding: 11px 0 14px 12px;
 }
 
 .donate-role__donate__slider {
@@ -747,125 +753,203 @@ footer {
 }
 
 .donate-role__donate__matter {
-    background: #D3E1AB;
+    background: #f5bc17;
     width: 576px;
     color: #1C1C1B;
-}
-
-.donate-role__donate__matter__backgrounImg{
-    position: absolute;
-    width: 586px;
-    margin: 0 0 0 0;
-    z-index: -1;
 }
 
 .donate-role__donate__matter__header{
     font-family: ITCAvantGardePro-Bk;
     font-size: 14.5px;
     color: #659750;
-    padding: 18px 0 0 20px;
+    padding: 18px 5px 10px 20px;
     line-height: 18px;
+    background: #D3E1AB;
 }
 
 .donate-role__donate__matter__header b{
     font-family: ITCAvantGardePro-Md;
     color: #4A714C;
+    font-weight: 100;
+    letter-spacing: 0;
+}
+
+.donate-role__donate__matter__left{
+    background: #D3E1AB;
+    margin: 2px 0 0 0;
+    float: left;
+    width: 324px;
+}
+
+.donate-role__donate__matter__left .circle{
+    position: absolute;
+    margin: 84px 0 0 23px;
 }
 
 
-.donate-role__donate__matter__quiestion1{
+.donate-role__donate__matter__left__quiestion1{
     font-family: ITCAvantGardePro-Bk;
     font-size: 16px;
     color: #4A714C;
-    padding: 37px 0 0 34px;
+    padding: 8px 0 9px 13px;
+    margin: 18px 0 0 20px;
+    line-height: 18px;
+    width: 213px;
+    background: #ffffff;
+}
+
+.donate-role__donate__matter__left__quiestion2{
+    font-family: ITCAvantGardePro-Bk;
+    font-size: 13px;
+    color: #4A714C;
+    margin: 21px 0 0 168px;
+    padding: 9px 0 11px 14px;
+    line-height: 18px;
+    width: 125px;
+    background: white;
+}
+
+.donate-role__donate__matter__left__quiestion3{
+    font-family: ITCAvantGardePro-Bk;
+    font-size: 16px;
+    color: #4A714C;
+    background: white;
+    padding: 11px 0 5px 12px;
+    margin: 15px 0 19px 23px;
     line-height: 18px;
     width: 211px;
 }
 
-.donate-role__donate__matter__quiestion2{
-    font-family: ITCAvantGardePro-Bk;
-    font-size: 13px;
-    color: #4A714C;
-    padding: 40px 0 0 182px;
-    line-height: 18px;
-    width: 250px;
-}
-
-.donate-role__donate__matter__quiestion3{
-    font-family: ITCAvantGardePro-Bk;
-    font-size: 16px;
-    color: #4A714C;
-    padding: 39px 0 0 35px;
-    line-height: 18px;
-    width: 230px;
-}
-
-.donate-role__donate__matter__year{
+.donate-role__donate__matter__left__quiestion1Triangle{
+    margin: 64px 0 0 119px;
+    width: 0;
+    height: 0;
+    border-top: 63px solid white;
+    border-right: 20px solid transparent;
     position: absolute;
-    margin: 27px 0 0 350px;
+}
+
+.donate-role__donate__matter__left__quiestion2Triangle{
+    margin: 0 0 0 219px;
+    width: 0;
+    height: 0;
+    border-bottom: 32px solid white;
+    border-right: 23px solid transparent;
+    position: absolute;
+}
+
+.donate-role__donate__matter__left__quiestion3Triangle{
+    margin: -40px 0 0 31px;
+    width: 0;
+    height: 0;
+    border-bottom: 61px solid white;
+    border-left: 19px solid transparent;
+    position: absolute;
+}
+
+.donate-role__donate__matter__right{
+    background: #D3E1AB;
+    margin: 2px 0 0 2px;
+    float: left;
+    width: 250px;
+    height: 288px;
+}
+
+.donate-role__donate__matter__right__year{
+    position: absolute;
+    margin: 14px 0 0 24px;
     color: white;
     font-family: ITCAvantGardePro-Md;
     font-size: 17px;
 }
 
-.donate-role__donate__matter__green3{
+.donate-role__donate__matter__right__green3{
     position: absolute;
-    margin: 59px 0 0 429px;
+    margin: 51px 0 0 21px;
     color: #4A714C;
     font-family: ITCAvantGardePro-Bk;
     font-size: 15px;
     line-height: 18px;
 }
 
-.donate-role__donate__matter__orange6
+.donate-role__donate__matter__right__orange6
 {
     position: absolute;
-    margin: 129px 0 0 435px;
+    margin: 103px 0 0 21px;
     color: #4A714C;
     font-family: ITCAvantGardePro-Bk;
     font-size: 15px;
     line-height: 18px;
 }
 
-.donate-role__donate__matter__different4{
+.donate-role__donate__matter__right__different4{
     position: absolute;
-    margin: 217px 0 0 410px;
+    margin: 198px 0 0 22px;
     color: #4A714C;
     font-family: ITCAvantGardePro-Bk;
     font-size: 15px;
     line-height: 18px;
 }
 
-.donate-role__donate__matter__bracket1
+.donate-role__donate__matter__right__green3 .bracket
 {
-    position: absolute;
-    margin: 63px 0 0 410px;
+    float: left;
     color: #4A714C;
     font-family: ITCAvantGardePro-Bk;
     font-size: 26px;
     letter-spacing: -4px;
     font-weight: 100;
+    padding: 4px 0 0 11px;
 }
 
-.donate-role__donate__matter__bracket2
-{
-    position: absolute;
-    margin: 139px 0 0 410px;
-    color: #4A714C;
-    font-family: ITCAvantGardePro-Bk;
-    font-size: 26px;
-    letter-spacing: -4px;
-    font-weight: 100;
+.donate-role__donate__matter__right__green3 img{
+    float: left;
 }
-.donate-role__donate__matter__bracket3
+
+.donate-role__donate__matter__right__green3 .text{
+    float: left;
+    margin-top: -4px;
+    padding: 0px 0 0 11px;
+}
+
+.donate-role__donate__matter__right__orange6 img{
+    float: left;
+}
+
+.donate-role__donate__matter__right__orange6 .bracket
 {
-    position: absolute;
-    margin: 230px 0 0 391px;
+    float: left;
     color: #4A714C;
     font-family: ITCAvantGardePro-Bk;
     font-size: 26px;
     letter-spacing: -4px;
     font-weight: 100;
+    margin: 28px 0 0 12px;
+}
+
+.donate-role__donate__matter__right__orange6 .text{
+    float: left;
+    margin: 14px 0 0 13px;
+}
+
+.donate-role__donate__matter__right__different4 img{
+    float: left;
+}
+
+.donate-role__donate__matter__right__different4 .bracket
+{
+    float: left;
+    color: #4A714C;
+    font-family: ITCAvantGardePro-Bk;
+    font-size: 26px;
+    letter-spacing: -4px;
+    font-weight: 100;
+    margin: 25px 0 0 8px;
+}
+
+.donate-role__donate__matter__right__different4 .text{
+    float: left;
+    margin: 9px 0 0 11px;
 }
 
 .donate-role__donate__matter h2 {
@@ -3478,23 +3562,30 @@ p.donate-role__donate__now__time {
     float: left;
 }
 
-.planAnEvent__img img{
+.planAnEvent__img ul>li img{
     width: 678px;
     height: 316px;
 }
 
-.planAnEvent__img .arrowLeft{
-    position: absolute;
-    width: 28px;
-    height: inherit;
-    margin: 128px 0 0 12px;
+.planAnEvent__img:hover .carousel-control {
+    display: block;
 }
 
-.planAnEvent__img .arrowRight{
-    width: 28px;
-    height: inherit;
+.planAnEvent__img .carousel-control {
+    text-decoration: none;
     position: absolute;
-    margin: 128px 0 0 646px;
+    top: 127px;
+    display: none;
+}
+
+.planAnEvent__img .left.carousel-control {
+    left: 9px;
+    z-index: 1;
+}
+
+.planAnEvent__img .right.carousel-control {
+    right: 7px;
+    z-index: 1;
 }
 
 .planAnEvent__img h1{
@@ -3502,6 +3593,7 @@ p.donate-role__donate__now__time {
     margin: 253px 0 0 49px;
     font-size: 43px;
     letter-spacing: -0.9px;
+    z-index: 1;
 }
 
 .planAnEvent__info{
