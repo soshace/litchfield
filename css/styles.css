@@ -43,6 +43,12 @@ body {
     font-family: ITCAvantGardePro-Bk;
 }
 
+
+a:link.white , a:visited.white , a:hover.white , a:active.white {
+color: #FFF;
+text-decoration: none;
+}
+
 h1, h2, h3, h4, h5 {
     font-weight: normal;
 }
@@ -147,12 +153,6 @@ h1, h2, h3, h4, h5 {
 
 .social__u-tube {
     background: url(/images/icon_u-tube.svg);
-}
-
-ul.myList{
-    -webkit-column-count: 3; /* Chrome, Safari, Opera */
-    -moz-column-count: 3; /* Firefox */
-    column-count: 3;
 }
 
 nav {
@@ -303,7 +303,7 @@ footer {
 
 .footer__company h1 {
     font-size: 40px;
-    color: #006738;
+    color: #0b773c;
 }
 
 .footer__company p {
@@ -314,7 +314,7 @@ footer {
     float: right;
     width: 415px;
     font-size: 18px;
-    color: #006738;
+    color: #0b773c;
     margin-top: 5px;
 }
 
@@ -323,7 +323,7 @@ footer {
 }
 
 .footer__contacts a {
-    color: #006738;
+    color: #0b773c;
     text-decoration: none;
 }
 
@@ -332,6 +332,12 @@ footer {
     color: #58585B;
     padding-top: 29px;
     font-family: ITCAvantGardeStd-BkCn;
+}
+
+ul.myList{
+    -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
 }
 
 .news {
@@ -369,7 +375,7 @@ footer {
 
 .news aside h3 {
     font-family: Filmotype-FilmotypeKeynote;
-    color: #006738;
+    color: #0b773c;
     font-size: 35px;
     padding-left: 19px;
     line-height: 0.7;
@@ -428,12 +434,16 @@ footer {
     width: 110px;
 }
 
-.news__common__item figcaption a {
+.news__common__item figcaption p {
     font-size: 20px;
     color: #009344;
     text-decoration: none;
     padding: 22px 0 0 13px;
     display: block;
+}
+.news__common__item a {
+text-decoration:none;
+
 }
 
 .news__common__item__description {
@@ -450,7 +460,7 @@ footer {
 
 .join-block__follow {
     font-size: 35px;
-    color: #006738;
+    color: #0b773c;
     float: left;
     width: 270px;
 }
@@ -618,7 +628,7 @@ footer {
     line-height: 0.75;
 }
 
-.news__next__more a {
+.news__next__more p {
     float: left;
     color: #009344;
     font-size: 15px;
@@ -646,7 +656,7 @@ footer {
 }
 
 .news__upcoming__week {
-    background: #439C3F;
+    background: #009344;
 }
 
 .news__upcoming__month {
@@ -665,6 +675,9 @@ footer {
 
 .news__ongoing .event-block {
     margin-bottom: 6px;
+	  width: 248px;
+  height: 93px;
+  overflow:hidden;
 }
 
 .event-block {
@@ -682,6 +695,9 @@ footer {
     font-size: 20px;
     float: left;
     padding: 22px 0 0 14px;
+	width:100px;
+	height:93px;
+	
 }
 
 .news__local-resources {
@@ -696,13 +712,14 @@ footer {
 }
 
 .news__local-resources figcaption {
-    background: #439C3F;
+    background: #009344;
     height: 50px;
     color: #fff;
     font-size: 23px;
     text-align: center;
     line-height: 2.2;
 }
+
 
 .donate-role {
     margin-bottom: -30px;
@@ -729,7 +746,7 @@ footer {
 
 .donate-role__menu__role {
     margin-right: 8px;
-    background: #439C3F;
+    background: #009344;
 }
 
 .donate-role__menu__donate {
@@ -761,7 +778,7 @@ footer {
 .donate-role__donate__matter__header{
     font-family: ITCAvantGardePro-Bk;
     font-size: 14.5px;
-    color: #659750;
+    color: #009344;
     padding: 18px 5px 10px 20px;
     line-height: 18px;
     background: #D3E1AB;
@@ -769,7 +786,7 @@ footer {
 
 .donate-role__donate__matter__header b{
     font-family: ITCAvantGardePro-Md;
-    color: #4A714C;
+    color: #0b773c;
     font-weight: 100;
     letter-spacing: 0;
 }
@@ -790,7 +807,7 @@ footer {
 .donate-role__donate__matter__left__quiestion1{
     font-family: ITCAvantGardePro-Bk;
     font-size: 16px;
-    color: #4A714C;
+    color: #0b773c;
     padding: 8px 0 9px 13px;
     margin: 18px 0 0 20px;
     line-height: 18px;
@@ -801,7 +818,7 @@ footer {
 .donate-role__donate__matter__left__quiestion2{
     font-family: ITCAvantGardePro-Bk;
     font-size: 13px;
-    color: #4A714C;
+    color: #0b773c;
     margin: 21px 0 0 168px;
     padding: 9px 0 11px 14px;
     line-height: 18px;
@@ -812,7 +829,7 @@ footer {
 .donate-role__donate__matter__left__quiestion3{
     font-family: ITCAvantGardePro-Bk;
     font-size: 16px;
-    color: #4A714C;
+    color: #98c254;
     background: white;
     padding: 11px 0 5px 12px;
     margin: 15px 0 19px 23px;
@@ -866,7 +883,7 @@ footer {
 .donate-role__donate__matter__right__green3{
     position: absolute;
     margin: 51px 0 0 21px;
-    color: #4A714C;
+    color: #0b773c;
     font-family: ITCAvantGardePro-Bk;
     font-size: 15px;
     line-height: 18px;
@@ -876,7 +893,7 @@ footer {
 {
     position: absolute;
     margin: 103px 0 0 21px;
-    color: #4A714C;
+    color: #0b773c;
     font-family: ITCAvantGardePro-Bk;
     font-size: 15px;
     line-height: 18px;
@@ -885,7 +902,7 @@ footer {
 .donate-role__donate__matter__right__different4{
     position: absolute;
     margin: 198px 0 0 22px;
-    color: #4A714C;
+    color: #0b773c;
     font-family: ITCAvantGardePro-Bk;
     font-size: 15px;
     line-height: 18px;
@@ -894,7 +911,7 @@ footer {
 .donate-role__donate__matter__right__green3 .bracket
 {
     float: left;
-    color: #4A714C;
+    color: #0b773c;
     font-family: ITCAvantGardePro-Bk;
     font-size: 26px;
     letter-spacing: -4px;
@@ -904,6 +921,7 @@ footer {
 
 .donate-role__donate__matter__right__green3 img{
     float: left;
+    width: 51px;
 }
 
 .donate-role__donate__matter__right__green3 .text{
@@ -914,12 +932,13 @@ footer {
 
 .donate-role__donate__matter__right__orange6 img{
     float: left;
+    width: 52px;
 }
 
 .donate-role__donate__matter__right__orange6 .bracket
 {
     float: left;
-    color: #4A714C;
+    color: #0b773c;
     font-family: ITCAvantGardePro-Bk;
     font-size: 26px;
     letter-spacing: -4px;
@@ -934,12 +953,13 @@ footer {
 
 .donate-role__donate__matter__right__different4 img{
     float: left;
+    width: 34px;
 }
 
 .donate-role__donate__matter__right__different4 .bracket
 {
     float: left;
-    color: #4A714C;
+    color: #0b773c;
     font-family: ITCAvantGardePro-Bk;
     font-size: 26px;
     letter-spacing: -4px;
@@ -1025,7 +1045,7 @@ footer {
 }
 
 .donate-role__donate__now h4 {
-    color: #087232;
+    color: #0b773c;
     font-size: 21px;
     font-family: ITCAvantGardePro-BkObl;
     line-height: 23px;
@@ -1069,7 +1089,7 @@ footer {
     color: #fff;
     text-align: center;
     text-decoration: none;
-    background: #0b763b;
+    background: #009344;
     font-size: 40px;
     line-height: 1.3;
 }
@@ -1082,7 +1102,7 @@ p.donate-role__donate__now__time {
 
 .donate-role__role {
     position: relative;
-    background: #439C3F;
+    background: #009344;
     padding: 33px 0 35px 26px;
 }
 
@@ -1233,7 +1253,7 @@ p.donate-role__donate__now__time {
     font-size: 25px;
     height: 45px;
     color: #fff;
-    background: #4A714C;
+    background: #009344;
     border: none;
     padding: 0 9px;
     cursor: pointer;
@@ -1261,7 +1281,7 @@ p.donate-role__donate__now__time {
 }
 
 .interesting-events h2 {
-    color: #3B5F41;
+    color: #0b773c;
     font-size: 35px;
     font-family: Filmotype-FilmotypeKeynote;
     padding-left: 16px;
@@ -1351,7 +1371,7 @@ p.donate-role__donate__now__time {
 
 .ongoing-program-block h3 {
     font-family: Filmotype-FilmotypeKeynote;
-    color: #006738;
+    color: #0b773c;
     font-size: 35px;
     padding-bottom: 9px;
     line-height: 0.7;
@@ -1366,7 +1386,7 @@ p.donate-role__donate__now__time {
 }
 
 .events-list h1 {
-    color: #4A714C;
+    color: #009344;
     font-family: ITCAvantGardePro-Md;
     font-size: 37px;
     margin-bottom: 26px;
@@ -1548,6 +1568,24 @@ p.donate-role__donate__now__time {
     border-color: #2E7349;
 }
 
+.full-calendar__free {
+    position: absolute;
+    top: 38px;
+    left: 193px;
+    color: #84BB3B;
+    font-size: 10px;
+    line-height: 1.2;
+}
+
+.full-calendar__register-online {
+    position: absolute;
+    top: 15px;
+    left: 193px;
+    color: #74bbf3;
+    font-size: 10px;
+    line-height: 1.2;
+}
+
 .events-calendar .full-calendar .fc-day-header {
     font-size: 14px;
     padding: 2px 0 3px 0;
@@ -1558,7 +1596,7 @@ p.donate-role__donate__now__time {
 }
 
 .events-calendar .full-calendar .fc-center h2 {
-    color: #4A714C;
+    color: #009344;
     font-size: 24px;
 }
 
@@ -1604,7 +1642,7 @@ p.donate-role__donate__now__time {
 
 .facilityForm {
     display: block;
-    border: 1px solid #E5B546;
+    border: 2px solid #ffba31;
     background-color: #C9DAA2;
     margin: 7px 0 35px 0;
 }
@@ -1612,13 +1650,13 @@ p.donate-role__donate__now__time {
 .facilityForm p{
     font-family: ITCAvantGardePro-Bk;
     font-size: 15px;
-    color: #4A714C;
+    color: #0b773c;
     line-height: 17px;
 }
 
 .facilityForm header {
     display: block;
-    background-color: #E5B546;
+    background-color: #ffba31;
     height: 56px;
 }
 
@@ -1639,7 +1677,7 @@ p.donate-role__donate__now__time {
 
 .facilityForm__subheader p i{
     font-family: ITCAvantGardePro-BkObl;
-    color: #4A714C;
+    color: #0b773c;
 }
 
 .facilityForm__form__renterInformation{
@@ -1653,7 +1691,7 @@ p.donate-role__donate__now__time {
 .facilityForm__form b{
     font-family: ITCAvantGardePro-Bold;
     font-size: 16px;
-    color: #4A714C;
+    color: #0b773c;
     font-weight: 100;
 }
 
@@ -1679,31 +1717,31 @@ p.donate-role__donate__now__time {
 .facilityForm label{
     font-family: ITCAvantGardePro-Bk;
     font-size: 17px;
-    color: #589155;
+    color: #009344;
 }
 
 .facilityForm h3{
     font-family: ITCAvantGardePro-Bk;
     font-size: 16px;
-    color: #589155;
+    color: #009344;
 }
 
 .facilityForm input{
     height: 24px;
-    border: 1px solid #589155;
+    border: 1px solid #009344;
 }
 
 .inputForm label{
     font-family: ITCAvantGardePro-Bk;
     font-size: 17px;
-    color: #589155;
+    color: #009344;
     display: block;
     margin-bottom: 3px;
 }
 
 .inputForm input{
     height: 24px;
-    border: 1px solid #589155;
+    border: 1px solid #009344;
     width: 100%;
 }
 .facilityForm__form__renterInformation .organization{
@@ -1832,7 +1870,7 @@ p.donate-role__donate__now__time {
 .checkboxForm label{
     font-family: ITCAvantGardePro-Bk;
     font-size: 16px;
-    color: #589155;
+    color: #009344;
     display: inline-block;
 }
 
@@ -1857,7 +1895,7 @@ p.donate-role__donate__now__time {
     position: absolute;
     left:0; top: -2px;
     width: 16px; height: 16px;
-    border: 1px solid #589155;
+    border: 1px solid #009344;
     background: #f8f8f8;
 }
 /* checked mark aspect */
@@ -1903,7 +1941,7 @@ p.donate-role__donate__now__time {
 .radioForm label{
     font-family: ITCAvantGardePro-Bk;
     font-size: 16px;
-    color: #589155;
+    color: #009344;
     display: inline-block;
 }
 
@@ -1928,7 +1966,7 @@ p.donate-role__donate__now__time {
     position: absolute;
     left:0; top: -2px;
     width: 16px; height: 16px;
-    border: 1px solid #589155;
+    border: 1px solid #009344;
     background: #f8f8f8;
 }
 /* checked mark aspect */
@@ -2014,7 +2052,7 @@ p.donate-role__donate__now__time {
 .questionYesNo label{
     font-family: ITCAvantGardePro-Bk;
     font-size: 16px;
-    color: #589155;
+    color: #009344;
     display: inline-block;
     padding-right: 6px;
 }
@@ -2156,7 +2194,7 @@ p.donate-role__donate__now__time {
 .facilityForm__form ol>li{
     font-family: ITCAvantGardePro-Bk;
     font-size: 16px;
-    color: #4A714C;
+    color: #009344;
     line-height: 19px;
 }
 
@@ -2182,7 +2220,7 @@ p.donate-role__donate__now__time {
     font-size: 16px;
     margin: 25px 34px 0 1px;
     font-family: ITCAvantGardePro-Md;
-    color: #589155;
+    color: #009344;
 }
 
 .facilityForm__form__facilityRentalRate{
@@ -2203,6 +2241,7 @@ p.donate-role__donate__now__time {
     line-height: 19px;
     font-size: 16px;
     margin: 18px 34px 0 1px;
+    color: #009344;
 }
 
 .facilityForm__form__agree span{
@@ -2210,7 +2249,7 @@ p.donate-role__donate__now__time {
     position: absolute;
     font-family: ITCAvantGardePro-Bk;
     font-size: 16px;
-    color: #589155;
+    color: #009344;
 }
 
 .facilityForm__form__agree{
@@ -2226,7 +2265,7 @@ p.donate-role__donate__now__time {
     margin: 6px 0 0 18px;
     font-family: ITCAvantGardePro-Bk;
     font-size: 23px;
-    background-color: #589155;
+    background-color: #009344;
     color: #C9DAA2;
     width: 101px;
     height: 38px;
@@ -2241,7 +2280,7 @@ p.donate-role__donate__now__time {
 
 .facilityFormC {
     display: block;
-    border: 1px solid #E5B546;
+    border: 2px solid #ffba31;
     background-color: #C9DAA2;
     margin: 7px 0 35px 0;
 }
@@ -2253,13 +2292,13 @@ p.donate-role__donate__now__time {
 .facilityFormC p{
     font-family: ITCAvantGardePro-Bk;
     font-size: 15px;
-    color: #4A714C;
+    color: #009344;
     line-height: 17px;
 }
 
 .facilityFormC header {
     display: block;
-    background-color: #E5B546;
+    background-color: #ffba31;
     height: 56px;
 }
 
@@ -2280,7 +2319,7 @@ p.donate-role__donate__now__time {
 
 .facilityFormC__subheader p i{
     font-family: ITCAvantGardePro-BkObl;
-    color: #4A714C;
+    color: #009344;
 }
 
 .facilityFormC__form__renterInformation{
@@ -2290,7 +2329,7 @@ p.donate-role__donate__now__time {
 .facilityFormC__form b{
     font-family: ITCAvantGardePro-Bold;
     font-size: 16px;
-    color: #4A714C;
+    color: #0b773c;
 }
 
 .facilityFormC__form hr{
@@ -2315,18 +2354,18 @@ p.donate-role__donate__now__time {
 .facilityFormC label{
     font-family: ITCAvantGardePro-Bk;
     font-size: 17px;
-    color: #589155;
+    color: #009344;
 }
 
 .facilityFormC h3{
     font-family: ITCAvantGardePro-Bk;
     font-size: 16px;
-    color: #589155;
+    color: #009344;
 }
 
 .facilityFormC__form input{
     height: 24px;
-    border: 1px solid #589155;
+    border: 1px solid #009344;
 }
 
 .facilityFormC__form__renterInformation .firstName{
@@ -2487,7 +2526,7 @@ p.donate-role__donate__now__time {
 .facilityFormC__form ol>li{
     font-family: ITCAvantGardePro-Bk;
     font-size: 16px;
-    color: #4A714C;
+    color: #009344;
     line-height: 19px;
 }
 
@@ -2513,7 +2552,7 @@ p.donate-role__donate__now__time {
     font-size: 16px;
     margin: 25px 34px 0 1px;
     font-family: ITCAvantGardePro-Md;
-    color: #589155;
+    color: #009344;
 }
 
 .facilityFormC__form__agree{
@@ -2526,7 +2565,7 @@ p.donate-role__donate__now__time {
     position: absolute;
     font-family: ITCAvantGardePro-Bk;
     font-size: 16px;
-    color: #589155;
+    color: #009344;
 }
 
 .facilityFormC__form__agree input[type="checkbox"]{
@@ -2537,7 +2576,7 @@ p.donate-role__donate__now__time {
     margin: 10px 0 0 17px;
     font-family: ITCAvantGardePro-Bk;
     font-size: 23px;
-    background-color: #589155;
+    background-color: #009344;
     color: #C9DAA2;
     width: 101px;
     height: 38px;
@@ -2552,7 +2591,7 @@ p.donate-role__donate__now__time {
 
 .contactUs {
     display: block;
-    border: 1px solid #E5B546;
+    border: 2px solid #ffba31;
     background-color: white;
     margin: 7px 0 35px 0;
 }
@@ -2560,13 +2599,13 @@ p.donate-role__donate__now__time {
 .contactUs p{
     font-family: ITCAvantGardePro-Bk;
     font-size: 15px;
-    color: #4A714C;
+    color: #009344;
     line-height: 17px;
 }
 
 .contactUs header {
     display: block;
-    background-color: #E5B546;
+    background-color: #ffba31;
     height: 313px;
 }
 
@@ -2627,18 +2666,18 @@ p.donate-role__donate__now__time {
 .contactUs label{
     font-family: ITCAvantGardePro-Bk;
     font-size: 17px;
-    color: #589155;
+    color: #009344;
 }
 
 .contactUs h3{
     font-family: ITCAvantGardePro-Bk;
     font-size: 16px;
-    color: #589155;
+    color: #009344;
 }
 
 .contactUs input{
     height: 24px;
-    border: 1px solid #589155;
+    border: 1px solid #009344;
 }
 
 .contactUs__form input
@@ -2649,7 +2688,7 @@ p.donate-role__donate__now__time {
 .contactUs__form h1{
     font-family: ITCAvantGardePro-Bk;
     font-size: 25px;
-    color: #589155;
+    color: #009344;
     padding: 17px 0 0 38px;
 }
 
@@ -2704,7 +2743,7 @@ p.donate-role__donate__now__time {
 .contactUs__form .feedback textarea[id=feedback]{
     height: 58px;
     width: 100%;
-    border: 1px solid #589155;
+    border: 1px solid #009344;
 }
 
 .contactUs__form .addMeToMail{
@@ -2717,7 +2756,7 @@ p.donate-role__donate__now__time {
     margin: 58px 0 0 30px;
     font-family: ITCAvantGardePro-Bk;
     font-size: 23px;
-    background-color: #589155;
+    background-color: #009344;
     color: #C9DAA2;
     width: 92px;
     height: 38px;
@@ -2742,7 +2781,7 @@ p.donate-role__donate__now__time {
     margin: 34px 0 0 38px;
     font-family: ITCAvantGardePro-Bk;
     font-size: 23px;
-    background-color: #589155;
+    background-color: #009344;
     color: white;
     width: 276px;
     height: 33px;
@@ -2766,7 +2805,7 @@ p.donate-role__donate__now__time {
 
 .localResources {
     display: block;
-    border: 1px solid #E5B546;
+    border: 2px solid #ffba31;
     background-color: white;
     margin: 7px 0 35px 0;
 }
@@ -2774,13 +2813,13 @@ p.donate-role__donate__now__time {
 .localResources p{
     font-family: ITCAvantGardePro-Bk;
     font-size: 15px;
-    color: #4A714C;
+    color: #009344;
     line-height: 17px;
 }
 
 .localResources header {
     display: block;
-    background-color: #E5B546;
+    background-color: #ffba31;
     height: 316px;
 }
 
@@ -2833,20 +2872,21 @@ p.donate-role__donate__now__time {
 
 .localResources__text ul {
     width: 853px;
-    padding: 19px 0 19px 38px;
+    padding: 19px 0 19px 42px;
 }
 
 .localResources__text li {
-    width: 250px;
+    width: 270px;
     margin-top: 12px;
     line-height: 19px;
     margin-right: 10px;
     display: inline-block;
+    color: #0b773c;
 }
 
 .CCNews {
     display: block;
-    border: 1px solid #E5B546;
+    border: 2px solid #ffba31;
     background-color: #C9DAA2;
     margin: 7px 0 35px 0;
 }
@@ -2854,13 +2894,13 @@ p.donate-role__donate__now__time {
 .CCNews p{
     font-family: ITCAvantGardePro-Bk;
     font-size: 15px;
-    color: #4A714C;
+    color: #009344;
     line-height: 17px;
 }
 
 .CCNews header {
     display: block;
-    background-color: #E5B546;
+    background-color: #ffba31;
     height: 56px;
 }
 
@@ -2878,7 +2918,7 @@ p.donate-role__donate__now__time {
 
 .rightSide{
     background-color: #C9DAA2;
-    margin: 0 0 0 626px;
+    margin: 0 0 0 624px;
     width: 302px;
     height: 100%;
 }
@@ -2898,13 +2938,13 @@ p.donate-role__donate__now__time {
 .rightSide span {
     font-family: Filmotype-FilmotypeKeynote;
     font-size: 35px;
-    color: #006738;
+    color: #0B773c;
 }
 
 .rightSide a{
     font-family: ITCAvantGardePro-Bk;
     text-decoration: none;
-    color: #659750;
+    color: #009344;
     font-size: 16px;
 }
 
@@ -2932,7 +2972,7 @@ p.donate-role__donate__now__time {
     float: left;
 }
 .CCNews__main .news h3{
-    color: #659750;
+    color: #009344;
     font-family: ITCAvantGardePro-Md;
     font-size: 17px;
     margin-bottom: 25px;
@@ -2952,22 +2992,21 @@ p.donate-role__donate__now__time {
 }
 
 .CCNews__main .news hr{
-    color: #4A714C;
-    border-color: #4A714C;
-    background-color: #4A714C;
+    border-color: #0b773c;
+    background-color: #0b773c;
     margin: 20px 0 24px 0;
 }
 
 .CCNews__main .news span {
     font-family: Filmotype-FilmotypeKeynote;
     font-size: 36px;
-    color: #4A714C;
+    color: #0b773c;
 }
 
 .CCNews__main .news h2 {
     font-family: ITCAvantGardePro-Bk;
     font-size: 23px;
-    color: #4A714C;
+    color: #0b773c;
 }
 
 .CCNews__main .categories{
@@ -2976,7 +3015,7 @@ p.donate-role__donate__now__time {
     float: left;
 }
 .CCNews__main .categories h3{
-    color: #659750;
+       color: #009344;
     font-family: ITCAvantGardePro-Md;
     font-size: 17px;
     margin-bottom: 25px;
@@ -2991,34 +3030,33 @@ p.donate-role__donate__now__time {
 
 .CCNews__main .categories img{
     width: 100%;
-    margin-top: 28px;
-    margin-bottom: 12px;
+   
 }
 
 .CCNews__main .categories hr{
-    color: #4A714C;
-    border-color: #4A714C;
-    background-color: #4A714C;
+    color: #0b773c;
+    border-color: #0b773c;
+    background-color: #0b773c;
     margin: 20px 0 24px 0;
 }
 
 .CCNews__main .categories span {
     font-family: Filmotype-FilmotypeKeynote;
     font-size: 36px;
-    color: #4A714C;
+    color: #0b773c;
     float: left;
 }
 
 .CCNews__main .categories h2 {
     font-family: ITCAvantGardePro-Bk;
     font-size: 23px;
-    color: #4A714C;
+     color: #0b773c;
     margin: 8px 0 0 113px;
 }
 
 .GDBIRS990 {
     display: block;
-    border: 1px solid #E5B546;
+    border: 2px solid #ffba31;
     background-color: #C9DAA2;
     margin: 7px 0 35px 0;
 }
@@ -3026,13 +3064,13 @@ p.donate-role__donate__now__time {
 .GDBIRS990 p{
     font-family: ITCAvantGardePro-Bk;
     font-size: 15px;
-    color: #4A714C;
+    color: #0b773c;
     line-height: 17px;
 }
 
 .GDBIRS990 header {
     display: block;
-    background-color: #E5B546;
+    background-color: #ffba31;
     height: 56px;
 }
 
@@ -3051,7 +3089,7 @@ p.donate-role__donate__now__time {
 .GDBIRS990__main h1{
     font-family: ITCAvantGardePro-Bk;
     font-size: 25.5px;
-    color: #589155;
+    color: #009344;
     padding: 22px 0 0 37px;
 }
 
@@ -3070,7 +3108,7 @@ p.donate-role__donate__now__time {
 
 .termsOfService {
     display: block;
-    border: 1px solid #E5B546;
+    border: 2px solid #ffba31;
     background-color: #C9DAA2;
     margin: 7px 0 35px 0;
 }
@@ -3078,13 +3116,13 @@ p.donate-role__donate__now__time {
 .termsOfService p{
     font-family: ITCAvantGardePro-Bk;
     font-size: 15px;
-    color: #4A714C;
+    color: #0b773c;
     line-height: 17px;
 }
 
 .termsOfService header {
     display: block;
-    background-color: #E5B546;
+    background-color: #ffba31;
     height: 56px;
 }
 
@@ -3132,7 +3170,7 @@ p.donate-role__donate__now__time {
 
 .messageFrom {
     display: block;
-    border: 1px solid #E5B546;
+    border: 2px solid #ffba31;
     background-color: #C9DAA2;
     margin: 7px 0 35px 0;
 }
@@ -3147,7 +3185,7 @@ p.donate-role__donate__now__time {
 
 .messageFrom header {
     display: block;
-    background-color: #E5B546;
+    background-color: #ffba31;
     height: 56px;
 }
 
@@ -3186,7 +3224,7 @@ p.donate-role__donate__now__time {
 
 .privacyPolicy {
     display: block;
-    border: 1px solid #E5B546;
+    border: 2px solid #ffba31;
     background-color: #C9DAA2;
     margin: 7px 0 35px 0;
 }
@@ -3200,7 +3238,7 @@ p.donate-role__donate__now__time {
 
 .privacyPolicy header {
     display: block;
-    background-color: #E5B546;
+    background-color: #ffba31;
     height: 56px;
 }
 
@@ -3223,7 +3261,7 @@ p.donate-role__donate__now__time {
 
 .meetingSchedule {
     display: block;
-    border: 1px solid #E5B546;
+    border: 2px solid #ffba31;
     background-color: #C9DAA2;
     margin: 7px 0 35px 0;
 }
@@ -3238,7 +3276,7 @@ p.donate-role__donate__now__time {
 
 .meetingSchedule header {
     display: block;
-    background-color: #E5B546;
+    background-color: #ffba31;
     height: 56px;
 }
 
@@ -3307,14 +3345,14 @@ p.donate-role__donate__now__time {
 
 .thanksTo {
     display: block;
-    border: 1px solid #E5B546;
+    border: 2px solid #ffba31;
     background-color: white;
     margin: 7px 0 35px 0;
 }
 
 .thanksTo header {
     display: block;
-    background-color: #E5B546;
+    background-color: #ffba31;
     height: 316px;
 }
 
@@ -3390,14 +3428,14 @@ p.donate-role__donate__now__time {
 
 .missionValues {
     display: block;
-    border: 1px solid #E5B546;
+    border: 2px solid #ffba31;
     background-color: white;
     margin: 7px 0 35px 0;
 }
 
 .missionValues header {
     display: block;
-    background-color: #E5B546;
+    background-color: #ffba31;
     height: 316px;
 }
 
@@ -3459,7 +3497,7 @@ p.donate-role__donate__now__time {
 }
 
 .missionValues__main .text h1{
-    color: #589155;
+      color: #009344;
     font-family: ITCAvantGardePro-Bk;
     font-size: 25px;
     margin: 20px 0 14px 0;
@@ -3467,14 +3505,14 @@ p.donate-role__donate__now__time {
 
 .estatePlannings {
     display: block;
-    border: 1px solid #E5B546;
+    border: 2px solid #ffba31;
     background-color: white;
     margin: 7px 0 35px 0;
 }
 
 .estatePlannings header {
     display: block;
-    background-color: #E5B546;
+    background-color: #ffba31;
     height: 316px;
 }
 
@@ -3537,14 +3575,14 @@ p.donate-role__donate__now__time {
 
 .planAnEvent {
     display: block;
-    border: 1px solid #E5B546;
+    border: 2px solid #ffba31;
     background-color: white;
     margin: 7px 0 35px 0;
 }
 
 .planAnEvent header {
     display: block;
-    background-color: #E5B546;
+    background-color: #ffba31;
     height: 316px;
 }
 
@@ -3593,7 +3631,6 @@ p.donate-role__donate__now__time {
     margin: 253px 0 0 49px;
     font-size: 43px;
     letter-spacing: -0.9px;
-    z-index: 1;
 }
 
 .planAnEvent__info{
@@ -3628,7 +3665,7 @@ p.donate-role__donate__now__time {
 }
 
 .planAnEvent__main .text h1{
-    color: #589155;
+    color: #009344;
     font-family: ITCAvantGardePro-Bk;
     font-size: 25px;
 }
@@ -3646,7 +3683,7 @@ p.donate-role__donate__now__time {
     width: 100%;
     height: 97px;
     color: white;
-    background-color: #98C359;
+    background-color: #84BB3B;
     margin: 9px 0 0 0;
 }
 
@@ -3694,7 +3731,7 @@ p.donate-role__donate__now__time {
 }
 
 .planAnEvent__main .packages__p2{
-    margin: 0 0 0 5px;
+    margin: 0 0 0 4px;
     width: 306px;
     display: inline-block;
 }
@@ -3706,11 +3743,11 @@ p.donate-role__donate__now__time {
 }
 
 .planAnEvent__main .textAfterPackages{
-    margin: 21px 0 0 31px;
+    margin: 21px 31px 0 31px;
     line-height: 20px;
     font-family: ITCAvantGardePro-Bk;
     font-size: 17px;
-    color: #4A714C;
+    color: #0b773c;
 }
 
 .planAnEvent__main .textAfterPackages i{
@@ -3727,7 +3764,7 @@ p.donate-role__donate__now__time {
 
 .planAnEvent__main .buttons a{
     text-decoration: none;
-    background-color: #E5B546;
+    background-color: #ffba31;
     color: white;
     width: 461px;
     height: 58px;
@@ -3737,7 +3774,7 @@ p.donate-role__donate__now__time {
 }
 
 .planAnEvent__main .buttons a>p{
-    padding-top: 14px;
+    line-height: 58px;
 }
 
 .planAnEvent__main .buttons__facility{
@@ -3750,14 +3787,14 @@ p.donate-role__donate__now__time {
 
 .donors {
     display: block;
-    border: 1px solid #E5B546;
+    border: 2px solid #ffba31;
     background-color: #C9DAA2;
     margin: 7px 0 35px 0;
 }
 
 .donors header {
     display: block;
-    background-color: #E5B546;
+    background-color: #ffba31;
     height: 56px;
 }
 
@@ -3945,4 +3982,23 @@ p.donate-role__donate__now__time {
 
 .donors__main .anonymouse p{
     padding: 27px 0 0 40px;
+}
+
+.galimg{
+  display: inline-block;
+  width: 100px;
+  margin-right:10px;
+  margin-bottom:10px;
+  padding:0px;
+} 
+.nopad{
+  margin:0px;
+  padding:0px;
+} 
+.news_gallery{
+  margin-top:25px;
+
+  width: 550px;
+  
+
 }
